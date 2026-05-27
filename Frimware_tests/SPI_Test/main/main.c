@@ -85,6 +85,36 @@ static uint32_t SPI_READ(uint8_t command, uint8_t bits_length) {
 void app_main(void)
 {
 
+    init_spi();
+    vTaskDelay(pdMS_TO_TICKS(100));
 
+    // 2. Configurar el LS7366R en modo NO CUADRATURA (A = pulso, B = dirección)
+    //    - MDR0 = 0x01: non-quadrature mode, free-running, index disabled, async, filter/1
+    SPI_WRITE_COMAND_AND_DATA(0x88, 0x01, 8);  // WRITE_MDR0
+    vTaskDelay(pdMS_TO_TICKS(10));
+    
+    //    - MDR1 = 0xF0: 4-byte counter, counting enabled, all flags on
+    SPI_WRITE_COMAND_AND_DATA(0x90, 0xF0, 8);  // WRITE_MDR1
+    vTaskDelay(pdMS_TO_TICKS(10));
+    
+    // 3. Limpiar el contador para empezar desde cero
+    SPI_WRITE_COMAND(0x20);  // CLR_CNTR
+    vTaskDelay(pdMS_TO_TICKS(10));
+
+    uint32_t pulsos_acumulados = 0;
+    
+    while (1) {
+        // Leer el contador de 32 bits
+        pulsos_acumulados = SPI_READ(0x60, 32);
+        
+        // Aquí ya tienes los pulsos acumulados en la variable
+        // Haz lo que quieras con ella (imprimir, enviar, etc.)
+        
+        // Ejemplo: imprimir por consola
+        printf("Pulsos acumulados: %lu\n", pulsos_acumulados);
+        
+        // Esperar 1 segundo
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
 
 }
