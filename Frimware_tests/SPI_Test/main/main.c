@@ -101,7 +101,7 @@ void app_main(void)
     SPI_WRITE_COMAND(0x20);  // CLR_CNTR
     vTaskDelay(pdMS_TO_TICKS(10));
 
-    uint32_t pulsos_acumulados = 0;
+    uint32_t pulsos_acumulados = 1000;
     
     while (1) {
         // Leer el contador de 32 bits
