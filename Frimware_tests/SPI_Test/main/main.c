@@ -44,7 +44,7 @@ static esp_err_t init_spi(void){
     };
 
     spi_bus_initialize(SPI2_HOST, &spi_bus_config, SPI_DMA_DISABLED);
-    spi_bus_add_device(SPI2_HOST, &spi_device_interface_config, spi_handle);
+    spi_bus_add_device(SPI2_HOST, &spi_device_interface_config, &spi_handle);
 
     return ESP_OK;
 }
@@ -68,14 +68,14 @@ static void SPI_WRITE_COMAND_AND_DATA(uint8_t command, uint32_t data, uint8_t bi
     spi_device_transmit(spi_handle, &transaction);
 }
 
-static uint32_t spi_read(uint8_t command, uint8_t bits_length) {
+static uint32_t SPI_READ(uint8_t command, uint8_t bits_length) {
     uint32_t rx_data = 0;
     
     spi_transaction_t transaction = {
         .cmd = command,      
         .length = 0,                //0 porque no se envia nada            
         .rxlength = bits_length,    //tamaño 
-        .rx_buffer = &rx_data,  
+        .rx_buffer = &rx_data,      //donde se recivira lo guardado
     };
     
     spi_device_transmit(spi_handle, &transaction);
