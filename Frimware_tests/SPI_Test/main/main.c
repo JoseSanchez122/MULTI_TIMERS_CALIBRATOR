@@ -11,6 +11,8 @@
 #define CS 10
 #define NOT_USED -1
 
+spi_device_handle_t spi_handle;
+
 static esp_err_t init_spi(void){
 
     spi_bus_config_t spi_bus_config = {
@@ -37,13 +39,13 @@ static esp_err_t init_spi(void){
         .clock_speed_hz = SPI_MASTER_FREQ_8M,
         .input_delay_ns = 0,
         .spics_io_num = CS,
-        
-
+        .flags = SPI_DEVICE_HALFDUPLEX,
+        .queue_size = 1,
         
     };
 
     spi_bus_initialize(SPI2_HOST, &spi_bus_config, SPI_DMA_DISABLED);
-    spi_bus_add_device(SPI2_HOST, );
+    spi_bus_add_device(SPI2_HOST, &spi_device_interface_config, );
 
     return ESP_OK;
 }
