@@ -33,7 +33,7 @@ static esp_err_t init_spi(void){
     };
 
     spi_bus_initialize(SPI2_HOST, &spi_bus_config, SPI_DMA_DISABLED);
-    spi_bus_add_device(SPI2_HOST, )
+    //spi_bus_add_device(SPI2_HOST, )
 
     return ESP_OK;
 }
