@@ -49,7 +49,7 @@ static esp_err_t init_spi(void){
     return ESP_OK;
 }
 
-static void SPI_WRITE_COMAND (uint8_t command) {
+static void SPI_WRITE_COMAND(uint8_t command) {
     spi_transaction_t transaction = {
         .cmd = command,      
         .length = 0,         
@@ -58,7 +58,29 @@ static void SPI_WRITE_COMAND (uint8_t command) {
     spi_device_transmit(spi_handle, &transaction);
 }
 
+static void SPI_WRITE_COMAND_AND_DATA(uint8_t command, uint32_t data, uint8_t bits_length) {
+    spi_transaction_t transaction = {
+        .cmd = command,      
+        .length = bits_length,         
+        .tx_buffer = &data,  
+    };
 
+    spi_device_transmit(spi_handle, &transaction);
+}
+
+static uint32_t spi_read(uint8_t command, uint8_t bits_length) {
+    uint32_t rx_data = 0;
+    
+    spi_transaction_t transaction = {
+        .cmd = command,      
+        .length = 0,                //0 porque no se envia nada            
+        .rxlength = bits_length,    //tamaño 
+        .rx_buffer = &rx_data,  
+    };
+    
+    spi_device_transmit(spi_handle, &transaction);
+    return rx_data;
+}
 
 void app_main(void)
 {
