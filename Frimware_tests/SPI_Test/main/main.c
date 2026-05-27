@@ -16,7 +16,6 @@ spi_device_handle_t spi_handle;
 static esp_err_t init_spi(void){
 
     spi_bus_config_t spi_bus_config = {
-        
         .miso_io_num = MISO,
         .mosi_io_num = MOSI,
         .sclk_io_num = SCLK,
@@ -45,10 +44,21 @@ static esp_err_t init_spi(void){
     };
 
     spi_bus_initialize(SPI2_HOST, &spi_bus_config, SPI_DMA_DISABLED);
-    spi_bus_add_device(SPI2_HOST, &spi_device_interface_config, );
+    spi_bus_add_device(SPI2_HOST, &spi_device_interface_config, spi_handle);
 
     return ESP_OK;
 }
+
+static void SPI_WRITE_COMAND (uint8_t command) {
+    spi_transaction_t transaction = {
+        .cmd = command,      
+        .length = 0,         
+    };
+
+    spi_device_transmit(spi_handle, &transaction);
+}
+
+
 
 void app_main(void)
 {
