@@ -107,10 +107,7 @@ void app_main(void)
         // Leer el contador de 32 bits
         pulsos_acumulados = SPI_READ(0x60, 32);
         
-        // Aquí ya tienes los pulsos acumulados en la variable
-        // Haz lo que quieras con ella (imprimir, enviar, etc.)
         
-        // Ejemplo: imprimir por consola
         printf("Pulsos acumulados: %lu\n", pulsos_acumulados);
         
         // Esperar 1 segundo
