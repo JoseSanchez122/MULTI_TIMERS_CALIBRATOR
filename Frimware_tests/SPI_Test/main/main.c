@@ -13,6 +13,22 @@
 
 spi_device_handle_t spi_handle;
 
+//Registers
+
+#define MDR0 0x8
+#define MDR1 0X10
+#define DTR  0X18
+#define CNTR 0X20
+#define OTR  0X28
+#define STR  0X30
+
+//Instructions
+
+#define CLR   0x00   // 00000000
+#define RD    0x40   // 01000000
+#define WRITE_TO    0x80   // 10000000
+#define LOAD  0xC0   // 11000000
+
 static esp_err_t init_spi(void){
 
     spi_bus_config_t spi_bus_config = {
@@ -88,29 +104,27 @@ void app_main(void)
     init_spi();
     vTaskDelay(pdMS_TO_TICKS(100));
 
-    // 2. Configurar el LS7366R en modo NO CUADRATURA (A = pulso, B = dirección)
-    //    - MDR0 = 0x01: non-quadrature mode, free-running, index disabled, async, filter/1
-    SPI_WRITE_COMAND_AND_DATA(0x88, 0x01, 8);  // WRITE_MDR0
+    SPI_WRITE_COMAND_AND_DATA(      // writing to MDR REG, non-quadrature mode, free runing mode, disable index
+        WRITE_TO | MDR0, 0x01, 8);
+        
+        
     vTaskDelay(pdMS_TO_TICKS(10));
     
-    //    - MDR1 = 0xF0: 4-byte counter, counting enabled, all flags on
-    SPI_WRITE_COMAND_AND_DATA(0x90, 0xF0, 8);  // WRITE_MDR1
+    
+    SPI_WRITE_COMAND_AND_DATA(0x90, 0xF0, 8);  
     vTaskDelay(pdMS_TO_TICKS(10));
     
-    // 3. Limpiar el contador para empezar desde cero
-    SPI_WRITE_COMAND(0x20);  // CLR_CNTR
+    SPI_WRITE_COMAND(0x20);  
     vTaskDelay(pdMS_TO_TICKS(10));
 
     uint32_t pulsos_acumulados = 1000;
     
     while (1) {
-        // Leer el contador de 32 bits
         pulsos_acumulados = SPI_READ(0x60, 32);
         
         
         printf("Pulsos acumulados: %lu\n", pulsos_acumulados);
         
-        // Esperar 1 segundo
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
 
