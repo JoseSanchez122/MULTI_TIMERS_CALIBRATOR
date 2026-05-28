@@ -24,10 +24,15 @@ spi_device_handle_t spi_handle;
 
 //Instructions
 
-#define CLR   0x00   // 00000000
-#define RD    0x40   // 01000000
+#define CLR         0x00   // 00000000
+#define READ          0x40   // 01000000
 #define WRITE_TO    0x80   // 10000000
-#define LOAD  0xC0   // 11000000
+#define LOAD        0xC0   // 11000000
+
+// Configurations
+
+#define SET_OVERFLOW_FLAG 0x80 // FLAG on overflow
+
 
 static esp_err_t init_spi(void){
 
@@ -95,7 +100,7 @@ static uint32_t SPI_READ(uint8_t command, uint8_t bits_length) {
     };
     
     spi_device_transmit(spi_handle, &transaction);
-    return rx_data;
+    return __builtin_bswap32(rx_data);;
 }
 
 void app_main(void)
@@ -104,23 +109,20 @@ void app_main(void)
     init_spi();
     vTaskDelay(pdMS_TO_TICKS(100));
 
-    SPI_WRITE_COMAND_AND_DATA(      // writing to MDR REG, non-quadrature mode, free runing mode, disable index
-        WRITE_TO | MDR0, 0x01, 8);
+    SPI_WRITE_COMAND_AND_DATA(      // writing to MDR0 REG, non-quadrature mode, free runing mode, disabled index
+        WRITE_TO | MDR0, 0x0, 8);
         
         
     vTaskDelay(pdMS_TO_TICKS(10));
     
     
-    SPI_WRITE_COMAND_AND_DATA(0x90, 0xF0, 8);  
-    vTaskDelay(pdMS_TO_TICKS(10));
-    
-    SPI_WRITE_COMAND(0x20);  
+    SPI_WRITE_COMAND_AND_DATA(WRITE_TO | MDR1, SET_OVERFLOW_FLAG, 8);  
     vTaskDelay(pdMS_TO_TICKS(10));
 
-    uint32_t pulsos_acumulados = 1000;
+    uint32_t pulsos_acumulados = 16516;
     
     while (1) {
-        pulsos_acumulados = SPI_READ(0x60, 32);
+        pulsos_acumulados = SPI_READ(READ | CNTR, 32);
         
         
         printf("Pulsos acumulados: %lu\n", pulsos_acumulados);
