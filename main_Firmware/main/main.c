@@ -49,13 +49,21 @@ static uint32_t SPI_READ(uint8_t command, uint8_t bits_length) {
     };
     
     spi_device_transmit(LS7366R_1, &transaction);
-    return __builtin_bswap32(rx_data);;
+    return __builtin_bswap32(rx_data);
 }
 
 void app_main(void)
 {
+    ls7366r_spi_conf conf = {
+        .miso_pin = MISO,
+        .mosi_pin = MOSI,
+        .sclk_pin = SCLK,
+        .cs_pin = CS,
+        .frequency = FREQ_8M
+    };
+
     esp_err_t error;
-    error = init_spi();
+    error = init_ls7366r_spi_com(&conf, &LS7366R_1);
 
     printf("error: %d\n", error); 
     vTaskDelay(pdMS_TO_TICKS(100));

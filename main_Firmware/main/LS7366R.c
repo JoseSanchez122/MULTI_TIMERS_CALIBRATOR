@@ -5,7 +5,7 @@
 
 #define NOT_USED -1
 
-esp_err_t init_ls7366r_spi_com(ls7366r_spi_conf *conf){
+esp_err_t init_ls7366r_spi_com(ls7366r_spi_conf *conf, ls7366r_handle_t *ls7366r_handle){
     
     esp_err_t error;
 
@@ -38,10 +38,9 @@ esp_err_t init_ls7366r_spi_com(ls7366r_spi_conf *conf){
     };
 
     error = spi_bus_initialize(SPI2_HOST, &spi_bus_config, SPI_DMA_DISABLED);
-    error = spi_bus_add_device(SPI2_HOST, &spi_device_interface_config, &LS7366R_1);
+    error = spi_bus_add_device(SPI2_HOST, &spi_device_interface_config, ls7366r_handle);
 
     return error;
 }
-
 
 #endif

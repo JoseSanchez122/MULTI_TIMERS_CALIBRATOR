@@ -44,6 +44,6 @@ typedef struct {
 
 } ls7366r_spi_conf;
 
-esp_err_t init_ls7366r_spi_com(void);
+esp_err_t init_ls7366r_spi_com(ls7366r_spi_conf *conf, ls7366r_handle_t *ls7366r_handle);
     
 #endif
