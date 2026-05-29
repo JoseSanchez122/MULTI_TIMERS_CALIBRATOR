@@ -1,3 +1,6 @@
+// set generator to 1.65 vpp
+// set offset to 825 mv
+
 #include <stdio.h>
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
@@ -119,7 +122,10 @@ void app_main(void)
     SPI_WRITE_COMAND_AND_DATA(WRITE_TO | MDR1, SET_OVERFLOW_FLAG, 8);  
     vTaskDelay(pdMS_TO_TICKS(10));
 
-    uint32_t pulsos_acumulados = 16516;
+    SPI_WRITE_COMAND_AND_DATA(CLR | CNTR, SET_OVERFLOW_FLAG, 8);  
+    vTaskDelay(pdMS_TO_TICKS(10));
+
+    uint32_t pulsos_acumulados = 0;
     
     while (1) {
         pulsos_acumulados = SPI_READ(READ | CNTR, 32);
