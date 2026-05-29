@@ -45,5 +45,8 @@ typedef struct {
 } ls7366r_spi_conf;
 
 esp_err_t init_ls7366r_spi_com(ls7366r_spi_conf *conf, ls7366r_handle_t *ls7366r_handle);
+esp_err_t LS7366R_WRITE_COMAND(uint8_t command, ls7366r_handle_t ls7366r_handle);
+esp_err_t LS7366R_WRITE_COMAND_AND_DATA(uint8_t command, uint32_t data, uint8_t bits_length, ls7366r_handle_t ls7366r_handle);
+uint32_t LS7366R_READ(uint8_t command, uint8_t bits_length, ls7366r_handle_t ls7366r_handle);
     
 #endif
