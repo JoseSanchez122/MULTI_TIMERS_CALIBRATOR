@@ -24,7 +24,7 @@ void app_main(void)
         .mosi_pin = MOSI,
         .sclk_pin = SCLK,
         .cs_pin = CS,
-        .frequency = FREQ_8M
+        .frequency = FREQ_10M
     };
 
     esp_err_t error;
