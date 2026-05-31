@@ -15,7 +15,7 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\lupis\\OneDrive\\Escritorio\\MULTI_TIMERS_CALIBRATOR\\Frimware_tests\\SPI_Test\\build"
+    "--compile-commands-dir=c:\\Users\\joses\\OneDrive\\Desktop\\MULTI_TIMERS_CALIBRATOR\\Frimware_tests\\SPI_Test\\build"
   ],
   "idf.portWin": "COM3",
   "idf.flashType": "UART"
