@@ -1,6 +1,8 @@
 // set generator to 1.65 vpp
 // set offset to 825 mv
 
+//MY generator vpp = 2.6, offs = 1.2
+
 #include <stdio.h>
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
@@ -33,28 +35,30 @@ void app_main(void)
     printf("error: %d\n", error); 
     vTaskDelay(pdMS_TO_TICKS(100));
 
-    LS7366R_WRITE_COMAND_AND_DATA(      // writing to MDR0 REG, non-quadrature mode, free runing mode, disabled index
-        WRITE_TO | MDR0, 0x0, 8, LS7366R_1);
-        
+    LS7366R_WRITE_COMAND_AND_DATA(      // writing to MDR0 REG, non-quadrature mode, free runing mode, tansfer_CNTR_to_OTR
+        (WRITE_TO | MDR0), 
+        INDEX_LOAD_OTR, 
+        Bits_8, 
+        LS7366R_1);
         
     vTaskDelay(pdMS_TO_TICKS(10));
     
-    
-    LS7366R_WRITE_COMAND_AND_DATA(WRITE_TO | MDR1, SET_OVERFLOW_FLAG, 8, LS7366R_1);  
+    LS7366R_WRITE_COMAND_AND_DATA(WRITE_TO | MDR1, SET_OVERFLOW_FLAG, Bits_8, LS7366R_1);  
     vTaskDelay(pdMS_TO_TICKS(10));
 
     LS7366R_WRITE_COMAND(CLEAR | CNTR, LS7366R_1);  
     vTaskDelay(pdMS_TO_TICKS(10));
+    LS7366R_WRITE_COMAND(CLEAR | OTR, LS7366R_1);  
 
-    uint32_t pulsos_acumulados = 0;
+    uint32_t pulsos_acumulados = 152;
     
     while (1) {
-        pulsos_acumulados = LS7366R_READ(READ_FROM | CNTR, 32, LS7366R_1);
+        pulsos_acumulados = LS7366R_READ(READ_FROM | OTR, Bits_32, LS7366R_1);
         
         
         printf("Pulsos acumulados: %lu\n", pulsos_acumulados);
         
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 
 }

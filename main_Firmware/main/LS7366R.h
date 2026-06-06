@@ -7,8 +7,8 @@
 #define MDR0 0x8
 #define MDR1 0X10
 #define DTR  0X18
-#define CNTR 0X20
-#define OTR  0X28
+#define CNTR 0X20 // real time counter register
+#define OTR  0X28 // CNTR Back up register, for storing CNTR values without stoping CNTR to count.
 #define STR  0X30
 
 //Instructions
@@ -19,6 +19,13 @@
 
 // Configurations
 #define SET_OVERFLOW_FLAG 0x80 // FLAG on overflow
+
+//MDR0 configurations
+#define non_quadrature          0x00
+#define free_runing             0x00
+#define INDEX_LOAD_OTR          0x30
+
+
 
 // Frequency for SPI comunication
 #define FREQ_8M      (80 * 1000 * 1000 / 10)   ///< 8MHz
@@ -31,6 +38,11 @@
 #define FREQ_26M     (80 * 1000 * 1000 / 3)    ///< 26.67MHz
 #define FREQ_40M     (80 * 1000 * 1000 / 2)    ///< 40MHz
 #define FREQ_80M     (80 * 1000 * 1000 / 1)    ///< 80MHz
+
+//Bit comunication info size
+#define Bits_8 8
+#define Bits_16 16
+#define Bits_32 32
 
 typedef spi_device_handle_t ls7366r_handle_t;
 
