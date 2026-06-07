@@ -9,7 +9,7 @@
 #define DTR  0X18
 #define CNTR 0X20 // real time counter register
 #define OTR  0X28 // CNTR Back up register, for storing CNTR values without stoping CNTR to count.
-#define STR  0X30
+#define STR  0X30 // status register, for cheking counter configurations and events that happend
 
 //Instructions
 #define CLEAR       0x00   // 00000000
@@ -17,8 +17,9 @@
 #define WRITE_TO    0x80   // 10000000
 #define LOAD_TO     0xC0   // 11000000
 
-// Configurations
-#define SET_OVERFLOW_FLAG 0x80 // FLAG on overflow
+//MDR1 Configurations
+#define FLAG_ON_IDX         0x10 // flags activated when INDEX interruption ocurrs 
+#define SET_OVERFLOW_FLAG   0x80 // FLAG on overflow
 
 //MDR0 configurations
 #define non_quadrature          0x00
