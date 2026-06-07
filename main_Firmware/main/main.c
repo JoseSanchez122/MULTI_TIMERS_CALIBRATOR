@@ -48,7 +48,7 @@ void app_main(void)
 
     LS7366R_WRITE_COMAND(CLEAR | CNTR, LS7366R_1);  
     vTaskDelay(pdMS_TO_TICKS(10));
-    LS7366R_WRITE_COMAND(CLEAR | OTR, LS7366R_1);  
+     
 
     uint32_t pulsos_acumulados = 152;
     
