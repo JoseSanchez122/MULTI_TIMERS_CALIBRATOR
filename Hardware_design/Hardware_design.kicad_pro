@@ -416,7 +416,7 @@
         "uuid": "3ab8a651-180e-470e-9365-384cc00d3c06"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR19,#PWR21-81",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,10 @@
     [
       "960f79b6-47d1-4d00-a572-240ab0150a50",
       "Display_management"
+    ],
+    [
+      "e6b7276d-5f6b-4427-aa94-4a272e034133",
+      "Buttons_circuits"
     ]
   ],
   "text_variables": {},
