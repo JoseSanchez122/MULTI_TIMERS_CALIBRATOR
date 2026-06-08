@@ -5,4 +5,37 @@
 	(uuid "fb39daec-5a37-4d94-9a07-3f74cf282004")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "SCK_MAX7221"
+		(shape input)
+		(at 50.8 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25ba669d-8cbf-42f6-8881-a628a73345dc")
+	)
+	(hierarchical_label "CS_MAX7221"
+		(shape input)
+		(at 50.8 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "659fb424-618b-4f1a-a2a3-59aa5dbc0590")
+	)
+	(hierarchical_label "MOSI_MAX7221"
+		(shape input)
+		(at 50.8 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e401ce7a-2c82-4550-810f-240303dc1138")
+	)
 )
