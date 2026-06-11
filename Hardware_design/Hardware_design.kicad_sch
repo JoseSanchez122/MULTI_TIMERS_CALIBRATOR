@@ -8762,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 33.02 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8841,7 +8841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 60.452 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -8923,7 +8923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 201.422 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -9005,7 +9005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 202.2348 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10150,7 +10150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 33.02 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10229,7 +10229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 121.412 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -10639,7 +10639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 79.502 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -10719,7 +10719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 33.02 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10798,7 +10798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 344.932 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -11195,7 +11195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 69.342 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -13431,7 +13431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 52.832 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -13750,7 +13750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 336.042 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -13910,7 +13910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 386.842 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -14789,7 +14789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 33.02 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14866,7 +14866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 33.02 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -15021,7 +15021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 33.02 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -15338,7 +15338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 184.912 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -16125,7 +16125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 122.682 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -17415,7 +17415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 33.02 121.92 0)
 			(hide yes)
 			(show_name no)

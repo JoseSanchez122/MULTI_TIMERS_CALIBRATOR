@@ -3972,7 +3972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 90.17 411.988 90)
 			(hide yes)
 			(show_name no)
@@ -4288,7 +4288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 40.132 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -4775,7 +4775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 79.502 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -5661,7 +5661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 40.132 288.29 90)
 			(hide yes)
 			(show_name no)
@@ -5741,7 +5741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 50.8 104.648 90)
 			(hide yes)
 			(show_name no)
@@ -5823,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 40.132 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -6076,7 +6076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 79.502 419.1 90)
 			(hide yes)
 			(show_name no)
@@ -6832,7 +6832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 90.17 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -7551,7 +7551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 50.8 192.278 90)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +8473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 79.502 506.73 90)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 40.132 419.1 90)
 			(hide yes)
 			(show_name no)
@@ -8950,7 +8950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 50.8 411.988 90)
 			(hide yes)
 			(show_name no)
@@ -9108,7 +9108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 50.8 499.618 90)
 			(hide yes)
 			(show_name no)
@@ -9190,7 +9190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 79.502 288.29 90)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +9272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 79.502 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -9510,7 +9510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 40.132 506.73 90)
 			(hide yes)
 			(show_name no)
@@ -9746,7 +9746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 90.17 499.618 90)
 			(hide yes)
 			(show_name no)
@@ -9988,7 +9988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 90.17 281.178 90)
 			(hide yes)
 			(show_name no)
@@ -10068,7 +10068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 50.8 281.178 90)
 			(hide yes)
 			(show_name no)
@@ -10148,7 +10148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
 			(at 90.17 104.648 90)
 			(hide yes)
 			(show_name no)
