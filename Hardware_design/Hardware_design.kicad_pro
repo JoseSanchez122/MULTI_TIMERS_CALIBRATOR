@@ -518,7 +518,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -632,7 +632,7 @@
         "uuid": "3ab8a651-180e-470e-9365-384cc00d3c06"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C35-48",
     "variants": []
   },
   "sheets": [

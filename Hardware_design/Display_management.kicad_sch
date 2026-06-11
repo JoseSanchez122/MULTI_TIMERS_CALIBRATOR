@@ -5,6 +5,129 @@
 	(uuid "fb39daec-5a37-4d94-9a07-3f74cf282004")
 	(paper "User" 381 1397)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1736,16 +1859,34 @@
 		(uuid "f8aa2f58-9a80-4c1b-985c-a271000bc5d0")
 	)
 	(junction
+		(at 139.7 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10a9e045-30e4-41e4-a952-f7aa20ab8124")
+	)
+	(junction
 		(at 113.03 632.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1293f866-2c35-437d-bf2f-a1a20809bc92")
 	)
 	(junction
-		(at 113.03 1210.31)
+		(at 110.49 1210.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e09d00d-eddc-445d-8c14-05d926fffb0f")
+		(uuid "14022291-5c67-4c7f-951a-3f245a5f130a")
+	)
+	(junction
+		(at 115.57 511.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "157a953d-817b-4605-bf28-36944eea6d5d")
+	)
+	(junction
+		(at 124.46 397.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "161898c5-76d5-47d4-8e6d-363e8f7e2880")
 	)
 	(junction
 		(at 113.03 863.6)
@@ -1754,10 +1895,40 @@
 		(uuid "21b4a059-03db-41cf-916d-2d6e3fbdedc8")
 	)
 	(junction
+		(at 125.73 1210.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21ff5865-2f0a-4943-9578-550bdc248c2c")
+	)
+	(junction
+		(at 115.57 632.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "250f124c-4017-4abd-8597-705f3f69b552")
+	)
+	(junction
+		(at 135.89 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b59fbe1-24c1-4430-a4a6-20ab3c767c78")
+	)
+	(junction
+		(at 135.89 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36cd28a3-cf1d-4dc7-8aea-1d083f802706")
+	)
+	(junction
 		(at 113.03 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ab4f672-a93c-4f33-8c6a-589e6ce5fb8e")
+	)
+	(junction
+		(at 109.22 977.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43d13c5d-ab24-4b45-bf40-1005cdfe0251")
 	)
 	(junction
 		(at 113.03 511.81)
@@ -1766,22 +1937,52 @@
 		(uuid "4ec7cbb7-c16b-4712-853d-7263e72ef928")
 	)
 	(junction
-		(at 113.03 977.9)
+		(at 111.76 1092.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fdbf4da-eb8a-4059-95ad-014a5793e204")
+		(uuid "530a0530-ff7a-4262-85d6-04d01c92fde2")
 	)
 	(junction
-		(at 113.03 746.76)
+		(at 124.46 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7100dcec-9be0-4bec-83ca-08d5d362ae7f")
+		(uuid "53392ab5-7a20-4255-a75b-e1c8186b28f8")
 	)
 	(junction
-		(at 113.03 1092.2)
+		(at 114.3 863.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7caaf81f-1e8f-460d-93d7-df0dc0989c5b")
+		(uuid "53a81296-16e0-465f-a941-68320014f8c2")
+	)
+	(junction
+		(at 114.3 397.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "554a347d-0521-4cb2-8af7-67b1e702183a")
+	)
+	(junction
+		(at 124.46 511.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58880588-be1d-4904-8b30-6271be4acfe6")
+	)
+	(junction
+		(at 139.7 648.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7fec1f-37ae-4c80-bdc0-f4c9c95580a7")
+	)
+	(junction
+		(at 118.11 746.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74ff070f-a27e-494f-91f7-637b7dd1033b")
+	)
+	(junction
+		(at 125.73 1092.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "775ce10e-199c-4f3c-8136-09a3edc75f09")
 	)
 	(junction
 		(at 113.03 162.56)
@@ -1796,10 +1997,124 @@
 		(uuid "88c71b35-838f-498a-9c7a-2bafc2e62d5c")
 	)
 	(junction
+		(at 125.73 276.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89677f95-867b-42f7-bee8-50025df1bce7")
+	)
+	(junction
+		(at 115.57 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba3b81f-3277-486f-b4d1-8029b0e5c821")
+	)
+	(junction
+		(at 140.97 415.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd598aa-1745-405b-8f82-d767d8a6c311")
+	)
+	(junction
+		(at 124.46 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e76ed83-dca5-44e2-a232-7f5ccb473f2f")
+	)
+	(junction
+		(at 124.46 632.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95739fae-4853-4837-a4ea-7c97495c7471")
+	)
+	(junction
+		(at 130.81 746.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1929bdd-a8b7-4756-81df-d3924c357170")
+	)
+	(junction
+		(at 113.03 1210.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aec02176-d6e4-4366-85ca-ceb53bbdebbb")
+	)
+	(junction
+		(at 139.7 527.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b225b755-a3ae-4ba5-89cc-6654c1659a74")
+	)
+	(junction
+		(at 125.73 977.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a1851d-0ea0-48bb-8942-ef09da50283f")
+	)
+	(junction
+		(at 113.03 746.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd31e217-d27e-467c-84ad-dbf2ff7f9705")
+	)
+	(junction
+		(at 115.57 276.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bffd3d62-5019-465e-a6fa-cb41d042a2e7")
+	)
+	(junction
+		(at 115.57 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb302d3a-a531-4c49-8112-7d46f92584bb")
+	)
+	(junction
 		(at 113.03 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf99f8c4-b59b-4bb7-aaa0-8118911f53bb")
+	)
+	(junction
+		(at 139.7 880.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d71d0bb0-c6bd-4298-a0fa-64dfd4ab6321")
+	)
+	(junction
+		(at 139.7 1108.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e723bd58-3c34-494e-b34f-1141256e30e7")
+	)
+	(junction
+		(at 109.22 1092.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e781ad37-f0f8-4193-82ec-b12dcffb5b77")
+	)
+	(junction
+		(at 125.73 863.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b1d32b-305c-4413-a673-4dac7a60eb0c")
+	)
+	(junction
+		(at 139.7 763.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb06d994-d533-4234-95ae-0fd715076561")
+	)
+	(junction
+		(at 139.7 993.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8c7c5e5-a6ad-4706-a224-66eb22176c42")
+	)
+	(junction
+		(at 113.03 977.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc0bd9f8-d2f3-4d02-b643-bb68a1eac7f8")
 	)
 	(no_connect
 		(at 109.22 1215.39)
@@ -1807,7 +2122,27 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 167.64) (xy 135.89 257.81)
+			(xy 115.57 1196.34) (xy 113.03 1196.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0366465b-e904-4288-a661-7bd494926b93")
+	)
+	(wire
+		(pts
+			(xy 125.73 855.98) (xy 125.73 863.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0686d7d6-1d85-4b28-8135-bacb3c53ac3b")
+	)
+	(wire
+		(pts
+			(xy 135.89 167.64) (xy 135.89 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 863.6) (xy 115.57 863.6)
+			(xy 113.03 863.6) (xy 114.3 863.6)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +2172,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 1092.2) (xy 113.03 1092.2)
+			(xy 124.46 149.86) (xy 124.46 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dbef59-4e54-4e3a-b391-0247c4c52b3c")
+	)
+	(wire
+		(pts
+			(xy 109.22 1092.2) (xy 111.76 1092.2)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 977.9) (xy 113.03 972.82)
+			(xy 109.22 977.9) (xy 109.22 972.82)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 1210.31) (xy 113.03 1210.31)
+			(xy 109.22 1210.31) (xy 110.49 1210.31)
 		)
 		(stroke
 			(width 0)
@@ -1924,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "175d89fc-9a9f-437a-8d3e-7f0f59ca6041")
+	)
+	(wire
+		(pts
+			(xy 125.73 1092.2) (xy 127 1092.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e6becd-06ff-427d-a270-c175abec6cc4")
 	)
 	(wire
 		(pts
@@ -1954,6 +2309,16 @@
 			(type default)
 		)
 		(uuid "2558d7e4-3e80-428c-8a53-c13ac5d838ce")
+	)
+	(wire
+		(pts
+			(xy 116.84 265.43) (xy 115.57 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25656e30-2b26-4ab8-9aa2-ff94569c872d")
 	)
 	(wire
 		(pts
@@ -1997,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 982.98) (xy 139.7 1071.88)
+			(xy 139.7 982.98) (xy 139.7 993.14)
 		)
 		(stroke
 			(width 0)
@@ -2027,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 993.14) (xy 139.7 1071.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3d5f94-3fbb-4090-896e-2fb5a4624317")
+	)
+	(wire
+		(pts
 			(xy 109.22 977.9) (xy 113.03 977.9)
 		)
 		(stroke
@@ -2047,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 511.81) (xy 127 511.81)
+			(xy 123.19 511.81) (xy 124.46 511.81)
 		)
 		(stroke
 			(width 0)
@@ -2067,6 +2442,26 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 619.76) (xy 115.57 632.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307e04b2-fe9e-4dd2-9dbf-084e2378e41c")
+	)
+	(wire
+		(pts
+			(xy 114.3 863.6) (xy 115.57 863.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307f9fa5-9da8-4bdf-8333-847e83788bb3")
+	)
+	(wire
+		(pts
 			(xy 111.76 708.66) (xy 111.76 703.58)
 		)
 		(stroke
@@ -2077,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 863.6) (xy 127 863.6)
+			(xy 123.19 863.6) (xy 125.73 863.6)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 1097.28) (xy 139.7 1189.99)
+			(xy 139.7 1097.28) (xy 139.7 1108.71)
 		)
 		(stroke
 			(width 0)
@@ -2117,6 +2512,36 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 511.81) (xy 116.84 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3768d951-f23f-4513-bd77-4c0a306b29fd")
+	)
+	(wire
+		(pts
+			(xy 116.84 388.62) (xy 114.3 388.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391a754a-c3a4-4ded-9e5f-d45976db351f")
+	)
+	(wire
+		(pts
+			(xy 115.57 1079.5) (xy 111.76 1079.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399e1e91-cbc5-48a6-ac20-27664ecc00a4")
+	)
+	(wire
+		(pts
 			(xy 50.8 1113.79) (xy 50.8 1120.14)
 		)
 		(stroke
@@ -2127,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 1220.47) (xy 73.66 1220.47)
+			(xy 54.61 1220.47) (xy 73.66 1220.47)
 		)
 		(stroke
 			(width 0)
@@ -2167,13 +2592,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 632.46) (xy 127 632.46)
+			(xy 123.19 632.46) (xy 124.46 632.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "41cfd50c-6a30-4c74-91e0-230b5d0b37c7")
+	)
+	(wire
+		(pts
+			(xy 130.81 737.87) (xy 130.81 746.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d98c1c-fbab-4777-9442-3ec2be331b7a")
 	)
 	(wire
 		(pts
@@ -2187,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 397.51) (xy 115.57 397.51)
+			(xy 113.03 397.51) (xy 114.3 397.51)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2672,27 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 1210.31) (xy 127 1210.31)
+			(xy 123.19 1196.34) (xy 125.73 1196.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b74915-cd62-4b68-9ace-7ef10cef3573")
+	)
+	(wire
+		(pts
+			(xy 113.03 977.9) (xy 115.57 977.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d00911-992f-4920-b68a-dcccc715d045")
+	)
+	(wire
+		(pts
+			(xy 123.19 1210.31) (xy 125.73 1210.31)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2702,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 746.76) (xy 127 746.76)
+			(xy 124.46 397.51) (xy 127 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afe3500-9941-4e6f-be65-fdc1a96ede16")
+	)
+	(wire
+		(pts
+			(xy 128.27 746.76) (xy 130.81 746.76)
 		)
 		(stroke
 			(width 0)
@@ -2297,6 +2762,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 38.1) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e28a18f-21a5-4d88-b1b1-ef6bd571402f")
+	)
+	(wire
+		(pts
 			(xy 111.76 1281.43) (xy 109.22 1281.43)
 		)
 		(stroke
@@ -2317,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 276.86) (xy 127 276.86)
+			(xy 123.19 276.86) (xy 125.73 276.86)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2802,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 868.68) (xy 139.7 958.85)
+			(xy 125.73 965.2) (xy 125.73 977.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5309774a-da49-42ba-b8e8-5d79c56dcfb3")
+	)
+	(wire
+		(pts
+			(xy 139.7 868.68) (xy 139.7 880.11)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 55.88) (xy 135.89 143.51)
+			(xy 135.89 55.88) (xy 135.89 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2357,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 619.76) (xy 124.46 632.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c89086-5227-40c6-a58c-89ee286d2db7")
+	)
+	(wire
+		(pts
 			(xy 50.8 406.4) (xy 50.8 411.48)
 		)
 		(stroke
@@ -2364,6 +2859,26 @@
 			(type default)
 		)
 		(uuid "563003c4-95ab-4db8-9c1f-cb288da678fe")
+	)
+	(wire
+		(pts
+			(xy 125.73 977.9) (xy 127 977.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bb7432-22af-4dcd-8f31-f84e8853ae7e")
+	)
+	(wire
+		(pts
+			(xy 135.89 180.34) (xy 135.89 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7bade5-3922-4ff6-9ada-0cab04a56869")
 	)
 	(wire
 		(pts
@@ -2397,7 +2912,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 751.84) (xy 139.7 842.01)
+			(xy 115.57 38.1) (xy 116.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fcffff-b831-497c-9064-11c384a4ee3f")
+	)
+	(wire
+		(pts
+			(xy 139.7 751.84) (xy 139.7 763.27)
 		)
 		(stroke
 			(width 0)
@@ -2437,6 +2962,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 737.87) (xy 130.81 737.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639154d4-4af4-4672-b1f2-da1aa1b1b6cd")
+	)
+	(wire
+		(pts
 			(xy 109.22 167.64) (xy 135.89 167.64)
 		)
 		(stroke
@@ -2454,6 +2989,36 @@
 			(type default)
 		)
 		(uuid "657e3f1b-cf9d-415b-ad43-d746e3118d4c")
+	)
+	(wire
+		(pts
+			(xy 118.11 737.87) (xy 118.11 746.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fab25b-f67f-436a-8c00-bd9a252fff66")
+	)
+	(wire
+		(pts
+			(xy 110.49 1210.31) (xy 113.03 1210.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667439cd-c2f5-4cd5-a028-332f3fdd6d93")
+	)
+	(wire
+		(pts
+			(xy 116.84 619.76) (xy 115.57 619.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69861321-2cca-4e2c-b885-151b2e784dfe")
 	)
 	(wire
 		(pts
@@ -2497,7 +3062,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 281.94) (xy 139.7 375.92)
+			(xy 113.03 1196.34) (xy 113.03 1210.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c946eea-6498-4e36-a1c7-b88cf8de9995")
+	)
+	(wire
+		(pts
+			(xy 139.7 281.94) (xy 139.7 295.91)
 		)
 		(stroke
 			(width 0)
@@ -2514,6 +3089,26 @@
 			(type default)
 		)
 		(uuid "6e0d353f-94ba-4212-b420-5aad2fe53b31")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fec38a7-9828-4ae1-b4e8-183df28bf908")
+	)
+	(wire
+		(pts
+			(xy 118.11 855.98) (xy 114.3 855.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b77cf9-a9db-4357-9290-5092f2d04278")
 	)
 	(wire
 		(pts
@@ -2567,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 855.98) (xy 114.3 863.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7442852e-6f59-4446-a56f-fc99ce0c27d6")
+	)
+	(wire
+		(pts
 			(xy 50.8 1005.84) (xy 73.66 1005.84)
 		)
 		(stroke
@@ -2587,7 +3192,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 402.59) (xy 140.97 494.03)
+			(xy 111.76 1092.2) (xy 115.57 1092.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb6bda3-b6f5-44cf-bd19-5d116944be3a")
+	)
+	(wire
+		(pts
+			(xy 125.73 1210.31) (xy 127 1210.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbe644a-2148-492c-8fac-e9092c5e91e6")
+	)
+	(wire
+		(pts
+			(xy 140.97 402.59) (xy 140.97 415.29)
 		)
 		(stroke
 			(width 0)
@@ -2607,13 +3232,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 637.54) (xy 139.7 727.71)
+			(xy 139.7 637.54) (xy 139.7 648.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "855121eb-fdb2-4c3d-9003-e0d61a8380a3")
+	)
+	(wire
+		(pts
+			(xy 139.7 763.27) (xy 139.7 842.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d9e695-bb72-4dbd-8f89-1542ff91bcf5")
+	)
+	(wire
+		(pts
+			(xy 124.46 632.46) (xy 127 632.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86dedc60-b56f-45f3-b811-b7da24a1c3c0")
 	)
 	(wire
 		(pts
@@ -2627,6 +3272,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 276.86) (xy 127 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897df40a-ffcd-4229-9625-8e9c4367c320")
+	)
+	(wire
+		(pts
 			(xy 50.8 1219.2) (xy 50.8 1224.28)
 		)
 		(stroke
@@ -2637,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 1189.99) (xy 55.88 1189.99)
+			(xy 139.7 1189.99) (xy 54.61 1189.99)
 		)
 		(stroke
 			(width 0)
@@ -2647,13 +3302,33 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 397.51) (xy 127 397.51)
+			(xy 111.76 1079.5) (xy 111.76 1092.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb7f8fa-07a4-40c3-8f01-657b81ffd1b4")
+	)
+	(wire
+		(pts
+			(xy 123.19 397.51) (xy 124.46 397.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8ea3eafc-24d2-4950-9f12-b1c995feeac4")
+	)
+	(wire
+		(pts
+			(xy 124.46 965.2) (xy 125.73 965.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fecc98a-1e82-47bf-93e1-5c9a849ece64")
 	)
 	(wire
 		(pts
@@ -2664,6 +3339,16 @@
 			(type default)
 		)
 		(uuid "8ff536ad-78e9-4fdb-a0be-dc8711aac060")
+	)
+	(wire
+		(pts
+			(xy 125.73 863.6) (xy 127 863.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9040f3c1-a568-4f85-9429-e5947ed3376a")
 	)
 	(wire
 		(pts
@@ -2707,7 +3392,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 977.9) (xy 127 977.9)
+			(xy 114.3 397.51) (xy 115.57 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981ee16c-a75d-4959-818e-53873ea22c77")
+	)
+	(wire
+		(pts
+			(xy 123.19 977.9) (xy 125.73 977.9)
 		)
 		(stroke
 			(width 0)
@@ -2724,6 +3419,26 @@
 			(type default)
 		)
 		(uuid "99dc337c-6fbf-4072-a35e-c62aa22abd3e")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 135.89 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a30e011-056a-47dd-ac09-d324ace08492")
+	)
+	(wire
+		(pts
+			(xy 113.03 1210.31) (xy 115.57 1210.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9c4e1b-dc92-4262-9be9-445fb62d2708")
 	)
 	(wire
 		(pts
@@ -2747,13 +3462,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 746.76) (xy 115.57 746.76)
+			(xy 113.03 746.76) (xy 118.11 746.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e934772-a931-4b7e-b634-75014360f590")
+	)
+	(wire
+		(pts
+			(xy 124.46 511.81) (xy 127 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fae86f1-ddb3-4f87-b74c-f5c2951e7fc2")
 	)
 	(wire
 		(pts
@@ -2807,6 +3532,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 388.62) (xy 114.3 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a806c47e-51cd-4b9c-a328-6d4ac778c6de")
+	)
+	(wire
+		(pts
 			(xy 113.03 50.8) (xy 115.57 50.8)
 		)
 		(stroke
@@ -2814,6 +3549,16 @@
 			(type default)
 		)
 		(uuid "a83fd265-411f-4a31-a3b8-e3f6495a62f4")
+	)
+	(wire
+		(pts
+			(xy 116.84 501.65) (xy 116.84 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83ffbaa-50c4-4599-89df-99d274d52837")
 	)
 	(wire
 		(pts
@@ -2827,13 +3572,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 1092.2) (xy 115.57 1092.2)
+			(xy 139.7 648.97) (xy 139.7 727.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aafee5be-34dd-4f3e-b959-cf9efdf943c7")
+		(uuid "a97dd2c1-9aaa-4fee-9925-86425dcc8a34")
+	)
+	(wire
+		(pts
+			(xy 118.11 746.76) (xy 120.65 746.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d418b2-8f58-48e8-990d-d7cf08f05500")
 	)
 	(wire
 		(pts
@@ -2847,7 +3602,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 1189.99) (xy 55.88 1220.47)
+			(xy 54.61 1189.99) (xy 54.61 1220.47)
 		)
 		(stroke
 			(width 0)
@@ -2877,6 +3632,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 265.43) (xy 125.73 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24e9964-c458-450d-b03c-610c8dbdea1e")
+	)
+	(wire
+		(pts
 			(xy 113.03 511.81) (xy 113.03 506.73)
 		)
 		(stroke
@@ -2887,7 +3652,37 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 1092.2) (xy 113.03 1087.12)
+			(xy 130.81 746.76) (xy 132.08 746.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e5b7b6-9373-4c67-9c27-a16d4537ec71")
+	)
+	(wire
+		(pts
+			(xy 139.7 295.91) (xy 139.7 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d6ac30-d969-4cdb-a7b4-0b9bbca0215e")
+	)
+	(wire
+		(pts
+			(xy 125.73 1196.34) (xy 125.73 1210.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b501de2c-21e4-410e-8342-a637f01fbb91")
+	)
+	(wire
+		(pts
+			(xy 109.22 1092.2) (xy 109.22 1087.12)
 		)
 		(stroke
 			(width 0)
@@ -2947,13 +3742,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 977.9) (xy 115.57 977.9)
+			(xy 124.46 265.43) (xy 125.73 265.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c18ee61a-5903-4b46-b5e3-72402c33d605")
+		(uuid "bed3a8b8-b3a7-4952-8d38-ba3fef7dad61")
+	)
+	(wire
+		(pts
+			(xy 139.7 527.05) (xy 139.7 609.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf90b0ac-d440-44d8-bce4-82cf7c682c3f")
+	)
+	(wire
+		(pts
+			(xy 124.46 388.62) (xy 124.46 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12c17f7-2a5e-4bef-be35-4e655b66fdee")
 	)
 	(wire
 		(pts
@@ -2967,7 +3782,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 516.89) (xy 139.7 609.6)
+			(xy 139.7 516.89) (xy 139.7 527.05)
 		)
 		(stroke
 			(width 0)
@@ -3017,6 +3832,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 965.2) (xy 113.03 965.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf81058-ecd0-4fea-ad6a-e722598c7565")
+	)
+	(wire
+		(pts
 			(xy 50.8 298.45) (xy 50.8 304.8)
 		)
 		(stroke
@@ -3047,6 +3872,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 1108.71) (xy 139.7 1189.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c54072-cdeb-4281-95c4-3998a74bd6ed")
+	)
+	(wire
+		(pts
 			(xy 50.8 190.5) (xy 73.66 190.5)
 		)
 		(stroke
@@ -3054,6 +3889,26 @@
 			(type default)
 		)
 		(uuid "d1e8fd9a-92b9-477d-8d9b-091d73534efd")
+	)
+	(wire
+		(pts
+			(xy 116.84 149.86) (xy 116.84 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46fd9b1-8d14-47de-8fdd-a38497a99f89")
+	)
+	(wire
+		(pts
+			(xy 115.57 38.1) (xy 115.57 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f03906-ebd5-4348-bc69-ed97e6c7ccd6")
 	)
 	(wire
 		(pts
@@ -3077,6 +3932,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 1079.5) (xy 125.73 1092.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8338042-30fa-45f0-9f83-0673bff9dbc2")
+	)
+	(wire
+		(pts
 			(xy 109.22 982.98) (xy 139.7 982.98)
 		)
 		(stroke
@@ -3087,13 +3952,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 1210.31) (xy 113.03 1205.23)
+			(xy 140.97 415.29) (xy 140.97 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3f8d67-cf27-45d5-99e2-0e57c38e8455")
+	)
+	(wire
+		(pts
+			(xy 110.49 1210.31) (xy 110.49 1205.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc541b3b-75ed-4e57-bf51-d7bb8644b365")
+	)
+	(wire
+		(pts
+			(xy 123.19 1079.5) (xy 125.73 1079.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7e6cd1-d485-404e-aad7-9e1aa1836168")
 	)
 	(wire
 		(pts
@@ -3104,6 +3989,16 @@
 			(type default)
 		)
 		(uuid "e2aa5983-db22-4008-adb6-018a5ecb7f93")
+	)
+	(wire
+		(pts
+			(xy 139.7 880.11) (xy 139.7 958.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ee0206-d720-4685-a0db-8477f754fafe")
 	)
 	(wire
 		(pts
@@ -3137,6 +4032,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 162.56) (xy 116.84 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e540b371-a912-44ab-8ee3-b7397b1eec10")
+	)
+	(wire
+		(pts
 			(xy 109.22 746.76) (xy 113.03 746.76)
 		)
 		(stroke
@@ -3144,6 +4049,16 @@
 			(type default)
 		)
 		(uuid "e577af77-8c8f-4176-83e1-b032dab180af")
+	)
+	(wire
+		(pts
+			(xy 115.57 265.43) (xy 115.57 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ba5f20-6a42-476f-ba55-e173a706953c")
 	)
 	(wire
 		(pts
@@ -3167,7 +4082,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 1092.2) (xy 127 1092.2)
+			(xy 124.46 162.56) (xy 127 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d3cf2e-fbcc-46dc-b31e-12c79dcb19d3")
+	)
+	(wire
+		(pts
+			(xy 123.19 1092.2) (xy 125.73 1092.2)
 		)
 		(stroke
 			(width 0)
@@ -3187,13 +4112,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 1210.31) (xy 115.57 1210.31)
+			(xy 124.46 501.65) (xy 124.46 511.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeabfb71-8a12-4806-83ac-04cdc2494483")
+		(uuid "eee6e38b-2c98-4790-be4d-91de95ef9bf5")
 	)
 	(wire
 		(pts
@@ -3217,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 162.56) (xy 127 162.56)
+			(xy 123.19 162.56) (xy 124.46 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3247,6 +4172,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 737.87) (xy 118.11 737.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56ccae7-a675-4f82-bffd-492996575d6b")
+	)
+	(wire
+		(pts
+			(xy 113.03 965.2) (xy 113.03 977.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57e6894-9427-4d70-a4d1-617e7df1ba12")
+	)
+	(wire
+		(pts
 			(xy 111.76 347.98) (xy 109.22 347.98)
 		)
 		(stroke
@@ -3257,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 50.8) (xy 127 50.8)
+			(xy 123.19 50.8) (xy 124.46 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13555,40 +14500,40 @@
 		)
 		(uuid "fff5b870-fc8f-4462-ba41-754ad7887678")
 	)
-	(hierarchical_label "CS_MAX7221"
+	(hierarchical_label "SCK_MAX7221_5V"
 		(shape input)
-		(at 73.66 1215.39 180)
+		(at 73.66 640.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "16bf6eb1-0e7a-485e-9e17-8cc894ccea87")
+		(uuid "02fb93c1-b26e-458d-8d35-2a4f96690326")
 	)
-	(hierarchical_label "CS_MAX7221"
+	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
-		(at 73.66 868.68 180)
+		(at 73.66 281.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "19d3219e-7e8f-4939-b6c0-f14bdac362a5")
+		(uuid "04987ddd-c491-432b-91dc-16bf49e1169b")
 	)
-	(hierarchical_label "SCK_MAX7221"
+	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
-		(at 73.66 1217.93 180)
+		(at 73.66 751.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "23d3902b-3cf8-455d-ae56-17c501ab5e20")
+		(uuid "17d510fb-f94e-4058-9d27-31ecbb8bad65")
 	)
-	(hierarchical_label "SCK_MAX7221"
+	(hierarchical_label "SCK_MAX7221_5V"
 		(shape input)
 		(at 73.66 58.42 180)
 		(effects
@@ -13599,51 +14544,7 @@
 		)
 		(uuid "25ba669d-8cbf-42f6-8881-a628a73345dc")
 	)
-	(hierarchical_label "SCK_MAX7221"
-		(shape input)
-		(at 73.66 1099.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "395fabc0-b95d-458b-a8a7-327fffa2536f")
-	)
-	(hierarchical_label "CS_MAX7221"
-		(shape input)
-		(at 73.66 982.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49c26411-1ede-40a6-a5de-21e67178cd4d")
-	)
-	(hierarchical_label "CS_MAX7221"
-		(shape input)
-		(at 73.66 751.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a08584e-8646-4d0a-94e0-7976d9ee4cf1")
-	)
-	(hierarchical_label "SCK_MAX7221"
-		(shape input)
-		(at 73.66 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e4fff05-9377-4592-8eab-dc7c5df50783")
-	)
-	(hierarchical_label "SCK_MAX7221"
+	(hierarchical_label "SCK_MAX7221_5V"
 		(shape input)
 		(at 73.66 985.52 180)
 		(effects
@@ -13652,20 +14553,64 @@
 			)
 			(justify right)
 		)
-		(uuid "612889db-41ed-4585-a140-8ff0c3ac7405")
+		(uuid "2c927764-998a-475d-b029-b6da2fdee461")
 	)
-	(hierarchical_label "SCK_MAX7221"
+	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
-		(at 73.66 519.43 180)
+		(at 73.66 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "630b7e6d-5a1d-4529-bcad-73a9e3a37635")
+		(uuid "3b40941a-274a-4138-8072-4b99664440c7")
 	)
-	(hierarchical_label "CS_MAX7221"
+	(hierarchical_label "SCK_MAX7221_5V"
+		(shape input)
+		(at 73.66 405.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4308ea70-b574-499a-b0bb-63af98fab2f7")
+	)
+	(hierarchical_label "SCK_MAX7221_5V"
+		(shape input)
+		(at 73.66 1099.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "458c0415-20ad-490c-8618-f5feef7ae95d")
+	)
+	(hierarchical_label "CS_MAX7221_5V"
+		(shape input)
+		(at 73.66 637.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "462fa3d2-78d4-4f87-84b8-7c466306564a")
+	)
+	(hierarchical_label "CS_MAX7221_5V"
+		(shape input)
+		(at 73.66 868.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53e62a6f-cd77-4fb6-8999-97e28d724404")
+	)
+	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
 		(at 73.66 55.88 180)
 		(effects
@@ -13676,7 +14621,51 @@
 		)
 		(uuid "659fb424-618b-4f1a-a2a3-59aa5dbc0590")
 	)
-	(hierarchical_label "SCK_MAX7221"
+	(hierarchical_label "SCK_MAX7221_5V"
+		(shape input)
+		(at 73.66 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "730648c6-e225-457b-bcf1-0d8db5c63248")
+	)
+	(hierarchical_label "CS_MAX7221_5V"
+		(shape input)
+		(at 73.66 982.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "755951ab-8449-481f-a165-d8d0da3fa6c7")
+	)
+	(hierarchical_label "SCK_MAX7221_5V"
+		(shape input)
+		(at 73.66 519.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c1106d6-383d-44ae-9890-d74083491365")
+	)
+	(hierarchical_label "SCK_MAX7221_5V"
+		(shape input)
+		(at 73.66 1217.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ddf10b0-313f-4c92-b799-a8ab7e6c4f60")
+	)
+	(hierarchical_label "SCK_MAX7221_5V"
 		(shape input)
 		(at 73.66 871.22 180)
 		(effects
@@ -13685,64 +14674,20 @@
 			)
 			(justify right)
 		)
-		(uuid "8155bcec-ad24-4260-be3b-588db22e9fe2")
+		(uuid "9964730f-fb13-404a-8fda-04c482106318")
 	)
-	(hierarchical_label "CS_MAX7221"
+	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
-		(at 73.66 167.64 180)
+		(at 73.66 1215.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "89814363-47de-4fc6-ae75-901f98e5bcfe")
+		(uuid "af79695c-01db-44cd-8d2e-ab175ebb87fd")
 	)
-	(hierarchical_label "CS_MAX7221"
-		(shape input)
-		(at 73.66 516.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d2ae077-72d5-4c7e-8b7b-b184752ef99d")
-	)
-	(hierarchical_label "CS_MAX7221"
-		(shape input)
-		(at 73.66 281.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d6e725c-7d83-49f3-9830-974651f23984")
-	)
-	(hierarchical_label "SCK_MAX7221"
-		(shape input)
-		(at 73.66 284.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "954024f7-d401-454c-89f8-38667d46b487")
-	)
-	(hierarchical_label "CS_MAX7221"
-		(shape input)
-		(at 73.66 637.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ec153e7-58b4-4df2-9f2d-b66af78c8b8d")
-	)
-	(hierarchical_label "CS_MAX7221"
+	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
 		(at 73.66 1097.28 180)
 		(effects
@@ -13751,9 +14696,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a252a9e3-71d2-4629-b407-24e9dfad1e03")
+		(uuid "bf639ed8-dbe8-4b05-b899-9912b5674d7e")
 	)
-	(hierarchical_label "CS_MAX7221"
+	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
 		(at 73.66 402.59 180)
 		(effects
@@ -13762,9 +14707,20 @@
 			)
 			(justify right)
 		)
-		(uuid "ab0e88dc-900a-4af4-b459-f7a44715aa65")
+		(uuid "ca041c3c-79d3-4bb1-bfc3-9b133618bd35")
 	)
-	(hierarchical_label "SCK_MAX7221"
+	(hierarchical_label "CS_MAX7221_5V"
+		(shape input)
+		(at 73.66 516.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1f0102e-aea6-44e7-8602-d42b40771473")
+	)
+	(hierarchical_label "SCK_MAX7221_5V"
 		(shape input)
 		(at 73.66 754.38 180)
 		(effects
@@ -13773,31 +14729,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b8c0d786-9121-4d08-b51f-4829705aa809")
+		(uuid "d56c89b8-1ef7-4619-a29a-fdb313d2670b")
 	)
-	(hierarchical_label "SCK_MAX7221"
-		(shape input)
-		(at 73.66 640.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da48d3fe-c066-4d7b-a152-8d54bf8f52e4")
-	)
-	(hierarchical_label "SCK_MAX7221"
-		(shape input)
-		(at 73.66 405.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd157fa5-fabe-49e1-bca8-11e9bdf2cdf1")
-	)
-	(hierarchical_label "MOSI_MAX7221"
+	(hierarchical_label "MOSI_MAX7221_5V"
 		(shape input)
 		(at 73.66 60.96 180)
 		(effects
@@ -13807,6 +14741,17 @@
 			(justify right)
 		)
 		(uuid "e401ce7a-2c82-4550-810f-240303dc1138")
+	)
+	(hierarchical_label "SCK_MAX7221_5V"
+		(shape input)
+		(at 73.66 284.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff023d1a-93a8-457b-8e35-f65b8f1f0ee2")
 	)
 	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
@@ -13820,7 +14765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01014577-e42f-489f-bede-0f4257ce9c21")
-		(property "Reference" "DS?"
+		(property "Reference" "DS20"
 			(at 181.61 575.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13840,7 +14785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 677.85 0)
 			(hide yes)
 			(show_name no)
@@ -13968,7 +14913,88 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 501.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01062bfe-3549-4283-bd4f-1e2cab59c693")
+		(property "Reference" "C42"
+			(at 121.158 495.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.698 495.554 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 124.46 500.6848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6b143600-d5e4-4498-a0e5-155700a9a1f0")
+		)
+		(pin "1"
+			(uuid "1618703f-879b-4fcc-aa58-4e1f0f1492f9")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -13986,7 +15012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "019291b3-9e3a-46c0-8d4d-181eebcbc4d3")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 91.44 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14200,7 +15226,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14376,7 +15402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07af8d71-f072-4155-86b6-da888e90e4e1")
-		(property "Reference" "DS?"
+		(property "Reference" "DS67"
 			(at 260.35 671.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14396,7 +15422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 774.37 0)
 			(hide yes)
 			(show_name no)
@@ -14524,7 +15550,86 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 993.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07dffb3c-05db-4bca-8635-d545bee1b86c")
+		(property "Reference" "TP16"
+			(at 144.78 991.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 994.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 998.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 998.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 993.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f808ce0-218e-4d40-b3bf-2653184e4e91")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -14542,7 +15647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b9e5ae7-7d36-4bb6-bf4b-9a686b938dc7")
-		(property "Reference" "DS?"
+		(property "Reference" "DS74"
 			(at 260.35 878.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14562,7 +15667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 981.38 0)
 			(hide yes)
 			(show_name no)
@@ -14690,7 +15795,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS74")
 					(unit 1)
 				)
 			)
@@ -14708,7 +15813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c2c14d4-b1cd-41d9-a1e4-5bca3f63f5f1")
-		(property "Reference" "DS?"
+		(property "Reference" "DS30"
 			(at 181.61 878.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14728,7 +15833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 981.38 0)
 			(hide yes)
 			(show_name no)
@@ -14856,7 +15961,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS30")
 					(unit 1)
 				)
 			)
@@ -14953,7 +16058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0de3f25b-bfda-4a5e-a8c2-d7a2f466dc6c")
-		(property "Reference" "DS?"
+		(property "Reference" "DS26"
 			(at 181.61 762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14973,7 +16078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 864.54 0)
 			(hide yes)
 			(show_name no)
@@ -15101,7 +16206,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS26")
 					(unit 1)
 				)
 			)
@@ -15119,7 +16224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e2ac95b-4fdd-4ce3-8bb6-569030b1c46f")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 91.44 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15139,7 +16244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -15333,7 +16438,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15351,7 +16456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e3173db-ecca-4c33-87e2-121735b9e56a")
-		(property "Reference" "C?"
+		(property "Reference" "C24"
 			(at 118.1099 1206.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15373,7 +16478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 1209.3448 0)
 			(hide yes)
 			(show_name no)
@@ -15415,7 +16520,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -15433,7 +16538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb2b097-1b25-4d11-8409-a463f6441728")
-		(property "Reference" "DS?"
+		(property "Reference" "DS16"
 			(at 181.61 461.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15453,7 +16558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 563.55 0)
 			(hide yes)
 			(show_name no)
@@ -15581,7 +16686,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS16")
 					(unit 1)
 				)
 			)
@@ -15599,7 +16704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fb425d9-e11e-49a0-81c7-88e8ce7d3352")
-		(property "Reference" "DS?"
+		(property "Reference" "DS47"
 			(at 260.35 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15619,7 +16724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 192.71 0)
 			(hide yes)
 			(show_name no)
@@ -15747,7 +16852,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS47")
 					(unit 1)
 				)
 			)
@@ -15843,7 +16948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1508927c-5db6-48fe-9afb-0def2ce46b30")
-		(property "Reference" "DS?"
+		(property "Reference" "DS85"
 			(at 260.35 1201.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15863,7 +16968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1303.96 0)
 			(hide yes)
 			(show_name no)
@@ -15991,7 +17096,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS85")
 					(unit 1)
 				)
 			)
@@ -16008,7 +17113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "169dfc75-e671-41b3-aee5-723a7c547314")
-		(property "Reference" "R?"
+		(property "Reference" "R16"
 			(at 48.26 528.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16072,7 +17177,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -16090,7 +17195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1701dc4a-9d95-417e-aebc-0598f15e9aaa")
-		(property "Reference" "DS?"
+		(property "Reference" "DS11"
 			(at 181.61 316.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16110,7 +17215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 418.77 0)
 			(hide yes)
 			(show_name no)
@@ -16238,7 +17343,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS11")
 					(unit 1)
 				)
 			)
@@ -16256,7 +17361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1721ccb7-d4b2-465f-9d9f-14e1d871840b")
-		(property "Reference" "DS?"
+		(property "Reference" "DS29"
 			(at 181.61 854.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16276,7 +17381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 957.25 0)
 			(hide yes)
 			(show_name no)
@@ -16404,7 +17509,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS29")
 					(unit 1)
 				)
 			)
@@ -16421,7 +17526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a4d35cc-5460-470e-8a8e-a7d6e7cb1e88")
-		(property "Reference" "R?"
+		(property "Reference" "R18"
 			(at 48.26 763.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16485,7 +17590,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -16503,7 +17608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f63fe34-72c1-404a-851d-fc2f000d0ef9")
-		(property "Reference" "DS?"
+		(property "Reference" "DS34"
 			(at 181.61 993.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16523,7 +17628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1095.68 0)
 			(hide yes)
 			(show_name no)
@@ -16651,7 +17756,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS34")
 					(unit 1)
 				)
 			)
@@ -16659,7 +17764,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 746.76 90)
+		(at 124.46 746.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16667,10 +17772,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20cd0067-5530-4562-bad4-e905771e547e")
-		(property "Reference" "C?"
-			(at 118.1099 742.95 0)
+		(property "Reference" "C20"
+			(at 126.492 754.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16681,7 +17785,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 120.6499 742.95 0)
+			(at 129.032 754.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16691,8 +17795,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 745.7948 0)
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
+			(at 128.27 745.7948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16703,7 +17807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 746.76 0)
+			(at 124.46 746.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16714,7 +17818,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 746.76 0)
+			(at 124.46 746.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16733,7 +17837,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16830,7 +17934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "226a16fb-7785-4229-a352-e938600f8521")
-		(property "Reference" "DS?"
+		(property "Reference" "DS17"
 			(at 181.61 502.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16850,7 +17954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 605.46 0)
 			(hide yes)
 			(show_name no)
@@ -16978,7 +18082,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS17")
 					(unit 1)
 				)
 			)
@@ -17075,7 +18179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238cf92b-cd7b-45be-bb50-69e7085a25e4")
-		(property "Reference" "DS?"
+		(property "Reference" "DS55"
 			(at 260.35 316.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17095,7 +18199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 418.77 0)
 			(hide yes)
 			(show_name no)
@@ -17223,7 +18327,88 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 737.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "291a41d2-1ead-4fe1-87b2-9cb46da00a52")
+		(property "Reference" "C44"
+			(at 124.968 731.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 127.508 731.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 128.27 736.9048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 737.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 737.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a2439b5c-412a-465b-b4e3-be13047b53f2")
+		)
+		(pin "1"
+			(uuid "93786b4a-3916-4c4d-a4f2-aa9c6702102a")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -17240,7 +18425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2993d746-3552-4256-bf6f-12ec46a50b74")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 48.26 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17304,7 +18489,86 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 180.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a5c05f7-a590-4738-aa16-2b53ce4099fd")
+		(property "Reference" "TP9"
+			(at 140.97 179.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 140.97 181.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a8bcb3e-ef3d-423e-a5ad-69ba7c22bc1f")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -17322,7 +18586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b453767-d636-4101-a161-4940f43648d8")
-		(property "Reference" "DS?"
+		(property "Reference" "DS42"
 			(at 181.61 1225.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17342,7 +18606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1328.09 0)
 			(hide yes)
 			(show_name no)
@@ -17470,7 +18734,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS42")
 					(unit 1)
 				)
 			)
@@ -17488,7 +18752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b7f1bfc-df70-4673-b895-170bfcf3f08b")
-		(property "Reference" "DS?"
+		(property "Reference" "DS64"
 			(at 260.35 575.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17508,7 +18772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 677.85 0)
 			(hide yes)
 			(show_name no)
@@ -17636,7 +18900,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS64")
 					(unit 1)
 				)
 			)
@@ -17654,7 +18918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bf5f77d-a2a3-4083-a168-faa959081922")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 91.44 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17674,7 +18938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -17868,7 +19132,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -17965,7 +19229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2de4933d-ab88-4e29-adcf-4427bcb72cb3")
-		(property "Reference" "C?"
+		(property "Reference" "C21"
 			(at 118.1099 859.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17987,7 +19251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 862.6348 0)
 			(hide yes)
 			(show_name no)
@@ -18029,7 +19293,86 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 135.89 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea9fcbe-5c0e-4fed-86eb-f69c060fe578")
+		(property "Reference" "TP8"
+			(at 140.97 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 140.97 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 135.89 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36d75d53-2e78-4be2-97f4-a9ace2a2c7a0")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -18047,7 +19390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f3a1d31-6e49-4bf0-91a1-1ab39e0ce4b0")
-		(property "Reference" "DS?"
+		(property "Reference" "DS52"
 			(at 260.35 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18067,7 +19410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 328.6 0)
 			(hide yes)
 			(show_name no)
@@ -18195,7 +19538,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS52")
 					(unit 1)
 				)
 			)
@@ -18213,7 +19556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6a640b-93c9-480d-8801-62003ad8a1d7")
-		(property "Reference" "DS?"
+		(property "Reference" "DS7"
 			(at 181.61 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18233,7 +19576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 304.47 0)
 			(hide yes)
 			(show_name no)
@@ -18361,7 +19704,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS7")
 					(unit 1)
 				)
 			)
@@ -18379,7 +19722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30189681-d35f-44cc-9021-8a4df5b7cca4")
-		(property "Reference" "DS?"
+		(property "Reference" "DS41"
 			(at 181.61 1201.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18399,7 +19742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1303.96 0)
 			(hide yes)
 			(show_name no)
@@ -18527,7 +19870,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS41")
 					(unit 1)
 				)
 			)
@@ -18624,7 +19967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a0e3e5-d886-429c-9f41-93b03d7220e1")
-		(property "Reference" "DS?"
+		(property "Reference" "DS40"
 			(at 181.61 1155.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18644,7 +19987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1258.24 0)
 			(hide yes)
 			(show_name no)
@@ -18772,7 +20115,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS40")
 					(unit 1)
 				)
 			)
@@ -18790,7 +20133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "384c340a-6587-48a5-b07e-fa28cce08df2")
-		(property "Reference" "DS?"
+		(property "Reference" "DS78"
 			(at 260.35 993.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18810,7 +20153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1095.68 0)
 			(hide yes)
 			(show_name no)
@@ -18938,7 +20281,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS78")
 					(unit 1)
 				)
 			)
@@ -19348,7 +20691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "422de85d-3789-4166-894a-07f0f6608ee9")
-		(property "Reference" "U?"
+		(property "Reference" "U14"
 			(at 91.44 1202.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19368,7 +20711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 1248.41 0)
 			(hide yes)
 			(show_name no)
@@ -19562,7 +20905,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -19580,7 +20923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43d3ad40-fb12-4078-a8c5-d79c5f024273")
-		(property "Reference" "DS?"
+		(property "Reference" "DS24"
 			(at 181.61 695.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19600,7 +20943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 798.5 0)
 			(hide yes)
 			(show_name no)
@@ -19728,7 +21071,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS24")
 					(unit 1)
 				)
 			)
@@ -19746,7 +21089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43e13c13-e9bd-44f3-84d8-ae8ca0e9a90d")
-		(property "Reference" "DS?"
+		(property "Reference" "DS6"
 			(at 181.61 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19766,7 +21109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 280.34 0)
 			(hide yes)
 			(show_name no)
@@ -19894,7 +21237,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS6")
 					(unit 1)
 				)
 			)
@@ -19911,7 +21254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "462c27fd-eb2e-4ff7-8d74-0fad758bc740")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 48.26 1226.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19975,7 +21318,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19993,7 +21336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46bd1e5f-d73c-4380-ae52-c87acc076e19")
-		(property "Reference" "DS?"
+		(property "Reference" "DS57"
 			(at 260.35 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20013,7 +21356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 491.16 0)
 			(hide yes)
 			(show_name no)
@@ -20141,7 +21484,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS57")
 					(unit 1)
 				)
 			)
@@ -20159,7 +21502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46deb95a-0361-4463-9659-ad0fa2909c4b")
-		(property "Reference" "DS?"
+		(property "Reference" "DS19"
 			(at 181.61 551.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20179,7 +21522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 653.72 0)
 			(hide yes)
 			(show_name no)
@@ -20307,7 +21650,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS19")
 					(unit 1)
 				)
 			)
@@ -20325,7 +21668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b0c8779-ad7f-49be-b201-53270237222b")
-		(property "Reference" "DS?"
+		(property "Reference" "DS18"
 			(at 181.61 527.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20345,7 +21688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 629.59 0)
 			(hide yes)
 			(show_name no)
@@ -20473,7 +21816,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS18")
 					(unit 1)
 				)
 			)
@@ -20491,7 +21834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce1fe51-6961-483b-9439-1d1edeca58a8")
-		(property "Reference" "DS?"
+		(property "Reference" "DS48"
 			(at 260.35 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20511,7 +21854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 216.84 0)
 			(hide yes)
 			(show_name no)
@@ -20639,7 +21982,88 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 265.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e5a6515-33cf-4efe-aca4-427c63ac1af6")
+		(property "Reference" "C40"
+			(at 121.158 259.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.698 259.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 124.46 264.4648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b10409ca-9060-460f-8464-cb37ffdbc35f")
+		)
+		(pin "1"
+			(uuid "92b21e4c-5ee9-4f95-927b-18c8f639c682")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -20657,7 +22081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50abec11-6d3f-4271-a795-91c98ea97a69")
-		(property "Reference" "DS?"
+		(property "Reference" "DS69"
 			(at 260.35 737.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20677,7 +22101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 840.41 0)
 			(hide yes)
 			(show_name no)
@@ -20805,7 +22229,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS69")
 					(unit 1)
 				)
 			)
@@ -20813,7 +22237,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 113.03 972.82 0)
+		(at 109.22 972.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20824,7 +22248,7 @@
 		(fields_autoplaced yes)
 		(uuid "518644a4-2256-4504-900c-7f84efb126c6")
 		(property "Reference" "#PWR096"
-			(at 113.03 976.63 0)
+			(at 109.22 976.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20835,7 +22259,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 113.03 967.74 0)
+			(at 109.22 967.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20845,7 +22269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 972.82 0)
+			(at 109.22 972.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20856,7 +22280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 972.82 0)
+			(at 109.22 972.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20867,7 +22291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 972.82 0)
+			(at 109.22 972.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20901,7 +22325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51be08b6-d353-4c99-8840-cab019d504e3")
-		(property "Reference" "C?"
+		(property "Reference" "C19"
 			(at 118.1099 628.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20923,7 +22347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 631.4948 0)
 			(hide yes)
 			(show_name no)
@@ -20965,7 +22389,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -20983,7 +22407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51c322a6-8bea-43e9-9f33-07c54576646f")
-		(property "Reference" "DS?"
+		(property "Reference" "DS10"
 			(at 181.61 292.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21003,7 +22427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 394.64 0)
 			(hide yes)
 			(show_name no)
@@ -21131,7 +22555,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS10")
 					(unit 1)
 				)
 			)
@@ -21149,7 +22573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5289954b-f668-4260-9005-596326dfd0f6")
-		(property "Reference" "U?"
+		(property "Reference" "U9"
 			(at 91.44 624.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21169,7 +22593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 670.56 0)
 			(hide yes)
 			(show_name no)
@@ -21363,7 +22787,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -21381,7 +22805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "538965e1-8e66-4887-9499-7d5ad725e8e2")
-		(property "Reference" "DS?"
+		(property "Reference" "DS37"
 			(at 181.61 1083.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21401,7 +22825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1185.85 0)
 			(hide yes)
 			(show_name no)
@@ -21529,7 +22953,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS37")
 					(unit 1)
 				)
 			)
@@ -21547,7 +22971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5710e61f-e297-43b6-9fa8-29786727e7d6")
-		(property "Reference" "DS?"
+		(property "Reference" "DS51"
 			(at 260.35 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21567,7 +22991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 304.47 0)
 			(hide yes)
 			(show_name no)
@@ -21695,7 +23119,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS51")
 					(unit 1)
 				)
 			)
@@ -21791,7 +23215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5897eda8-0024-4a4d-9c80-f450487828d3")
-		(property "Reference" "U?"
+		(property "Reference" "U11"
 			(at 91.44 855.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21811,7 +23235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 901.7 0)
 			(hide yes)
 			(show_name no)
@@ -22005,7 +23429,167 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e36d7f2-fab3-471b-be18-7220154c13f5")
+		(property "Reference" "C39"
+			(at 121.158 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.698 143.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 124.46 148.8948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa427b36-81c0-4e7e-b637-9153ae0645fa")
+		)
+		(pin "1"
+			(uuid "941e45dd-c502-4356-803f-88ac546e471c")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 880.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61a3b544-88d4-4f27-a962-027bc16bf11d")
+		(property "Reference" "TP15"
+			(at 144.78 878.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 881.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 885.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 885.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 880.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9d52720-d262-44dc-a4b8-523f9d466089")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -22247,6 +23831,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 415.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "696da4d4-0d10-4f61-b8c9-fe4816beba50")
+		(property "Reference" "TP11"
+			(at 146.05 414.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 416.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 420.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 420.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7cccfc7-a42e-4940-b147-d08f447bc9f6")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 353.06 0)
 		(mirror y)
@@ -22404,6 +24067,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 120.65 388.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "713c0ffd-5793-4b5f-8ed9-eedf1a219b5c")
+		(property "Reference" "C41"
+			(at 121.158 382.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.698 382.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 124.46 387.6548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 388.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 388.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05b7d7a3-2d27-4845-a80d-60416307e5f0")
+		)
+		(pin "1"
+			(uuid "4559a773-b757-4d9e-9c31-7fa7e6cc52fd")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 163.83 233.68 0)
 		(unit 1)
@@ -22415,7 +24159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727ef7e1-90cc-4eea-b806-0d4bf96d3d58")
-		(property "Reference" "DS?"
+		(property "Reference" "DS8"
 			(at 181.61 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22435,7 +24179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 328.6 0)
 			(hide yes)
 			(show_name no)
@@ -22563,7 +24307,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS8")
 					(unit 1)
 				)
 			)
@@ -22727,6 +24471,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 120.65 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bab721a-0f75-4943-9bea-bd26298eeb79")
+		(property "Reference" "C38"
+			(at 121.158 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.698 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 124.46 37.1348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5238afa-e108-462f-9ef0-19862da7e7c2")
+		)
+		(pin "1"
+			(uuid "73e8994d-a527-48b4-84e4-a66711e2a753")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 49.53 0)
 		(unit 1)
@@ -22738,7 +24563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e4f7a38-26ad-46dd-b03d-4b4a16d66767")
-		(property "Reference" "DS?"
+		(property "Reference" "DS45"
 			(at 260.35 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22758,7 +24583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 144.45 0)
 			(hide yes)
 			(show_name no)
@@ -22886,7 +24711,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS45")
 					(unit 1)
 				)
 			)
@@ -22982,7 +24807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80886fec-b9e6-499d-bcb2-c27c28d6e681")
-		(property "Reference" "R?"
+		(property "Reference" "R20"
 			(at 48.26 994.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23046,7 +24871,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -23064,7 +24889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81af473c-51c5-42e8-9235-db2a876e7817")
-		(property "Reference" "DS?"
+		(property "Reference" "DS54"
 			(at 260.35 292.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23084,7 +24909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 394.64 0)
 			(hide yes)
 			(show_name no)
@@ -23212,7 +25037,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS54")
 					(unit 1)
 				)
 			)
@@ -23230,7 +25055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83d0ba48-d444-403d-bd26-568f2fef3b6e")
-		(property "Reference" "C?"
+		(property "Reference" "C23"
 			(at 118.1099 1088.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23252,7 +25077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 1091.2348 0)
 			(hide yes)
 			(show_name no)
@@ -23294,15 +25119,15 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 113.03 1205.23 0)
+		(lib_id "Connector:TestPoint")
+		(at 139.7 648.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23311,30 +25136,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86828292-9a1d-4ed0-8309-fb826d5ce171")
-		(property "Reference" "#PWR0106"
-			(at 113.03 1209.04 0)
-			(hide yes)
+		(uuid "84c2426f-290e-4e77-9bf4-8768003c54a8")
+		(property "Reference" "TP13"
+			(at 144.78 647.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 113.03 1200.15 0)
+		(property "Value" "TestPoint"
+			(at 144.78 650.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 1205.23 0)
+			(at 139.7 654.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23345,7 +25171,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 1205.23 0)
+			(at 139.7 654.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 648.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7cac033-0635-4006-ba6e-986305c4ea4f")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 110.49 1205.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86828292-9a1d-4ed0-8309-fb826d5ce171")
+		(property "Reference" "#PWR0106"
+			(at 110.49 1209.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.49 1200.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 1205.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 1205.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23356,7 +25260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 1205.23 0)
+			(at 110.49 1205.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23379,6 +25283,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 119.38 1196.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86ef1a40-a4d9-474a-82c3-704a336f48af")
+		(property "Reference" "C48"
+			(at 119.888 1190.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 122.428 1190.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 123.19 1195.3748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 1196.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 1196.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab6765e1-a023-444c-a307-c962d6f3f719")
+		)
+		(pin "1"
+			(uuid "cf2848d6-4445-4bf2-a048-c77dc358411b")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 934.72 0)
 		(unit 1)
@@ -23390,7 +25375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "876de6f8-a93a-4e0e-9ade-71412b0f7993")
-		(property "Reference" "DS?"
+		(property "Reference" "DS76"
 			(at 260.35 927.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23410,7 +25395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1029.64 0)
 			(hide yes)
 			(show_name no)
@@ -23538,7 +25523,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS76")
 					(unit 1)
 				)
 			)
@@ -23556,7 +25541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8793697c-4994-4765-ad30-483ac5af5ef9")
-		(property "Reference" "U?"
+		(property "Reference" "U7"
 			(at 91.44 389.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23576,7 +25561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 435.61 0)
 			(hide yes)
 			(show_name no)
@@ -23770,7 +25755,86 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 1108.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b488be1-e26f-4b2e-a1ca-8407f393a070")
+		(property "Reference" "TP17"
+			(at 144.78 1107.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 1109.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 1113.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 1113.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 1108.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60f8774e-c4d3-43be-9c6f-c650ed51c254")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -23788,7 +25852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c060ea0-7a93-4004-bfac-0f770a0a4cdf")
-		(property "Reference" "DS?"
+		(property "Reference" "DS71"
 			(at 260.35 786.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23808,7 +25872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 888.67 0)
 			(hide yes)
 			(show_name no)
@@ -23936,7 +26000,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS71")
 					(unit 1)
 				)
 			)
@@ -23954,7 +26018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eeb7b89-2bb1-44f7-934f-6f18780a9c26")
-		(property "Reference" "DS?"
+		(property "Reference" "DS28"
 			(at 181.61 810.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23974,7 +26038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 912.8 0)
 			(hide yes)
 			(show_name no)
@@ -24102,7 +26166,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS28")
 					(unit 1)
 				)
 			)
@@ -24119,7 +26183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f073d1a-8834-44fb-a52b-0ae9bac6fb5d")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 48.26 414.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24183,7 +26247,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -24280,7 +26344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9403bed1-7bcb-4e81-8a87-059be7b3ff5f")
-		(property "Reference" "DS?"
+		(property "Reference" "DS68"
 			(at 260.35 695.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24300,7 +26364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 798.5 0)
 			(hide yes)
 			(show_name no)
@@ -24428,7 +26492,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS68")
 					(unit 1)
 				)
 			)
@@ -24445,7 +26509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95778bd5-05bf-40f6-bc4b-741098200ba9")
-		(property "Reference" "R?"
+		(property "Reference" "R19"
 			(at 48.26 880.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24509,7 +26573,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -24526,7 +26590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "966512f3-4362-4509-bf86-f368e02ead02")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 48.26 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24590,7 +26654,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -24608,7 +26672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966c1c74-c018-42fc-8919-8ec3fb9512d0")
-		(property "Reference" "DS?"
+		(property "Reference" "DS38"
 			(at 181.61 1107.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24628,7 +26692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1209.98 0)
 			(hide yes)
 			(show_name no)
@@ -24756,7 +26820,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS38")
 					(unit 1)
 				)
 			)
@@ -24774,7 +26838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9805df66-a834-42c3-a022-51e4badbb2ba")
-		(property "Reference" "DS?"
+		(property "Reference" "DS79"
 			(at 260.35 1017.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24794,7 +26858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1119.81 0)
 			(hide yes)
 			(show_name no)
@@ -24922,7 +26986,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS79")
 					(unit 1)
 				)
 			)
@@ -24940,7 +27004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98692bd4-5e4f-46cb-8c88-23f348a5a6f8")
-		(property "Reference" "DS?"
+		(property "Reference" "DS31"
 			(at 181.61 902.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24960,7 +27024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1005.51 0)
 			(hide yes)
 			(show_name no)
@@ -25088,7 +27152,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS31")
 					(unit 1)
 				)
 			)
@@ -25106,7 +27170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98928335-1477-416c-a51a-d4b0fbf926cb")
-		(property "Reference" "C?"
+		(property "Reference" "C17"
 			(at 118.1099 393.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25128,7 +27192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 396.5448 0)
 			(hide yes)
 			(show_name no)
@@ -25170,7 +27234,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -25188,7 +27252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98cc52df-4b3d-45ec-8c49-a998cddb8ab4")
-		(property "Reference" "DS?"
+		(property "Reference" "DS21"
 			(at 181.61 623.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25208,7 +27272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 726.11 0)
 			(hide yes)
 			(show_name no)
@@ -25336,7 +27400,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS21")
 					(unit 1)
 				)
 			)
@@ -25416,6 +27480,87 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 1079.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d17f824-3533-47b6-b94a-33674f06e754")
+		(property "Reference" "C47"
+			(at 119.888 1073.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 122.428 1073.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 123.19 1078.5348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 1079.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 1079.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fad29da2-5b30-4b3b-a4f1-863a2804e333")
+		)
+		(pin "1"
+			(uuid "2c4c8db6-77d1-4114-9fc1-4a6247264f7c")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -25511,7 +27656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58f7088-b1c8-4a16-bf12-a1369118f1a4")
-		(property "Reference" "DS?"
+		(property "Reference" "DS49"
 			(at 260.35 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25531,7 +27676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 256.21 0)
 			(hide yes)
 			(show_name no)
@@ -25659,7 +27804,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS49")
 					(unit 1)
 				)
 			)
@@ -25677,7 +27822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7e0f4e7-da37-41ae-b5df-ab8c1b14e8b4")
-		(property "Reference" "C?"
+		(property "Reference" "C14"
 			(at 118.1099 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25699,7 +27844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 49.8348 0)
 			(hide yes)
 			(show_name no)
@@ -25741,7 +27886,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -25759,7 +27904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8907d72-cf06-451b-b2cb-da1bc0b9755e")
-		(property "Reference" "DS?"
+		(property "Reference" "DS50"
 			(at 260.35 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25779,7 +27924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 280.34 0)
 			(hide yes)
 			(show_name no)
@@ -25907,7 +28052,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS50")
 					(unit 1)
 				)
 			)
@@ -25925,7 +28070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c08a18-a1a1-48de-a28e-adaec530007f")
-		(property "Reference" "C?"
+		(property "Reference" "C18"
 			(at 118.1099 508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25947,7 +28092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 510.8448 0)
 			(hide yes)
 			(show_name no)
@@ -25989,7 +28134,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -26007,7 +28152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa48da20-2fc6-451d-b9b0-4bb8178c60a1")
-		(property "Reference" "DS?"
+		(property "Reference" "DS3"
 			(at 181.61 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26027,7 +28172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 192.71 0)
 			(hide yes)
 			(show_name no)
@@ -26155,7 +28300,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS3")
 					(unit 1)
 				)
 			)
@@ -26173,7 +28318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab21e626-7d80-4ceb-920d-fcf7f6671bec")
-		(property "Reference" "DS?"
+		(property "Reference" "DS58"
 			(at 260.35 412.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26193,7 +28338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 515.29 0)
 			(hide yes)
 			(show_name no)
@@ -26321,7 +28466,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS58")
 					(unit 1)
 				)
 			)
@@ -26339,7 +28484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab4b2053-ac03-4a9e-b74c-94b310c170e4")
-		(property "Reference" "DS?"
+		(property "Reference" "DS14"
 			(at 181.61 412.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26359,7 +28504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 515.29 0)
 			(hide yes)
 			(show_name no)
@@ -26487,7 +28632,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS14")
 					(unit 1)
 				)
 			)
@@ -26505,7 +28650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf6ea7f-fc60-4a5b-a975-4b31f7c4995a")
-		(property "Reference" "DS?"
+		(property "Reference" "DS9"
 			(at 181.61 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26525,7 +28670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 370.51 0)
 			(hide yes)
 			(show_name no)
@@ -26653,7 +28798,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS9")
 					(unit 1)
 				)
 			)
@@ -26670,7 +28815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac230638-c7f6-42cc-9dd2-4954e4f2c09a")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 48.26 293.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26734,7 +28879,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -26830,7 +28975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe78ad7-b53e-4855-b33a-746ca1a7eee2")
-		(property "Reference" "DS?"
+		(property "Reference" "DS5"
 			(at 181.61 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26850,7 +28995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 256.21 0)
 			(hide yes)
 			(show_name no)
@@ -26978,7 +29123,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS5")
 					(unit 1)
 				)
 			)
@@ -26996,7 +29141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ce506e-4607-4bd6-90da-2f8d64f6db8d")
-		(property "Reference" "DS?"
+		(property "Reference" "DS13"
 			(at 181.61 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27016,7 +29161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 491.16 0)
 			(hide yes)
 			(show_name no)
@@ -27144,7 +29289,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS13")
 					(unit 1)
 				)
 			)
@@ -27162,7 +29307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0dafdf8-8206-4212-b890-21ebf3a46410")
-		(property "Reference" "DS?"
+		(property "Reference" "DS61"
 			(at 260.35 502.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27182,7 +29327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 605.46 0)
 			(hide yes)
 			(show_name no)
@@ -27310,7 +29455,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS61")
 					(unit 1)
 				)
 			)
@@ -27328,7 +29473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21cdedf-e789-468f-b967-3bb6884dea89")
-		(property "Reference" "U?"
+		(property "Reference" "U12"
 			(at 91.44 970.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27348,7 +29493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 1016 0)
 			(hide yes)
 			(show_name no)
@@ -27542,7 +29687,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -27560,7 +29705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b240c7c3-e7b6-4558-9955-49d5c712200e")
-		(property "Reference" "DS?"
+		(property "Reference" "DS82"
 			(at 260.35 1107.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27580,7 +29725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1209.98 0)
 			(hide yes)
 			(show_name no)
@@ -27708,7 +29853,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS82")
 					(unit 1)
 				)
 			)
@@ -27726,7 +29871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b50e9ef9-ec15-44ef-bfe6-720dd29b3422")
-		(property "Reference" "DS?"
+		(property "Reference" "DS73"
 			(at 260.35 854.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27746,7 +29891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 957.25 0)
 			(hide yes)
 			(show_name no)
@@ -27874,7 +30019,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS73")
 					(unit 1)
 				)
 			)
@@ -27892,7 +30037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b78d11fc-8137-41e6-bf02-8228c5c870e2")
-		(property "Reference" "DS?"
+		(property "Reference" "DS72"
 			(at 260.35 810.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27912,7 +30057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 912.8 0)
 			(hide yes)
 			(show_name no)
@@ -28040,7 +30185,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS72")
 					(unit 1)
 				)
 			)
@@ -28058,7 +30203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8cd2afd-fc47-4500-82b6-58899c5ba6fb")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 91.44 739.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28078,7 +30223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 784.86 0)
 			(hide yes)
 			(show_name no)
@@ -28272,7 +30417,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -28290,7 +30435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b925d84c-022c-4dd8-9752-fd1239985e25")
-		(property "Reference" "DS?"
+		(property "Reference" "DS46"
 			(at 260.35 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28310,7 +30455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 168.58 0)
 			(hide yes)
 			(show_name no)
@@ -28438,7 +30583,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS46")
 					(unit 1)
 				)
 			)
@@ -28456,7 +30601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9605fea-126b-43df-81b2-0dc462a929d3")
-		(property "Reference" "C?"
+		(property "Reference" "C22"
 			(at 118.1099 974.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28478,7 +30623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 976.9348 0)
 			(hide yes)
 			(show_name no)
@@ -28520,7 +30665,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -28538,7 +30683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0cadfa-c30a-4a8f-b389-99c5b22db452")
-		(property "Reference" "DS?"
+		(property "Reference" "DS80"
 			(at 260.35 1041.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28558,7 +30703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1143.94 0)
 			(hide yes)
 			(show_name no)
@@ -28686,7 +30831,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS80")
 					(unit 1)
 				)
 			)
@@ -28704,7 +30849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba12586e-f1d3-4d02-a0fc-98a0de6fe93c")
-		(property "Reference" "DS?"
+		(property "Reference" "DS70"
 			(at 260.35 762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28724,7 +30869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 864.54 0)
 			(hide yes)
 			(show_name no)
@@ -28852,7 +30997,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS70")
 					(unit 1)
 				)
 			)
@@ -28870,7 +31015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba27d4eb-67f5-454a-b9c6-e5268796339f")
-		(property "Reference" "DS?"
+		(property "Reference" "DS22"
 			(at 181.61 647.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28890,7 +31035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 750.24 0)
 			(hide yes)
 			(show_name no)
@@ -29018,7 +31163,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS22")
 					(unit 1)
 				)
 			)
@@ -29036,7 +31181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9b2dc5-42df-45de-b974-ea9048bf8bfe")
-		(property "Reference" "DS?"
+		(property "Reference" "DS53"
 			(at 260.35 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29056,7 +31201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 370.51 0)
 			(hide yes)
 			(show_name no)
@@ -29184,7 +31329,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS53")
 					(unit 1)
 				)
 			)
@@ -29202,7 +31347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd3a9204-821f-44bc-99c3-a36bdfce91d6")
-		(property "Reference" "DS?"
+		(property "Reference" "DS2"
 			(at 181.61 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29222,7 +31367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 168.58 0)
 			(hide yes)
 			(show_name no)
@@ -29350,7 +31495,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS2")
 					(unit 1)
 				)
 			)
@@ -29358,7 +31503,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 113.03 1087.12 0)
+		(at 109.22 1087.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29369,7 +31514,7 @@
 		(fields_autoplaced yes)
 		(uuid "bec722d6-7c44-4670-9653-2c07cffeb7be")
 		(property "Reference" "#PWR0105"
-			(at 113.03 1090.93 0)
+			(at 109.22 1090.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29380,7 +31525,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 113.03 1082.04 0)
+			(at 109.22 1082.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29390,7 +31535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 1087.12 0)
+			(at 109.22 1087.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29401,7 +31546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 1087.12 0)
+			(at 109.22 1087.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29412,7 +31557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 1087.12 0)
+			(at 109.22 1087.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29603,7 +31748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1a530bb-1b2f-4166-96e4-e13b2b2f3788")
-		(property "Reference" "DS?"
+		(property "Reference" "DS15"
 			(at 181.61 436.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29623,7 +31768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 539.42 0)
 			(hide yes)
 			(show_name no)
@@ -29751,7 +31896,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS15")
 					(unit 1)
 				)
 			)
@@ -29769,7 +31914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c248de48-ec01-4e82-87b3-8c53ee86d9cf")
-		(property "Reference" "DS?"
+		(property "Reference" "DS12"
 			(at 181.61 340.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29789,7 +31934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 442.9 0)
 			(hide yes)
 			(show_name no)
@@ -29917,7 +32062,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS12")
 					(unit 1)
 				)
 			)
@@ -29935,7 +32080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3e288b9-09e3-4b98-9f0c-49b002bfa074")
-		(property "Reference" "DS?"
+		(property "Reference" "DS39"
 			(at 181.61 1131.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29955,7 +32100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1234.11 0)
 			(hide yes)
 			(show_name no)
@@ -30083,7 +32228,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS39")
 					(unit 1)
 				)
 			)
@@ -30101,7 +32246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4a9fd39-f632-4be2-a56d-caa1d804f674")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 91.44 504.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30121,7 +32266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 549.91 0)
 			(hide yes)
 			(show_name no)
@@ -30315,7 +32460,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -30490,7 +32635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9058545-933d-4aa5-8867-83b3894fa6e0")
-		(property "Reference" "DS?"
+		(property "Reference" "DS56"
 			(at 260.35 340.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30510,7 +32655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 442.9 0)
 			(hide yes)
 			(show_name no)
@@ -30638,7 +32783,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS56")
 					(unit 1)
 				)
 			)
@@ -30656,7 +32801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c98c0488-165d-4f89-a49e-7edbe0452daa")
-		(property "Reference" "C?"
+		(property "Reference" "C16"
 			(at 118.1099 273.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30678,7 +32823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 275.8948 0)
 			(hide yes)
 			(show_name no)
@@ -30720,7 +32865,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -30896,7 +33041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbd4f212-1f28-4d37-a09b-05945b897cfa")
-		(property "Reference" "U?"
+		(property "Reference" "U13"
 			(at 91.44 1084.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30916,7 +33061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7221CWG_:SOIC127P1032X265-24N"
+		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
 			(at 91.44 1130.3 0)
 			(hide yes)
 			(show_name no)
@@ -31110,7 +33255,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U?")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -31206,7 +33351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc9d4116-a401-4319-af0b-53b49f357ea3")
-		(property "Reference" "DS?"
+		(property "Reference" "DS23"
 			(at 181.61 671.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31226,7 +33371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 774.37 0)
 			(hide yes)
 			(show_name no)
@@ -31354,7 +33499,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS23")
 					(unit 1)
 				)
 			)
@@ -31372,7 +33517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb6e3ad-80c8-447e-9b1b-81e6f656fd61")
-		(property "Reference" "DS?"
+		(property "Reference" "DS43"
 			(at 181.61 1249.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31392,7 +33537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1352.22 0)
 			(hide yes)
 			(show_name no)
@@ -31520,7 +33665,167 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 855.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd7de8fb-1e2c-42b8-9eae-2a0b6d0393fb")
+		(property "Reference" "C45"
+			(at 122.428 849.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 124.968 849.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 125.73 855.0148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 855.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 855.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed432654-503b-4c88-ad7c-a4b04341868e")
+		)
+		(pin "1"
+			(uuid "f182a3de-9cac-406d-904b-047bf64c08ee")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 763.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d091b514-c78c-4719-9c3f-db8f7e3b59eb")
+		(property "Reference" "TP14"
+			(at 144.78 761.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 764.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 768.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 768.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 763.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe8782e2-c1ab-4100-b96b-4fe92d4a5c78")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -31538,7 +33843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2bb546c-22e7-403c-906b-3e1208c801ce")
-		(property "Reference" "DS?"
+		(property "Reference" "DS35"
 			(at 181.61 1017.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31558,7 +33863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1119.81 0)
 			(hide yes)
 			(show_name no)
@@ -31686,7 +33991,86 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 295.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2d43542-b322-45dc-9591-1cd5aa46feee")
+		(property "Reference" "TP10"
+			(at 144.78 294.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 297.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cefda949-24f7-411a-b784-7d3eba404e5a")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -31704,7 +34088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3c3cefa-c624-44a4-b4d2-74ec0dbb52e4")
-		(property "Reference" "DS?"
+		(property "Reference" "DS44"
 			(at 181.61 1273.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31724,7 +34108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1376.35 0)
 			(hide yes)
 			(show_name no)
@@ -31852,7 +34236,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS44")
 					(unit 1)
 				)
 			)
@@ -31870,7 +34254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d79d22f5-81cd-4761-b744-15705349fa89")
-		(property "Reference" "DS?"
+		(property "Reference" "DS27"
 			(at 181.61 786.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31890,7 +34274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 888.67 0)
 			(hide yes)
 			(show_name no)
@@ -32018,7 +34402,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS27")
 					(unit 1)
 				)
 			)
@@ -32036,7 +34420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d94d270c-84fa-45e2-b387-9cb623a3aa6a")
-		(property "Reference" "DS?"
+		(property "Reference" "DS63"
 			(at 260.35 551.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32056,7 +34440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 653.72 0)
 			(hide yes)
 			(show_name no)
@@ -32184,7 +34568,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS63")
 					(unit 1)
 				)
 			)
@@ -32202,7 +34586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da8a32e6-bb53-4e58-8c17-ef2588bc593c")
-		(property "Reference" "DS?"
+		(property "Reference" "DS60"
 			(at 260.35 461.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32222,7 +34606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 563.55 0)
 			(hide yes)
 			(show_name no)
@@ -32350,7 +34734,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS60")
 					(unit 1)
 				)
 			)
@@ -32514,6 +34898,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 527.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbaef1aa-71e7-4887-9dc5-1e50bffae986")
+		(property "Reference" "TP12"
+			(at 144.78 525.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 528.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 532.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 532.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 527.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8881eefc-97e0-4125-bbd3-59ebef9769ff")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 1109.98 0)
 		(unit 1)
@@ -32524,7 +34987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcfc682e-3ac7-4e61-a708-8a47bf3a194f")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 48.26 1108.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32588,7 +35051,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -32606,7 +35069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd4a98ac-cea5-49ac-a84f-d9de111387b3")
-		(property "Reference" "DS?"
+		(property "Reference" "DS33"
 			(at 181.61 969.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32626,7 +35089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1071.55 0)
 			(hide yes)
 			(show_name no)
@@ -32754,7 +35217,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS33")
 					(unit 1)
 				)
 			)
@@ -32772,7 +35235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddd370d2-0acc-4ea5-b0a0-c4a188e6a677")
-		(property "Reference" "DS?"
+		(property "Reference" "DS83"
 			(at 260.35 1131.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32792,7 +35255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1234.11 0)
 			(hide yes)
 			(show_name no)
@@ -32920,7 +35383,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS83")
 					(unit 1)
 				)
 			)
@@ -32938,7 +35401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0950709-1091-42f1-9cd8-55c746b599e3")
-		(property "Reference" "DS?"
+		(property "Reference" "DS32"
 			(at 181.61 927.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32958,7 +35421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1029.64 0)
 			(hide yes)
 			(show_name no)
@@ -33086,7 +35549,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS32")
 					(unit 1)
 				)
 			)
@@ -33104,7 +35567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3e9b882-ec52-4418-b6eb-c60ed1b377f0")
-		(property "Reference" "DS?"
+		(property "Reference" "DS36"
 			(at 181.61 1041.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33124,7 +35587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 1143.94 0)
 			(hide yes)
 			(show_name no)
@@ -33252,7 +35715,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS36")
 					(unit 1)
 				)
 			)
@@ -33270,7 +35733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6325b4f-5f8c-4aff-85c7-f4a853dc1ca4")
-		(property "Reference" "DS?"
+		(property "Reference" "DS59"
 			(at 260.35 436.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33290,7 +35753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 539.42 0)
 			(hide yes)
 			(show_name no)
@@ -33418,7 +35881,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS59")
 					(unit 1)
 				)
 			)
@@ -33515,7 +35978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7d95867-a2eb-47a8-8cd0-a6d7618572e1")
-		(property "Reference" "DS?"
+		(property "Reference" "DS25"
 			(at 181.61 737.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33535,7 +35998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 840.41 0)
 			(hide yes)
 			(show_name no)
@@ -33663,7 +36126,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS25")
 					(unit 1)
 				)
 			)
@@ -33681,7 +36144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e856f64f-b386-4c9e-8943-6d2912a909a7")
-		(property "Reference" "DS?"
+		(property "Reference" "DS4"
 			(at 181.61 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33701,7 +36164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 216.84 0)
 			(hide yes)
 			(show_name no)
@@ -33829,7 +36292,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS4")
 					(unit 1)
 				)
 			)
@@ -33925,7 +36388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9052990-2c43-4c0c-b7da-088ea8c7bde2")
-		(property "Reference" "DS?"
+		(property "Reference" "DS65"
 			(at 260.35 623.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33945,7 +36408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 726.11 0)
 			(hide yes)
 			(show_name no)
@@ -34073,7 +36536,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS65")
 					(unit 1)
 				)
 			)
@@ -34091,7 +36554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9918630-62d7-4d44-b185-56a827532f24")
-		(property "Reference" "DS?"
+		(property "Reference" "DS62"
 			(at 260.35 527.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34111,7 +36574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 629.59 0)
 			(hide yes)
 			(show_name no)
@@ -34239,7 +36702,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS62")
 					(unit 1)
 				)
 			)
@@ -34257,7 +36720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9eaec46-9f18-4088-a7bd-13763f851ec9")
-		(property "Reference" "C?"
+		(property "Reference" "C15"
 			(at 118.1099 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34279,7 +36742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
 			(at 123.19 161.5948 0)
 			(hide yes)
 			(show_name no)
@@ -34321,7 +36784,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C?")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -34338,7 +36801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb517fe5-7ad5-44fb-904b-469418feba14")
-		(property "Reference" "R?"
+		(property "Reference" "R17"
 			(at 48.26 648.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34402,7 +36865,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -34420,7 +36883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed6cb68c-126e-4741-9a57-e380420390bf")
-		(property "Reference" "DS?"
+		(property "Reference" "DS1"
 			(at 181.61 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34440,7 +36903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 195.58 144.45 0)
 			(hide yes)
 			(show_name no)
@@ -34568,7 +37031,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS1")
 					(unit 1)
 				)
 			)
@@ -34586,7 +37049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edac4afa-5c97-4c70-a611-f5f1be1ab6d5")
-		(property "Reference" "DS?"
+		(property "Reference" "DS66"
 			(at 260.35 647.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34606,7 +37069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 750.24 0)
 			(hide yes)
 			(show_name no)
@@ -34734,7 +37197,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS66")
 					(unit 1)
 				)
 			)
@@ -34752,7 +37215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed0d1b2-5afa-4319-abd8-d508d8d3f84f")
-		(property "Reference" "DS?"
+		(property "Reference" "DS81"
 			(at 260.35 1083.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34772,7 +37235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1185.85 0)
 			(hide yes)
 			(show_name no)
@@ -34900,7 +37363,88 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 619.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f03092b1-4293-4a63-9dd4-c34ed467dbb2")
+		(property "Reference" "C43"
+			(at 121.158 613.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.698 613.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 124.46 618.7948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 619.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 619.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3010d09d-eaa4-4602-bfb8-ab4114dd22be")
+		)
+		(pin "1"
+			(uuid "7cf73014-6eec-43d4-93b2-c9fd7cb1edaa")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -34908,7 +37452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 746.76 90)
+		(at 132.08 746.76 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -34920,7 +37464,7 @@
 		(fields_autoplaced yes)
 		(uuid "f111cd93-980c-4a3c-b53f-a2955e3f8b88")
 		(property "Reference" "#PWR098"
-			(at 133.35 746.76 0)
+			(at 138.43 746.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34931,7 +37475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 746.76 0)
+			(at 137.16 746.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34941,7 +37485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 746.76 0)
+			(at 132.08 746.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34952,7 +37496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 746.76 0)
+			(at 132.08 746.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34963,7 +37507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 746.76 0)
+			(at 132.08 746.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34997,7 +37541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38cc08a-0580-482a-a0fa-c8fcb8684059")
-		(property "Reference" "DS?"
+		(property "Reference" "DS75"
 			(at 260.35 902.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35017,7 +37561,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1005.51 0)
 			(hide yes)
 			(show_name no)
@@ -35145,7 +37689,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS75")
 					(unit 1)
 				)
 			)
@@ -35230,6 +37774,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 120.65 965.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f68bdb48-91ec-4ab3-8e44-aaf1ce411ab8")
+		(property "Reference" "C46"
+			(at 121.158 959.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 123.698 959.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
+			(at 124.46 964.2348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 965.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 965.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b0bd61f-f4e2-430c-ba50-2d39d6d9a4da")
+		)
+		(pin "1"
+			(uuid "eb649890-01d9-478b-a385-1f5513dde4b4")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 976.63 0)
 		(unit 1)
@@ -35241,7 +37866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc45b6f7-b2da-4bb4-8f46-4553501982fe")
-		(property "Reference" "DS?"
+		(property "Reference" "DS77"
 			(at 260.35 969.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35261,7 +37886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1071.55 0)
 			(hide yes)
 			(show_name no)
@@ -35389,7 +38014,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS77")
 					(unit 1)
 				)
 			)
@@ -35485,7 +38110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff021d8b-883a-46b2-b29a-3c07bea1e5b1")
-		(property "Reference" "DS?"
+		(property "Reference" "DS84"
 			(at 260.35 1155.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35505,7 +38130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACSC0341EWAF01"
+		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
 			(at 274.32 1258.24 0)
 			(hide yes)
 			(show_name no)
@@ -35633,7 +38258,7 @@
 		(instances
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS?")
+					(reference "DS84")
 					(unit 1)
 				)
 			)
