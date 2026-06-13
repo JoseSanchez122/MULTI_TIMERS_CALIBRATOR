@@ -1883,28 +1883,10 @@
 		(uuid "157a953d-817b-4605-bf28-36944eea6d5d")
 	)
 	(junction
-		(at 124.46 397.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "161898c5-76d5-47d4-8e6d-363e8f7e2880")
-	)
-	(junction
 		(at 113.03 863.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b4a059-03db-41cf-916d-2d6e3fbdedc8")
-	)
-	(junction
-		(at 125.73 1210.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21ff5865-2f0a-4943-9578-550bdc248c2c")
-	)
-	(junction
-		(at 115.57 632.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "250f124c-4017-4abd-8597-705f3f69b552")
 	)
 	(junction
 		(at 135.89 180.34)
@@ -1937,52 +1919,10 @@
 		(uuid "4ec7cbb7-c16b-4712-853d-7263e72ef928")
 	)
 	(junction
-		(at 111.76 1092.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "530a0530-ff7a-4262-85d6-04d01c92fde2")
-	)
-	(junction
-		(at 124.46 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53392ab5-7a20-4255-a75b-e1c8186b28f8")
-	)
-	(junction
-		(at 114.3 863.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53a81296-16e0-465f-a941-68320014f8c2")
-	)
-	(junction
-		(at 114.3 397.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "554a347d-0521-4cb2-8af7-67b1e702183a")
-	)
-	(junction
-		(at 124.46 511.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58880588-be1d-4904-8b30-6271be4acfe6")
-	)
-	(junction
 		(at 139.7 648.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b7fec1f-37ae-4c80-bdc0-f4c9c95580a7")
-	)
-	(junction
-		(at 118.11 746.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74ff070f-a27e-494f-91f7-637b7dd1033b")
-	)
-	(junction
-		(at 125.73 1092.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "775ce10e-199c-4f3c-8136-09a3edc75f09")
 	)
 	(junction
 		(at 113.03 162.56)
@@ -1997,46 +1937,10 @@
 		(uuid "88c71b35-838f-498a-9c7a-2bafc2e62d5c")
 	)
 	(junction
-		(at 125.73 276.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89677f95-867b-42f7-bee8-50025df1bce7")
-	)
-	(junction
-		(at 115.57 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ba3b81f-3277-486f-b4d1-8029b0e5c821")
-	)
-	(junction
 		(at 140.97 415.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dd598aa-1745-405b-8f82-d767d8a6c311")
-	)
-	(junction
-		(at 124.46 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e76ed83-dca5-44e2-a232-7f5ccb473f2f")
-	)
-	(junction
-		(at 124.46 632.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95739fae-4853-4837-a4ea-7c97495c7471")
-	)
-	(junction
-		(at 130.81 746.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1929bdd-a8b7-4756-81df-d3924c357170")
-	)
-	(junction
-		(at 113.03 1210.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aec02176-d6e4-4366-85ca-ceb53bbdebbb")
 	)
 	(junction
 		(at 139.7 527.05)
@@ -2045,22 +1949,10 @@
 		(uuid "b225b755-a3ae-4ba5-89cc-6654c1659a74")
 	)
 	(junction
-		(at 125.73 977.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6a1851d-0ea0-48bb-8942-ef09da50283f")
-	)
-	(junction
 		(at 113.03 746.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd31e217-d27e-467c-84ad-dbf2ff7f9705")
-	)
-	(junction
-		(at 115.57 276.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bffd3d62-5019-465e-a6fa-cb41d042a2e7")
 	)
 	(junction
 		(at 115.57 162.56)
@@ -2093,12 +1985,6 @@
 		(uuid "e781ad37-f0f8-4193-82ec-b12dcffb5b77")
 	)
 	(junction
-		(at 125.73 863.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8b1d32b-305c-4413-a673-4dac7a60eb0c")
-	)
-	(junction
 		(at 139.7 763.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2109,12 +1995,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8c7c5e5-a6ad-4706-a224-66eb22176c42")
-	)
-	(junction
-		(at 113.03 977.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc0bd9f8-d2f3-4d02-b643-bb68a1eac7f8")
 	)
 	(no_connect
 		(at 109.22 1228.09)
@@ -2134,26 +2014,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 1196.34) (xy 113.03 1196.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0366465b-e904-4288-a661-7bd494926b93")
-	)
-	(wire
-		(pts
-			(xy 125.73 855.98) (xy 125.73 863.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0686d7d6-1d85-4b28-8135-bacb3c53ac3b")
-	)
-	(wire
-		(pts
 			(xy 135.89 167.64) (xy 135.89 180.34)
 		)
 		(stroke
@@ -2161,16 +2021,6 @@
 			(type default)
 		)
 		(uuid "06fc14de-d410-4b37-94e1-c3635ea077ce")
-	)
-	(wire
-		(pts
-			(xy 113.03 863.6) (xy 114.3 863.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07485825-6770-4540-967b-5e7c13235290")
 	)
 	(wire
 		(pts
@@ -2184,17 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 149.86) (xy 124.46 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dbef59-4e54-4e3a-b391-0247c4c52b3c")
-	)
-	(wire
-		(pts
-			(xy 109.22 1092.2) (xy 111.76 1092.2)
+			(xy 109.22 1092.2) (xy 115.57 1092.2)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 1092.2) (xy 127 1092.2)
+			(xy 123.19 1092.2) (xy 127 1092.2)
 		)
 		(stroke
 			(width 0)
@@ -2321,16 +2161,6 @@
 			(type default)
 		)
 		(uuid "2558d7e4-3e80-428c-8a53-c13ac5d838ce")
-	)
-	(wire
-		(pts
-			(xy 116.84 265.43) (xy 115.57 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25656e30-2b26-4ab8-9aa2-ff94569c872d")
 	)
 	(wire
 		(pts
@@ -2414,7 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 977.9) (xy 113.03 977.9)
+			(xy 109.22 977.9) (xy 115.57 977.9)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 511.81) (xy 124.46 511.81)
+			(xy 123.19 511.81) (xy 127 511.81)
 		)
 		(stroke
 			(width 0)
@@ -2454,17 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 619.76) (xy 115.57 632.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "307e04b2-fe9e-4dd2-9dbf-084e2378e41c")
-	)
-	(wire
-		(pts
-			(xy 114.3 863.6) (xy 115.57 863.6)
+			(xy 113.03 863.6) (xy 115.57 863.6)
 		)
 		(stroke
 			(width 0)
@@ -2481,16 +2301,6 @@
 			(type default)
 		)
 		(uuid "30a7faa3-addf-4d44-869e-c349564fce71")
-	)
-	(wire
-		(pts
-			(xy 123.19 863.6) (xy 125.73 863.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31476065-9361-4aee-b1d3-6e18facefb80")
 	)
 	(wire
 		(pts
@@ -2531,26 +2341,6 @@
 			(type default)
 		)
 		(uuid "3768d951-f23f-4513-bd77-4c0a306b29fd")
-	)
-	(wire
-		(pts
-			(xy 116.84 388.62) (xy 114.3 388.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "391a754a-c3a4-4ded-9e5f-d45976db351f")
-	)
-	(wire
-		(pts
-			(xy 115.57 1079.5) (xy 111.76 1079.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399e1e91-cbc5-48a6-ac20-27664ecc00a4")
 	)
 	(wire
 		(pts
@@ -2604,26 +2394,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 632.46) (xy 124.46 632.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41cfd50c-6a30-4c74-91e0-230b5d0b37c7")
-	)
-	(wire
-		(pts
-			(xy 130.81 737.87) (xy 130.81 746.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d98c1c-fbab-4777-9442-3ec2be331b7a")
-	)
-	(wire
-		(pts
 			(xy 109.22 162.56) (xy 113.03 162.56)
 		)
 		(stroke
@@ -2631,16 +2401,6 @@
 			(type default)
 		)
 		(uuid "43002715-c509-4eb9-a743-b00eff5b3f1a")
-	)
-	(wire
-		(pts
-			(xy 113.03 397.51) (xy 114.3 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43fd134e-7126-4cce-a530-56f324b7d24d")
 	)
 	(wire
 		(pts
@@ -2684,47 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 1196.34) (xy 125.73 1196.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b74915-cd62-4b68-9ace-7ef10cef3573")
-	)
-	(wire
-		(pts
-			(xy 113.03 977.9) (xy 115.57 977.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48d00911-992f-4920-b68a-dcccc715d045")
-	)
-	(wire
-		(pts
-			(xy 123.19 1210.31) (xy 125.73 1210.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "493dea84-b0e7-4730-9401-d049c8b1c393")
-	)
-	(wire
-		(pts
-			(xy 124.46 397.51) (xy 127 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afe3500-9941-4e6f-be65-fdc1a96ede16")
-	)
-	(wire
-		(pts
-			(xy 128.27 746.76) (xy 130.81 746.76)
+			(xy 128.27 746.76) (xy 132.08 746.76)
 		)
 		(stroke
 			(width 0)
@@ -2774,16 +2494,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 38.1) (xy 124.46 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e28a18f-21a5-4d88-b1b1-ef6bd571402f")
-	)
-	(wire
-		(pts
 			(xy 111.76 1281.43) (xy 109.22 1281.43)
 		)
 		(stroke
@@ -2804,23 +2514,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 276.86) (xy 125.73 276.86)
+			(xy 123.19 276.86) (xy 127 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f9baa8f-8dfe-4e31-81b1-6b202253713d")
-	)
-	(wire
-		(pts
-			(xy 125.73 965.2) (xy 125.73 977.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5309774a-da49-42ba-b8e8-5d79c56dcfb3")
 	)
 	(wire
 		(pts
@@ -2854,16 +2554,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 619.76) (xy 124.46 632.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c89086-5227-40c6-a58c-89ee286d2db7")
-	)
-	(wire
-		(pts
 			(xy 50.8 406.4) (xy 50.8 411.48)
 		)
 		(stroke
@@ -2874,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 977.9) (xy 127 977.9)
+			(xy 123.19 977.9) (xy 127 977.9)
 		)
 		(stroke
 			(width 0)
@@ -2924,16 +2614,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 116.84 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60fcffff-b831-497c-9064-11c384a4ee3f")
-	)
-	(wire
-		(pts
 			(xy 139.7 751.84) (xy 139.7 763.27)
 		)
 		(stroke
@@ -2974,16 +2654,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 737.87) (xy 130.81 737.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639154d4-4af4-4672-b1f2-da1aa1b1b6cd")
-	)
-	(wire
-		(pts
 			(xy 109.22 167.64) (xy 135.89 167.64)
 		)
 		(stroke
@@ -3004,33 +2674,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 737.87) (xy 118.11 746.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65fab25b-f67f-436a-8c00-bd9a252fff66")
-	)
-	(wire
-		(pts
-			(xy 110.49 1210.31) (xy 113.03 1210.31)
+			(xy 110.49 1210.31) (xy 115.57 1210.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "667439cd-c2f5-4cd5-a028-332f3fdd6d93")
-	)
-	(wire
-		(pts
-			(xy 116.84 619.76) (xy 115.57 619.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69861321-2cca-4e2c-b885-151b2e784dfe")
 	)
 	(wire
 		(pts
@@ -3074,16 +2724,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 1196.34) (xy 113.03 1210.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c946eea-6498-4e36-a1c7-b88cf8de9995")
-	)
-	(wire
-		(pts
 			(xy 139.7 281.94) (xy 139.7 295.91)
 		)
 		(stroke
@@ -3104,23 +2744,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 127 50.8)
+			(xy 123.19 50.8) (xy 127 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fec38a7-9828-4ae1-b4e8-183df28bf908")
-	)
-	(wire
-		(pts
-			(xy 118.11 855.98) (xy 114.3 855.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b77cf9-a9db-4357-9290-5092f2d04278")
 	)
 	(wire
 		(pts
@@ -3174,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 855.98) (xy 114.3 863.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7442852e-6f59-4446-a56f-fc99ce0c27d6")
-	)
-	(wire
-		(pts
 			(xy 50.8 1005.84) (xy 73.66 1005.84)
 		)
 		(stroke
@@ -3204,17 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 1092.2) (xy 115.57 1092.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb6bda3-b6f5-44cf-bd19-5d116944be3a")
-	)
-	(wire
-		(pts
-			(xy 125.73 1210.31) (xy 127 1210.31)
+			(xy 123.19 1210.31) (xy 127 1210.31)
 		)
 		(stroke
 			(width 0)
@@ -3264,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 632.46) (xy 127 632.46)
+			(xy 123.19 632.46) (xy 127 632.46)
 		)
 		(stroke
 			(width 0)
@@ -3281,16 +2891,6 @@
 			(type default)
 		)
 		(uuid "87d4dc53-3bf7-4199-afe1-becdb5eaeea5")
-	)
-	(wire
-		(pts
-			(xy 125.73 276.86) (xy 127 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897df40a-ffcd-4229-9625-8e9c4367c320")
 	)
 	(wire
 		(pts
@@ -3314,33 +2914,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 1079.5) (xy 111.76 1092.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb7f8fa-07a4-40c3-8f01-657b81ffd1b4")
-	)
-	(wire
-		(pts
-			(xy 123.19 397.51) (xy 124.46 397.51)
+			(xy 123.19 397.51) (xy 127 397.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8ea3eafc-24d2-4950-9f12-b1c995feeac4")
-	)
-	(wire
-		(pts
-			(xy 124.46 965.2) (xy 125.73 965.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fecc98a-1e82-47bf-93e1-5c9a849ece64")
 	)
 	(wire
 		(pts
@@ -3354,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 863.6) (xy 127 863.6)
+			(xy 123.19 863.6) (xy 127 863.6)
 		)
 		(stroke
 			(width 0)
@@ -3404,23 +2984,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 397.51) (xy 115.57 397.51)
+			(xy 113.03 397.51) (xy 115.57 397.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "981ee16c-a75d-4959-818e-53873ea22c77")
-	)
-	(wire
-		(pts
-			(xy 123.19 977.9) (xy 125.73 977.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984ec915-84cf-410b-b875-e8d7677c18bb")
 	)
 	(wire
 		(pts
@@ -3444,16 +3014,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 1210.31) (xy 115.57 1210.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9c4e1b-dc92-4262-9be9-445fb62d2708")
-	)
-	(wire
-		(pts
 			(xy 54.61 756.92) (xy 73.66 756.92)
 		)
 		(stroke
@@ -3474,23 +3034,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 746.76) (xy 118.11 746.76)
+			(xy 113.03 746.76) (xy 120.65 746.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e934772-a931-4b7e-b634-75014360f590")
-	)
-	(wire
-		(pts
-			(xy 124.46 511.81) (xy 127 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fae86f1-ddb3-4f87-b74c-f5c2951e7fc2")
 	)
 	(wire
 		(pts
@@ -3544,16 +3094,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 388.62) (xy 114.3 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a806c47e-51cd-4b9c-a328-6d4ac778c6de")
-	)
-	(wire
-		(pts
 			(xy 113.03 50.8) (xy 115.57 50.8)
 		)
 		(stroke
@@ -3561,16 +3101,6 @@
 			(type default)
 		)
 		(uuid "a83fd265-411f-4a31-a3b8-e3f6495a62f4")
-	)
-	(wire
-		(pts
-			(xy 116.84 501.65) (xy 116.84 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83ffbaa-50c4-4599-89df-99d274d52837")
 	)
 	(wire
 		(pts
@@ -3591,16 +3121,6 @@
 			(type default)
 		)
 		(uuid "a97dd2c1-9aaa-4fee-9925-86425dcc8a34")
-	)
-	(wire
-		(pts
-			(xy 118.11 746.76) (xy 120.65 746.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d418b2-8f58-48e8-990d-d7cf08f05500")
 	)
 	(wire
 		(pts
@@ -3644,16 +3164,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 265.43) (xy 125.73 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24e9964-c458-450d-b03c-610c8dbdea1e")
-	)
-	(wire
-		(pts
 			(xy 113.03 511.81) (xy 113.03 506.73)
 		)
 		(stroke
@@ -3664,16 +3174,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 746.76) (xy 132.08 746.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e5b7b6-9373-4c67-9c27-a16d4537ec71")
-	)
-	(wire
-		(pts
 			(xy 139.7 295.91) (xy 139.7 375.92)
 		)
 		(stroke
@@ -3681,16 +3181,6 @@
 			(type default)
 		)
 		(uuid "b4d6ac30-d969-4cdb-a7b4-0b9bbca0215e")
-	)
-	(wire
-		(pts
-			(xy 125.73 1196.34) (xy 125.73 1210.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b501de2c-21e4-410e-8342-a637f01fbb91")
 	)
 	(wire
 		(pts
@@ -3754,16 +3244,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 265.43) (xy 125.73 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed3a8b8-b3a7-4952-8d38-ba3fef7dad61")
-	)
-	(wire
-		(pts
 			(xy 139.7 527.05) (xy 139.7 609.6)
 		)
 		(stroke
@@ -3771,16 +3251,6 @@
 			(type default)
 		)
 		(uuid "bf90b0ac-d440-44d8-bce4-82cf7c682c3f")
-	)
-	(wire
-		(pts
-			(xy 124.46 388.62) (xy 124.46 397.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12c17f7-2a5e-4bef-be35-4e655b66fdee")
 	)
 	(wire
 		(pts
@@ -3844,16 +3314,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 965.2) (xy 113.03 965.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf81058-ecd0-4fea-ad6a-e722598c7565")
-	)
-	(wire
-		(pts
 			(xy 50.8 298.45) (xy 50.8 304.8)
 		)
 		(stroke
@@ -3904,26 +3364,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 149.86) (xy 116.84 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46fd9b1-8d14-47de-8fdd-a38497a99f89")
-	)
-	(wire
-		(pts
-			(xy 115.57 38.1) (xy 115.57 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f03906-ebd5-4348-bc69-ed97e6c7ccd6")
-	)
-	(wire
-		(pts
 			(xy 50.8 1231.9) (xy 50.8 1238.25)
 		)
 		(stroke
@@ -3941,16 +3381,6 @@
 			(type default)
 		)
 		(uuid "d6e23ff1-11e5-4d04-a853-7e62bd36e599")
-	)
-	(wire
-		(pts
-			(xy 125.73 1079.5) (xy 125.73 1092.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8338042-30fa-45f0-9f83-0673bff9dbc2")
 	)
 	(wire
 		(pts
@@ -3981,16 +3411,6 @@
 			(type default)
 		)
 		(uuid "dc541b3b-75ed-4e57-bf51-d7bb8644b365")
-	)
-	(wire
-		(pts
-			(xy 123.19 1079.5) (xy 125.73 1079.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7e6cd1-d485-404e-aad7-9e1aa1836168")
 	)
 	(wire
 		(pts
@@ -4064,16 +3484,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 265.43) (xy 115.57 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ba5f20-6a42-476f-ba55-e173a706953c")
-	)
-	(wire
-		(pts
 			(xy 139.7 375.92) (xy 55.88 375.92)
 		)
 		(stroke
@@ -4094,23 +3504,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 162.56) (xy 127 162.56)
+			(xy 123.19 162.56) (xy 127 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7d3cf2e-fbcc-46dc-b31e-12c79dcb19d3")
-	)
-	(wire
-		(pts
-			(xy 123.19 1092.2) (xy 125.73 1092.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6f3572-7593-4e2e-9442-7e557a6e13ff")
 	)
 	(wire
 		(pts
@@ -4121,16 +3521,6 @@
 			(type default)
 		)
 		(uuid "edf2a7ea-4dfc-4000-b8fe-dbd74c17d713")
-	)
-	(wire
-		(pts
-			(xy 124.46 501.65) (xy 124.46 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee6e38b-2c98-4790-be4d-91de95ef9bf5")
 	)
 	(wire
 		(pts
@@ -4154,16 +3544,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 162.56) (xy 124.46 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f7284d-4e39-4600-bc59-36f044c987a8")
-	)
-	(wire
-		(pts
 			(xy 113.03 162.56) (xy 115.57 162.56)
 		)
 		(stroke
@@ -4184,26 +3564,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 737.87) (xy 118.11 737.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56ccae7-a675-4f82-bffd-492996575d6b")
-	)
-	(wire
-		(pts
-			(xy 113.03 965.2) (xy 113.03 977.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57e6894-9427-4d70-a4d1-617e7df1ba12")
-	)
-	(wire
-		(pts
 			(xy 111.76 347.98) (xy 109.22 347.98)
 		)
 		(stroke
@@ -4211,16 +3571,6 @@
 			(type default)
 		)
 		(uuid "f6d9ed14-0030-48dd-9de1-771e4e837bf1")
-	)
-	(wire
-		(pts
-			(xy 123.19 50.8) (xy 124.46 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa5a0ac7-552b-4bf9-98d3-112d5255250a")
 	)
 	(wire
 		(pts
@@ -14902,87 +14252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 120.65 501.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01062bfe-3549-4283-bd4f-1e2cab59c693")
-		(property "Reference" "C42"
-			(at 121.158 495.554 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.698 495.554 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 124.46 500.6848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 501.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 501.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6b143600-d5e4-4498-a0e5-155700a9a1f0")
-		)
-		(pin "1"
-			(uuid "1618703f-879b-4fcc-aa58-4e1f0f1492f9")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Disp_Controler_MAX7221CWG_:MAX7221CWG_")
 		(at 91.44 88.9 0)
 		(unit 1)
@@ -18316,87 +17585,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 124.46 737.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "291a41d2-1ead-4fe1-87b2-9cb46da00a52")
-		(property "Reference" "C44"
-			(at 124.968 731.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 127.508 731.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 128.27 736.9048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 737.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 737.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a2439b5c-412a-465b-b4e3-be13047b53f2")
-		)
-		(pin "1"
-			(uuid "93786b4a-3916-4c4d-a4f2-aa9c6702102a")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 50.8 68.58 0)
 		(unit 1)
@@ -19209,10 +18397,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2de4933d-ab88-4e29-adcf-4427bcb72cb3")
 		(property "Reference" "C21"
-			(at 118.1099 859.79 0)
+			(at 118.364 860.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19223,7 +18410,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 120.6499 859.79 0)
+			(at 120.904 860.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21971,87 +21158,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 120.65 265.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4e5a6515-33cf-4efe-aca4-427c63ac1af6")
-		(property "Reference" "C40"
-			(at 121.158 259.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.698 259.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 124.46 264.4648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b10409ca-9060-460f-8464-cb37ffdbc35f")
-		)
-		(pin "1"
-			(uuid "92b21e4c-5ee9-4f95-927b-18c8f639c682")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 745.49 0)
 		(unit 1)
@@ -23418,87 +22524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 120.65 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e36d7f2-fab3-471b-be18-7220154c13f5")
-		(property "Reference" "C39"
-			(at 121.158 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.698 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 124.46 148.8948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fa427b36-81c0-4e7e-b637-9153ae0645fa")
-		)
-		(pin "1"
-			(uuid "941e45dd-c502-4356-803f-88ac546e471c")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 880.11 270)
 		(unit 1)
@@ -24049,87 +23074,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 120.65 388.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "713c0ffd-5793-4b5f-8ed9-eedf1a219b5c")
-		(property "Reference" "C41"
-			(at 121.158 382.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.698 382.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 124.46 387.6548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 388.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "05b7d7a3-2d27-4845-a80d-60416307e5f0")
-		)
-		(pin "1"
-			(uuid "4559a773-b757-4d9e-9c31-7fa7e6cc52fd")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 163.83 233.68 0)
 		(unit 1)
@@ -24447,87 +23391,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 120.65 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7bab721a-0f75-4943-9bea-bd26298eeb79")
-		(property "Reference" "C38"
-			(at 121.158 32.004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.698 32.004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 124.46 37.1348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f5238afa-e108-462f-9ef0-19862da7e7c2")
-		)
-		(pin "1"
-			(uuid "73e8994d-a527-48b4-84e4-a66711e2a753")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -25259,87 +24122,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 1196.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86ef1a40-a4d9-474a-82c3-704a336f48af")
-		(property "Reference" "C48"
-			(at 119.888 1190.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 122.428 1190.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 123.19 1195.3748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 1196.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 1196.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ab6765e1-a023-444c-a307-c962d6f3f719")
-		)
-		(pin "1"
-			(uuid "cf2848d6-4445-4bf2-a048-c77dc358411b")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -27462,87 +26244,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 1079.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d17f824-3533-47b6-b94a-33674f06e754")
-		(property "Reference" "C47"
-			(at 119.888 1073.404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 122.428 1073.404 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 123.19 1078.5348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 1079.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 1079.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fad29da2-5b30-4b3b-a4f1-863a2804e333")
-		)
-		(pin "1"
-			(uuid "2c4c8db6-77d1-4114-9fc1-4a6247264f7c")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -33654,87 +32355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 121.92 855.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd7de8fb-1e2c-42b8-9eae-2a0b6d0393fb")
-		(property "Reference" "C45"
-			(at 122.428 849.884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 124.968 849.884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 125.73 855.0148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 855.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 855.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ed432654-503b-4c88-ad7c-a4b04341868e")
-		)
-		(pin "1"
-			(uuid "f182a3de-9cac-406d-904b-047bf64c08ee")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 763.27 270)
 		(unit 1)
@@ -37352,87 +35972,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 120.65 619.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f03092b1-4293-4a63-9dd4-c34ed467dbb2")
-		(property "Reference" "C43"
-			(at 121.158 613.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.698 613.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 124.46 618.7948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 619.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 619.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3010d09d-eaa4-4602-bfb8-ab4114dd22be")
-		)
-		(pin "1"
-			(uuid "7cf73014-6eec-43d4-93b2-c9fd7cb1edaa")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 746.76 90)
 		(mirror x)
@@ -37750,87 +36289,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 120.65 965.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f68bdb48-91ec-4ab3-8e44-aaf1ce411ab8")
-		(property "Reference" "C46"
-			(at 121.158 959.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 123.698 959.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_TANT_CAP_T491B106K016AT"
-			(at 124.46 964.2348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 965.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 965.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b0bd61f-f4e2-430c-ba50-2d39d6d9a4da")
-		)
-		(pin "1"
-			(uuid "eb649890-01d9-478b-a385-1f5513dde4b4")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C46")
 					(unit 1)
 				)
 			)
