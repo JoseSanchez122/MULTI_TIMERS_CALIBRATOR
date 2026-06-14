@@ -6432,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 68.58) (xy 186.69 72.39)
+			(xy 308.61 165.1) (xy 308.61 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7062,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 55.88) (xy 186.69 60.96)
+			(xy 308.61 152.4) (xy 308.61 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7972,7 +7972,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 80.01) (xy 186.69 85.09)
+			(xy 308.61 176.53) (xy 308.61 181.61)
 		)
 		(stroke
 			(width 0)
@@ -15306,7 +15306,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 64.77 0)
+		(at 308.61 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15317,7 +15317,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3523dde-9a5d-4489-94a9-f4f2643f4642")
 		(property "Reference" "R9"
-			(at 189.23 63.4999 0)
+			(at 311.15 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15328,7 +15328,7 @@
 			)
 		)
 		(property "Value" "68"
-			(at 189.23 66.0399 0)
+			(at 311.15 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15339,7 +15339,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
-			(at 184.912 64.77 90)
+			(at 306.832 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15350,7 +15350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 64.77 0)
+			(at 308.61 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15361,7 +15361,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 64.77 0)
+			(at 308.61 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17139,7 +17139,7 @@
 	)
 	(symbol
 		(lib_id "GREEN_LED_LTST-C170KGKT:LTST-C170KGKT")
-		(at 186.69 77.47 90)
+		(at 308.61 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17150,7 +17150,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaee9064-2834-4d3e-9ac5-8dfd50475f4e")
 		(property "Reference" "D2"
-			(at 189.23 75.2855 90)
+			(at 311.15 171.8055 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17161,7 +17161,7 @@
 			)
 		)
 		(property "Value" "LTST-C170KGKT"
-			(at 189.23 77.8255 90)
+			(at 311.15 174.3455 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17172,7 +17172,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:GREEN_LED_LTST-C170KGKT"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17184,7 +17184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17195,7 +17195,7 @@
 			)
 		)
 		(property "Description" "Green 571nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17207,7 +17207,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "160-1414-1-ND"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17219,7 +17219,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C170KGKT/Lite-On/view-part/?ref=snap"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17231,7 +17231,7 @@
 			)
 		)
 		(property "Package" "0805 Lite-On"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17243,7 +17243,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C170KGKT/Lite-On/view-part/?ref=eda"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17255,7 +17255,7 @@
 			)
 		)
 		(property "MF" "Lite-On Inc."
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17267,7 +17267,7 @@
 			)
 		)
 		(property "MP" "LTST-C170KGKT"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17279,7 +17279,7 @@
 			)
 		)
 		(property "MANUFACTURER" "LiteOn"
-			(at 186.69 77.47 0)
+			(at 308.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17307,7 +17307,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 186.69 55.88 0)
+		(at 308.61 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17318,7 +17318,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecf4b72b-3d3a-4631-8cb1-6fadfbd4d521")
 		(property "Reference" "#PWR0123"
-			(at 186.69 59.69 0)
+			(at 308.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17329,7 +17329,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 186.69 50.8 0)
+			(at 308.61 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17339,7 +17339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 55.88 0)
+			(at 308.61 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17350,7 +17350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 55.88 0)
+			(at 308.61 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17361,7 +17361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 186.69 55.88 0)
+			(at 308.61 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17462,7 +17462,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 85.09 0)
+		(at 308.61 181.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17474,7 +17474,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5420083-095e-4674-9e7f-1ec460758f6d")
 		(property "Reference" "#PWR0124"
-			(at 186.69 91.44 0)
+			(at 308.61 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17485,7 +17485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 90.17 0)
+			(at 308.61 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17495,7 +17495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 85.09 0)
+			(at 308.61 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17506,7 +17506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 85.09 0)
+			(at 308.61 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17517,7 +17517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 85.09 0)
+			(at 308.61 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17935,45 +17935,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "2c2b7c9f-ff8d-4acb-a1e8-daa85f5b59e1")
-		(members "1ee4661e-a290-4e5d-a427-a51335c3cdc1" "2fdad6c9-7f78-4bd3-9bf1-16232ea01b6a"
-			"30f73191-f5c0-48e7-9eee-a1949b50b4d3" "40d9613f-89cc-4831-ad89-32b0af529d14"
-			"4a275cc5-71dd-43e0-a01c-b0c5d8f7aee3" "59edbfad-7c3a-4c18-8247-28cb37d5fce3"
-			"626c8b28-06b9-41d8-84a8-2eddf9bf09f1" "6ed0385f-a35f-4639-9608-1bd68318bdec"
-			"70d52579-ef88-4488-a889-e26e689a9fc3" "79b5e6aa-2661-48aa-af87-00b07c1b856e"
-			"8c126b7e-5cba-4b6f-a829-ffec00d69f6b" "a97ffea6-128d-4874-865e-f9df81aa76ea"
-			"aa4b58b9-0870-45c7-bfce-f88d7b63c5ff" "c37b8ca4-ca8e-44d0-a58e-2fa1034771aa"
-			"d595ded7-aaf0-42d7-be14-2c0e61f9bf03" "db7f5478-3cff-4a97-9127-98828a30aaa8"
-			"fa224711-4100-45b2-8ad5-ec6b79099215" "fdf611c0-b054-4e8e-8e85-52d8c4cdfc68"
-		)
-	)
-	(group ""
-		(uuid "4bf7be94-f392-45ba-baa0-f7d0c013bfa0")
-		(members "066eb391-6d68-4fb0-ac35-e859509a1dec" "1c038f46-049a-4658-9e07-0d74930b53eb"
-			"276f16a0-6a4e-4cd1-ad7a-05b2a73cc18d" "2bddc135-a2d7-4ebf-b34e-027df8d47013"
-			"2e0a79d7-2806-4e6f-b38f-a64d2e96f80e" "35e1233a-9814-40c5-a30e-1a5fab0d2788"
-			"45f09be6-001a-45f6-97c9-735c17d3d43d" "46ceb350-1017-4c06-be7c-25fb18bdb4af"
-			"48792f1b-0662-470e-8d41-7856316f976a" "4a54fef0-5572-4a8b-b823-5c17ca6b5253"
-			"53d98c9e-01f2-4557-9b8b-08164ea278ef" "55cc63df-5785-4f2b-8274-4d118ceeae29"
-			"5f437cdf-ff27-4812-8ec0-8bdbb773c9b4" "602112d8-1944-43fb-9d61-c05be01ab1eb"
-			"660b9ebf-12ff-4e61-9891-4f9841a6eaf3" "6bc34fe6-e4f5-47a1-b18d-5ffb00d0328b"
-			"7e33cc1d-cdcd-4eeb-b6d4-c91e364db6e3" "843756ad-68a1-4386-bc6b-c3a527f8bd8b"
-			"87bd9a10-d746-4ce3-a37f-0fea53975760" "88156eb7-32ff-4bf6-a8bf-34eacd647cfc"
-			"8b6690ba-f1e3-4c20-8e3c-d6a006bf73f9" "8dcdc92f-c2b3-414b-bc5c-2737c1610762"
-			"93343c8e-74d6-47ce-87d5-94dbcbbb72ce" "95215969-5d0c-4352-b8bb-9c242f03e021"
-			"988f633a-bd03-4fdb-8d83-cd7c59b30cd3" "9ba6c700-131f-4c64-864b-cb2268d02119"
-			"9bd6f628-20f2-457a-b123-58e59acba082" "a06f7ced-f020-442e-b8d1-7fa4511a9d27"
-			"a39eaa58-fe77-4c3b-84b3-913153801296" "b4677aed-6be2-4cdd-af43-0d99f0f89ec9"
-			"b4763e4c-a7e7-40db-b4e1-7542ef645937" "c12b0aca-5fbb-4596-95d4-48c9cc6d8ab5"
-			"c8e16d16-3205-4cae-baa8-2ac02a83b100" "c9ce0b80-c4dd-4c75-834c-680f6c38b769"
-			"cbbc0d2d-5a0c-464e-9daa-8f3c57663b92" "ccd12d22-ec41-4d78-9621-11700d5ccc4a"
-			"d18ae8b1-c05d-4b5d-a385-33aa4a0af76c" "e2f2801d-9305-4763-b693-898ed535ac5e"
-			"e4367474-2579-4aa1-b3c6-190d16a1813f" "e9285c43-688c-4ac3-a901-efef152565f9"
-			"f4fbe8d2-caa5-4f88-8d63-3ffcbe3b9493" "f518b59e-1ddb-4a12-8d72-fd48f23e1ca9"
-			"fba2715b-d90a-4d53-b664-567fcf38b824" "ff6bf55c-9c3d-4730-9c9d-db748508e3f2"
 		)
 	)
 	(sheet

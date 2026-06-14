@@ -196,7 +196,8 @@
       "track_widths": [
         0.0,
         0.1651,
-        0.254
+        0.254,
+        0.381
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -521,7 +522,85 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 7
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.16764,
+        "line_style": 0,
+        "name": "160mA_cat",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "tuning_profile": "",
+        "via_diameter": 0.635,
+        "via_drill": 0.254,
+        "wire_width": 7
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.16764,
+        "line_style": 0,
+        "name": "20mA_seg",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1651,
+        "tuning_profile": "",
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
+        "wire_width": 7
+      },
+      {
+        "clearance": 0.16764,
+        "name": "3.3V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.762,
+        "tuning_profile": "",
+        "via_diameter": 1.016,
+        "via_drill": 0.254,
+        "wire_width": 7
+      },
+      {
+        "clearance": 0.1778,
+        "name": "5V_MAX7721",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.381,
+        "tuning_profile": "",
+        "via_diameter": 0.635,
+        "via_drill": 0.254,
+        "wire_width": 7
+      },
+      {
+        "clearance": 0.16764,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.762,
+        "tuning_profile": "",
+        "via_diameter": 1.016,
+        "via_drill": 0.254,
+        "wire_width": 7
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2032,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1651,
+        "tuning_profile": "",
+        "via_diameter": 0.508,
+        "via_drill": 0.254,
+        "wire_width": 7
       }
     ],
     "meta": {
@@ -529,7 +608,48 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "20mA_seg",
+        "pattern": "*SEG*"
+      },
+      {
+        "netclass": "160mA_cat",
+        "pattern": "*DIG*"
+      },
+      {
+        "netclass": "5V_MAX7721",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*CS*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*MOSI*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*MISO*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SCLK*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SCK*"
+      },
+      {
+        "netclass": "3.3V",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
