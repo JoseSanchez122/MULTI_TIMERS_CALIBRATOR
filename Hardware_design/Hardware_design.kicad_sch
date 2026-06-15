@@ -7242,6 +7242,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 234.95) (xy 55.88 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98024330-b4a0-4b60-87d8-888f3576dfbc")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 123.19 80.01)
 		)
 		(stroke
@@ -8289,6 +8299,16 @@
 			(justify right bottom)
 		)
 		(uuid "6861da3b-ef1c-4b31-95d9-bb1a66f5f315")
+	)
+	(label "INDEX"
+		(at 52.07 234.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6952e577-090d-4d27-ab3c-76e7e19789bb")
 	)
 	(label "ESP_RXD"
 		(at 297.18 68.58 0)
@@ -18015,7 +18035,7 @@
 	)
 	(sheet
 		(at 55.88 208.28)
-		(size 55.88 38.1)
+		(size 55.88 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18041,7 +18061,7 @@
 			)
 		)
 		(property "Sheetfile" "Buttons_circuits.kicad_sch"
-			(at 55.88 246.9646 0)
+			(at 55.88 245.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18149,6 +18169,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DIO_INDEX" output
+			(at 55.88 234.95 180)
+			(uuid "ed4d0dff-692d-4a66-b6ef-0e0a6dd4c031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

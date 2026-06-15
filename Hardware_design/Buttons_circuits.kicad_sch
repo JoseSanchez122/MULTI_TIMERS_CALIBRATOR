@@ -5,6 +5,173 @@
 	(uuid "c20b8bd3-c383-423f-a15c-b1ed2f3d3580")
 	(paper "User" 304.8 571.5)
 	(lib_symbols
+		(symbol "D_Schottky_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D3"
+				(at -3.048 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at -0.254 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+				(at 0.508 -18.034 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0.508 -18.034 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -143,6 +310,172 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1459,6 +1792,18 @@
 		(uuid "024faf14-eeed-49ac-923d-5581f3cf5d6d")
 	)
 	(junction
+		(at 181.61 420.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03f69e5a-222d-4072-93c6-dd0a489b9425")
+	)
+	(junction
+		(at 185.42 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153021d4-a3e2-448c-8f09-55266d225b8d")
+	)
+	(junction
 		(at 41.91 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1537,6 +1882,12 @@
 		(uuid "647c591b-0a9c-4088-8d1f-5c121f0c06ac")
 	)
 	(junction
+		(at 189.23 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64cc43a7-869b-418d-97d8-606fe497b70b")
+	)
+	(junction
 		(at 81.28 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1547,6 +1898,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d27a2c3-6057-4aca-9cb2-0637d2622810")
+	)
+	(junction
+		(at 191.77 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "999e1917-1738-4f96-8eb9-3b0ae523c8ff")
 	)
 	(junction
 		(at 41.91 410.21)
@@ -1567,10 +1924,22 @@
 		(uuid "a50f0997-d1a7-488b-8d4c-bc21cf086eb1")
 	)
 	(junction
+		(at 190.5 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad3daf9c-9edc-4dc0-aa81-c9e7d0936f1a")
+	)
+	(junction
 		(at 81.28 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1a76152-e628-43bd-8339-c7e49c78acdb")
+	)
+	(junction
+		(at 191.77 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f45f2a-3f59-4be6-92bd-67529468b93c")
 	)
 	(junction
 		(at 97.79 410.21)
@@ -1603,6 +1972,12 @@
 		(uuid "db4c3aee-8f58-42c5-ad9b-5aabe2a2a7c8")
 	)
 	(junction
+		(at 190.5 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd0ea40f-d8f9-488a-b983-097f061515ae")
+	)
+	(junction
 		(at 41.91 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1619,6 +1994,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edf22f66-6948-4cdf-a2c6-d46da1fb88a8")
+	)
+	(junction
+		(at 187.96 430.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf749e2-94d4-45b6-b0d0-bacb3fcb5720")
+	)
+	(junction
+		(at 189.23 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efbb4b06-684b-4e8d-a1e9-bbf94e73a6bf")
+	)
+	(junction
+		(at 184.15 447.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f451798f-5471-41eb-b558-81fe7db7884d")
 	)
 	(no_connect
 		(at 139.7 448.31)
@@ -1638,7 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 430.53) (xy 181.61 430.53)
+			(xy 181.61 420.37) (xy 190.5 420.37)
 		)
 		(stroke
 			(width 0)
@@ -1658,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 447.04) (xy 184.15 438.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05449011-5080-4000-8bfb-ea7ef1eaadf0")
+	)
+	(wire
+		(pts
 			(xy 81.28 279.4) (xy 78.74 279.4)
 		)
 		(stroke
@@ -1668,6 +2071,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 175.26) (xy 189.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b3b0dd-5302-4a39-b43b-cb38b558a258")
+	)
+	(wire
+		(pts
 			(xy 54.61 102.87) (xy 58.42 102.87)
 		)
 		(stroke
@@ -1675,6 +2088,16 @@
 			(type default)
 		)
 		(uuid "080e2b1e-6696-4b41-b822-c2c459b499a4")
+	)
+	(wire
+		(pts
+			(xy 190.5 426.72) (xy 187.96 426.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084c8f4e-b8d9-425e-b63c-8e4f4fa4ad7e")
 	)
 	(wire
 		(pts
@@ -1708,6 +2131,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 204.47) (xy 189.23 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1fd165-03ac-40d7-9ac2-8aa6ac451628")
+	)
+	(wire
+		(pts
 			(xy 41.91 55.88) (xy 39.37 55.88)
 		)
 		(stroke
@@ -1715,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "0cdb3ba8-4441-4a0c-b4b1-3304800a4b41")
+	)
+	(wire
+		(pts
+			(xy 182.88 185.42) (xy 190.5 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d440e89-aa49-422b-abe4-892cbb8e7e1b")
 	)
 	(wire
 		(pts
@@ -1768,6 +2211,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 154.94) (xy 189.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156f0388-b81a-42c6-b311-ae6bcd16d14f")
+	)
+	(wire
+		(pts
 			(xy 58.42 279.4) (xy 62.23 279.4)
 		)
 		(stroke
@@ -1788,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 415.29) (xy 181.61 420.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160a428e-37a9-40be-bcfc-520e9ae953a2")
+	)
+	(wire
+		(pts
 			(xy 78.74 450.85) (xy 78.74 454.66)
 		)
 		(stroke
@@ -1805,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "17fe4a49-8f87-4cec-954c-db64aba9f8f9")
+	)
+	(wire
+		(pts
+			(xy 187.96 433.07) (xy 179.07 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1835c06e-d957-49c9-8d5e-ad091fe5130a")
 	)
 	(wire
 		(pts
@@ -1858,6 +2331,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 177.8) (xy 190.5 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2942f50a-a528-4798-8bf0-9d71468a46e8")
+	)
+	(wire
+		(pts
 			(xy 97.79 190.5) (xy 101.6 190.5)
 		)
 		(stroke
@@ -1898,6 +2381,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 191.77) (xy 194.31 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c642e14-000c-468b-b6c1-e5f195cadf34")
+	)
+	(wire
+		(pts
+			(xy 190.5 177.8) (xy 190.5 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d32c0ae-eca8-4edf-ba56-46c1d0e2df76")
+	)
+	(wire
+		(pts
 			(xy 41.91 276.86) (xy 41.91 279.4)
 		)
 		(stroke
@@ -1905,6 +2408,16 @@
 			(type default)
 		)
 		(uuid "2d53810c-709b-48bd-b46e-9bbfae2f4088")
+	)
+	(wire
+		(pts
+			(xy 194.31 154.94) (xy 189.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2b0ea6-2b90-4b82-8660-49f0d644d261")
 	)
 	(wire
 		(pts
@@ -1938,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 180.34) (xy 191.77 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f7618f-daf0-488b-9f45-c7d7f2afd33a")
+	)
+	(wire
+		(pts
 			(xy 179.07 443.23) (xy 181.61 443.23)
 		)
 		(stroke
@@ -1955,6 +2478,16 @@
 			(type default)
 		)
 		(uuid "35e948e6-ef5f-4900-b84a-ce738fe4147d")
+	)
+	(wire
+		(pts
+			(xy 191.77 182.88) (xy 191.77 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362eaf25-584d-40af-b123-2dde20d69de9")
 	)
 	(wire
 		(pts
@@ -1985,6 +2518,16 @@
 			(type default)
 		)
 		(uuid "384a7a0b-ba09-4e9a-afc8-079aacd38c63")
+	)
+	(wire
+		(pts
+			(xy 184.15 438.15) (xy 179.07 438.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ac8bf8-58cf-4800-9429-dd3e30a326e5")
 	)
 	(wire
 		(pts
@@ -2028,6 +2571,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 436.88) (xy 185.42 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb6d2f6-dd19-49db-9d29-d1868f8a6ad9")
+	)
+	(wire
+		(pts
 			(xy 41.91 187.96) (xy 41.91 190.5)
 		)
 		(stroke
@@ -2058,6 +2611,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 430.53) (xy 190.5 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4650b5e8-4a25-43a0-a84e-586bf943e55d")
+	)
+	(wire
+		(pts
+			(xy 182.88 182.88) (xy 191.77 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47222996-6f42-40ab-9f1a-47999d85075e")
+	)
+	(wire
+		(pts
 			(xy 41.91 228.6) (xy 41.91 232.41)
 		)
 		(stroke
@@ -2068,13 +2641,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 182.88) (xy 185.42 182.88)
+			(xy 185.42 435.61) (xy 179.07 435.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cf13f1d-4815-4715-bcdd-c12d1500d650")
+		(uuid "4ab5af33-c8c2-450a-99ea-28c314060755")
+	)
+	(wire
+		(pts
+			(xy 191.77 173.99) (xy 191.77 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb850a2-42ed-4129-8527-706dfa99abff")
 	)
 	(wire
 		(pts
@@ -2138,16 +2721,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 433.07) (xy 181.61 433.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554c20e4-62e0-42e3-93b0-1084055c3847")
-	)
-	(wire
-		(pts
 			(xy 41.91 100.33) (xy 41.91 102.87)
 		)
 		(stroke
@@ -2155,6 +2728,16 @@
 			(type default)
 		)
 		(uuid "557bb023-f2ab-4371-ab95-531b022a70a3")
+	)
+	(wire
+		(pts
+			(xy 189.23 200.66) (xy 189.23 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a705c3e-0bda-4cf5-bc81-9b1a910e6404")
 	)
 	(wire
 		(pts
@@ -2175,6 +2758,16 @@
 			(type default)
 		)
 		(uuid "5ea6b729-2b43-4bc9-a936-2706c991d6bf")
+	)
+	(wire
+		(pts
+			(xy 189.23 200.66) (xy 194.31 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6000a8fb-9311-45fe-90b0-50e779953eb3")
 	)
 	(wire
 		(pts
@@ -2218,6 +2811,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 204.47) (xy 189.23 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677a4069-fcbc-4c20-87fd-033be8c1b89c")
+	)
+	(wire
+		(pts
+			(xy 190.5 195.58) (xy 194.31 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ebda64-3670-4e4e-bc62-b9ceb8d12351")
+	)
+	(wire
+		(pts
 			(xy 41.91 422.91) (xy 41.91 425.45)
 		)
 		(stroke
@@ -2255,6 +2868,16 @@
 			(type default)
 		)
 		(uuid "6937f13c-0236-4777-a8ce-0ab15885f095")
+	)
+	(wire
+		(pts
+			(xy 182.88 175.26) (xy 189.23 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bda420f-b49e-4d02-8f70-8be1b2dfb99c")
 	)
 	(wire
 		(pts
@@ -2298,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 173.99) (xy 194.31 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7343778a-5cdd-4084-a3a8-540a2281f316")
+	)
+	(wire
+		(pts
 			(xy 81.28 497.84) (xy 81.28 502.92)
 		)
 		(stroke
@@ -2318,6 +2951,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 168.91) (xy 194.31 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76dcd76e-404d-4a5d-8c15-5df4312b25c2")
+	)
+	(wire
+		(pts
 			(xy 81.28 190.5) (xy 86.36 190.5)
 		)
 		(stroke
@@ -2328,6 +2971,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 436.88) (xy 190.5 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afb5fdf-43e1-4432-83ec-82d84a3693e0")
+	)
+	(wire
+		(pts
 			(xy 81.28 102.87) (xy 86.36 102.87)
 		)
 		(stroke
@@ -2335,6 +2988,16 @@
 			(type default)
 		)
 		(uuid "7ccbc63d-2ae4-451a-b8f4-a4aa84ee7b35")
+	)
+	(wire
+		(pts
+			(xy 184.15 447.04) (xy 190.5 447.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f26bc23-83ac-4be8-a071-abb1c7c2fa6e")
 	)
 	(wire
 		(pts
@@ -2408,6 +3071,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 177.8) (xy 194.31 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891375d0-af86-4082-85b2-1560e1be9f8f")
+	)
+	(wire
+		(pts
 			(xy 39.37 187.96) (xy 39.37 190.5)
 		)
 		(stroke
@@ -2425,16 +3098,6 @@
 			(type default)
 		)
 		(uuid "8c6ee72f-3540-4470-b74d-33168b93e919")
-	)
-	(wire
-		(pts
-			(xy 182.88 177.8) (xy 185.42 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c8dc6c3-ec13-479d-a40b-409d64364841")
 	)
 	(wire
 		(pts
@@ -2508,6 +3171,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 415.29) (xy 181.61 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95114ebc-a5f0-49ac-a4c5-e28ef6c64942")
+	)
+	(wire
+		(pts
+			(xy 185.42 440.69) (xy 185.42 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958b2bea-ad0e-46e7-9ec2-7f8eeb01044d")
+	)
+	(wire
+		(pts
 			(xy 41.91 450.85) (xy 39.37 450.85)
 		)
 		(stroke
@@ -2575,6 +3258,16 @@
 			(type default)
 		)
 		(uuid "9c02cf12-ed13-4d4e-8937-d4b80b0de602")
+	)
+	(wire
+		(pts
+			(xy 181.61 420.37) (xy 181.61 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd81588-8cf4-4d32-870f-8bdcf16438ee")
 	)
 	(wire
 		(pts
@@ -2658,6 +3351,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 165.1) (xy 190.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60ed221-6f70-4476-9697-5d43bca972c4")
+	)
+	(wire
+		(pts
 			(xy 81.28 279.4) (xy 86.36 279.4)
 		)
 		(stroke
@@ -2685,6 +3388,16 @@
 			(type default)
 		)
 		(uuid "a89d77c0-be06-40cf-8508-cf557f83daec")
+	)
+	(wire
+		(pts
+			(xy 187.96 426.72) (xy 187.96 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a949e1e8-4a66-4ca2-97f5-33895269eb74")
 	)
 	(wire
 		(pts
@@ -2718,7 +3431,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 435.61) (xy 181.61 435.61)
+			(xy 185.42 440.69) (xy 190.5 440.69)
 		)
 		(stroke
 			(width 0)
@@ -2838,6 +3551,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 165.1) (xy 190.5 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf878c9f-2a8b-4f55-b332-78ce0cae8b8f")
+	)
+	(wire
+		(pts
 			(xy 41.91 510.54) (xy 41.91 513.08)
 		)
 		(stroke
@@ -2858,6 +3581,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 182.88) (xy 194.31 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26e9403-5ef0-41b1-bf1e-ccb6f9ceb1d1")
+	)
+	(wire
+		(pts
 			(xy 41.91 102.87) (xy 46.99 102.87)
 		)
 		(stroke
@@ -2875,6 +3608,16 @@
 			(type default)
 		)
 		(uuid "c3816423-590e-4272-ab51-d973f3dabbc1")
+	)
+	(wire
+		(pts
+			(xy 190.5 185.42) (xy 190.5 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c387ae37-0239-4235-914d-0f19e5454093")
 	)
 	(wire
 		(pts
@@ -2948,16 +3691,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 175.26) (xy 185.42 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c65507-7eb5-4950-9504-78227c8e3d30")
-	)
-	(wire
-		(pts
 			(xy 139.7 443.23) (xy 143.51 443.23)
 		)
 		(stroke
@@ -2978,7 +3711,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 438.15) (xy 181.61 438.15)
+			(xy 184.15 450.85) (xy 190.5 450.85)
 		)
 		(stroke
 			(width 0)
@@ -2988,13 +3721,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 185.42) (xy 185.42 185.42)
+			(xy 184.15 450.85) (xy 184.15 447.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1127e9d-1042-4baa-8c55-67c60623db55")
+		(uuid "cc333d29-e2a7-4828-a933-353949345bcf")
 	)
 	(wire
 		(pts
@@ -3005,6 +3738,16 @@
 			(type default)
 		)
 		(uuid "d14f7e2b-a92c-44c1-a10b-10b2275562d8")
+	)
+	(wire
+		(pts
+			(xy 189.23 187.96) (xy 182.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2206cdb-9ecb-4587-8f2d-e86d43473828")
 	)
 	(wire
 		(pts
@@ -3028,16 +3771,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 187.96) (xy 185.42 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6af1701-801d-4862-bc42-a4695732906d")
-	)
-	(wire
-		(pts
 			(xy 143.51 187.96) (xy 147.32 187.96)
 		)
 		(stroke
@@ -3048,13 +3781,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 180.34) (xy 185.42 180.34)
+			(xy 191.77 186.69) (xy 194.31 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8c7982c-da62-4306-bf20-70874c685d1f")
+		(uuid "d7a1ce53-e6b3-4d8c-b1ce-d5dd8cd482bd")
 	)
 	(wire
 		(pts
@@ -3148,6 +3881,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 191.77) (xy 190.5 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ebcef6-292e-42e0-a97a-abeeda006392")
+	)
+	(wire
+		(pts
 			(xy 97.79 102.87) (xy 101.6 102.87)
 		)
 		(stroke
@@ -3238,6 +3981,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 430.53) (xy 187.96 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02d0efb-b36f-4164-87d5-9f5058dbf632")
+	)
+	(wire
+		(pts
 			(xy 81.28 410.21) (xy 78.74 410.21)
 		)
 		(stroke
@@ -3285,6 +4038,26 @@
 			(type default)
 		)
 		(uuid "f43b388a-1ac6-4c48-8451-5b6a3fa93045")
+	)
+	(wire
+		(pts
+			(xy 182.88 180.34) (xy 191.77 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f044a9-93d3-43d7-a70a-42636c859abc")
+	)
+	(wire
+		(pts
+			(xy 189.23 160.02) (xy 194.31 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f711dde8-baeb-43fa-b14c-37d0e67422f4")
 	)
 	(wire
 		(pts
@@ -3345,6 +4118,16 @@
 			(type default)
 		)
 		(uuid "fceae884-c934-4ec2-8847-af0ab4517e98")
+	)
+	(wire
+		(pts
+			(xy 181.61 430.53) (xy 179.07 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0908f8-39ff-46ba-9908-16e8345aec29")
 	)
 	(wire
 		(pts
@@ -3558,7 +4341,7 @@
 	)
 	(hierarchical_label "START_STOP_4_FILTERED"
 		(shape output)
-		(at 181.61 430.53 0)
+		(at 190.5 420.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3569,7 +4352,7 @@
 	)
 	(hierarchical_label "RESET_5_FILTERED"
 		(shape output)
-		(at 181.61 438.15 0)
+		(at 190.5 450.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3580,7 +4363,7 @@
 	)
 	(hierarchical_label "RESET_3_FILTERED"
 		(shape output)
-		(at 185.42 187.96 0)
+		(at 194.31 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3589,9 +4372,20 @@
 		)
 		(uuid "2937ba77-f627-4aec-a7f9-8b9ca5fdb70f")
 	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 201.93 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2bbf419c-dfce-441b-bb2d-bf71559262de")
+	)
 	(hierarchical_label "RESET_1_FILTERED"
 		(shape output)
-		(at 185.42 177.8 0)
+		(at 194.31 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3602,7 +4396,7 @@
 	)
 	(hierarchical_label "START_STOP_1_FILTERED"
 		(shape output)
-		(at 185.42 175.26 0)
+		(at 194.31 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3613,7 +4407,7 @@
 	)
 	(hierarchical_label "RESET_2_FILTERED"
 		(shape output)
-		(at 185.42 182.88 0)
+		(at 194.31 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,9 +4416,31 @@
 		)
 		(uuid "6babd74e-2781-4873-9a0f-02c020bfdf13")
 	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 198.12 415.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cde4a2b-a437-40a4-97c3-40644b8512d7")
+	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 198.12 436.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70261f7a-8b34-4e26-adcb-d6a21323372b")
+	)
 	(hierarchical_label "RESET_4_FILTERED"
 		(shape output)
-		(at 181.61 433.07 0)
+		(at 190.5 430.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3633,9 +4449,64 @@
 		)
 		(uuid "79e50898-8473-41f8-b714-63619b26e476")
 	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 201.93 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79fdcc2c-5fd6-41fb-91b2-605999a2fc96")
+	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 198.12 426.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90124e13-d647-4110-a58d-6aa4054fd50c")
+	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 198.12 447.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "913687ca-e20c-4a84-913a-bb3fa40f79c0")
+	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 201.93 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9304dcf0-ec21-4ef2-9e07-83e4fd9c671f")
+	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 201.93 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9823fdbf-cd4b-42c9-bd4c-c179a9e4c9ff")
+	)
 	(hierarchical_label "START_STOP_3_FILTERED"
 		(shape output)
-		(at 185.42 185.42 0)
+		(at 194.31 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3646,7 +4517,7 @@
 	)
 	(hierarchical_label "START_STOP_5_FILTERED"
 		(shape output)
-		(at 181.61 435.61 0)
+		(at 190.5 440.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3655,9 +4526,20 @@
 		)
 		(uuid "ce988e43-914b-496d-8e1a-0ea2171df91a")
 	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 201.93 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ffc406-3ee5-4771-8b89-c7bf725e9a6d")
+	)
 	(hierarchical_label "START_STOP_2_FILTERED"
 		(shape output)
-		(at 185.42 180.34 0)
+		(at 194.31 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3665,6 +4547,17 @@
 			(justify left)
 		)
 		(uuid "e0dbc55a-3461-4b59-8a54-7666d3a15905")
+	)
+	(hierarchical_label "DIO_INDEX"
+		(shape output)
+		(at 201.93 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fffb1dd9-b61c-4ac3-9c5b-528720e04e10")
 	)
 	(symbol
 		(lib_id "Schimitt_Trigger_74HC14D_653:74HC14D_653")
@@ -4015,6 +4908,86 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 198.12 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "046211f1-9af9-46e0-b1c7-b186886bb4a3")
+		(property "Reference" "D6"
+			(at 195.326 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 197.8025 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 198.12 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e353fee4-36ef-4ef2-9e60-e063fef612f4")
+		)
+		(pin "2"
+			(uuid "3ac621e1-30ca-4488-90a8-0f01cb31ca75")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6125,6 +7098,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 198.12 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5eaf5f16-8588-4a92-a856-789f29e522ae")
+		(property "Reference" "D4"
+			(at 195.326 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 197.8025 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 198.12 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 198.12 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "febb85fc-21d5-46d5-a2a4-6661c2bb50ab")
+		)
+		(pin "2"
+			(uuid "1e394767-9101-456b-898f-f5c02864513b")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Schimitt_Trigger_74HC14D_653:74HC14D_653")
 		(at 165.1 182.88 0)
 		(unit 1)
@@ -7208,6 +8261,407 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Schottky_1")
+		(lib_id "Device:D_Schottky")
+		(at 198.12 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84bfef71-afbe-4bc9-a1e2-29de1a0723b8")
+		(property "Reference" "D3"
+			(at 195.072 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 197.866 148.336 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 198.628 172.974 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 198.628 172.974 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C"
+			(uuid "6cf7715a-a766-4c16-bbec-a204332477c2")
+		)
+		(pin "A"
+			(uuid "3adb48a8-36cb-4059-85a6-24d5638bb6ca")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 198.12 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a99be05-4e25-4773-96db-8115903385e2")
+		(property "Reference" "D8"
+			(at 195.326 197.866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 197.8025 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 198.12 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 198.12 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2f88ace-d538-4ffa-93d0-35db4a275eee")
+		)
+		(pin "2"
+			(uuid "29711522-378b-47b0-bbfa-d73b891ea4ba")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 194.31 436.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "947854aa-4bf2-4b95-8840-b59cee96498f")
+		(property "Reference" "D11"
+			(at 191.516 434.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 193.9925 433.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 194.31 436.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 436.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 194.31 436.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da4fed1f-0c60-4094-b4f0-7d4000c1b871")
+		)
+		(pin "2"
+			(uuid "f9579ebc-6778-47ca-a0b3-6a23254eb6a5")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 198.12 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "978ecc0f-8f59-4155-91a8-dcd56be8ca3c")
+		(property "Reference" "D5"
+			(at 195.326 171.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 197.8025 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 198.12 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 198.12 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffa68a94-ff44-47a0-a2f7-4a4c41bae2dd")
+		)
+		(pin "2"
+			(uuid "88332cf9-9209-4f6f-9a8c-8097e0dc822e")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 194.31 415.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98e683ea-c09b-46c8-a6b4-b71659ed377a")
+		(property "Reference" "D9"
+			(at 191.516 412.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 193.9925 411.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 194.31 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 194.31 415.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04f592bc-266e-4c2a-9a1d-dcb5d62d22a3")
+		)
+		(pin "2"
+			(uuid "85f2ed17-4ffd-472b-83a8-bbf57bc47d81")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 294.64 0)
 		(unit 1)
@@ -7678,6 +9132,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 194.31 426.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4fa2368-649b-4d6e-8cc0-8f88abb78672")
+		(property "Reference" "D10"
+			(at 191.516 423.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 193.9925 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 194.31 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 194.31 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dd28366-312b-40e4-8a5b-fb60905851d7")
+		)
+		(pin "2"
+			(uuid "8ac22277-e84d-4d9e-9835-5bb00692a1e7")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 294.64 0)
 		(unit 1)
@@ -7840,6 +9374,86 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 194.31 447.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afeeeaaa-1bab-457c-9291-9bb0031c1e99")
+		(property "Reference" "D12"
+			(at 191.516 444.246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 193.9925 443.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 194.31 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 194.31 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a3fe613-7924-4be4-9464-bc09012c9dac")
+		)
+		(pin "2"
+			(uuid "428c0fd4-29a7-498f-b69e-6a9bb696102c")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8516,6 +10130,86 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 198.12 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5755176-5ba1-4bf8-857c-937cf63e79a8")
+		(property "Reference" "D7"
+			(at 195.326 188.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 197.8025 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:DIO_Schottky _MBR0530T3G"
+			(at 198.12 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 198.12 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cca40481-567c-4739-8068-ced6c50647c7")
+		)
+		(pin "2"
+			(uuid "23203bde-23bd-41c7-a20b-b867e7ec4988")
+		)
+		(instances
+			(project "Hardware_design"
+				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/e6b7276d-5f6b-4427-aa94-4a272e034133"
+					(reference "D7")
 					(unit 1)
 				)
 			)
