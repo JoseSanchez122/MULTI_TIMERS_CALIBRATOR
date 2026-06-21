@@ -1774,18 +1774,6 @@
 		)
 		(uuid "5ab0ff99-2739-4ea4-8bc1-d7d881f2e096")
 	)
-	(text "11\n\n"
-		(exclude_from_sim no)
-		(at 125.984 1262.888 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-				(thickness 1.524)
-				(bold yes)
-			)
-		)
-		(uuid "78f54908-c3a2-4cb2-909a-7259fa72cda4")
-	)
 	(text "2\n"
 		(exclude_from_sim no)
 		(at 127.762 201.93 0)
@@ -1797,18 +1785,6 @@
 			)
 		)
 		(uuid "827a581a-78c2-4560-b8b0-e6f048e360e1")
-	)
-	(text "10"
-		(exclude_from_sim no)
-		(at 125.984 1135.126 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-				(thickness 1.524)
-				(bold yes)
-			)
-		)
-		(uuid "869871d3-6755-479b-ba29-9ace0672e4a0")
 	)
 	(text "8"
 		(exclude_from_sim no)
@@ -1859,40 +1835,16 @@
 		(uuid "f8aa2f58-9a80-4c1b-985c-a271000bc5d0")
 	)
 	(junction
-		(at 139.7 295.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10a9e045-30e4-41e4-a952-f7aa20ab8124")
-	)
-	(junction
 		(at 113.03 632.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1293f866-2c35-437d-bf2f-a1a20809bc92")
 	)
 	(junction
-		(at 110.49 1210.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14022291-5c67-4c7f-951a-3f245a5f130a")
-	)
-	(junction
-		(at 115.57 511.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "157a953d-817b-4605-bf28-36944eea6d5d")
-	)
-	(junction
 		(at 113.03 863.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b4a059-03db-41cf-916d-2d6e3fbdedc8")
-	)
-	(junction
-		(at 135.89 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b59fbe1-24c1-4430-a4a6-20ab3c767c78")
 	)
 	(junction
 		(at 135.89 66.04)
@@ -1916,13 +1868,7 @@
 		(at 113.03 511.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ec7cbb7-c16b-4712-853d-7263e72ef928")
-	)
-	(junction
-		(at 139.7 648.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b7fec1f-37ae-4c80-bdc0-f4c9c95580a7")
+		(uuid "75c73478-95a3-4fa7-abba-ff318704b7a9")
 	)
 	(junction
 		(at 113.03 162.56)
@@ -1935,18 +1881,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c71b35-838f-498a-9c7a-2bafc2e62d5c")
-	)
-	(junction
-		(at 140.97 415.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dd598aa-1745-405b-8f82-d767d8a6c311")
-	)
-	(junction
-		(at 139.7 527.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b225b755-a3ae-4ba5-89cc-6654c1659a74")
 	)
 	(junction
 		(at 113.03 746.76)
@@ -1972,55 +1906,25 @@
 		(color 0 0 0 0)
 		(uuid "d71d0bb0-c6bd-4298-a0fa-64dfd4ab6321")
 	)
-	(junction
-		(at 139.7 1108.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e723bd58-3c34-494e-b34f-1141256e30e7")
-	)
-	(junction
-		(at 109.22 1092.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e781ad37-f0f8-4193-82ec-b12dcffb5b77")
-	)
-	(junction
-		(at 139.7 763.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb06d994-d533-4234-95ae-0fd715076561")
-	)
-	(junction
-		(at 139.7 993.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8c7c5e5-a6ad-4706-a224-66eb22176c42")
+	(no_connect
+		(at 109.22 1000.76)
+		(uuid "0b00e1c0-3c32-4179-a9d5-c8e15aa5ba0e")
 	)
 	(no_connect
-		(at 109.22 1228.09)
-		(uuid "1f314012-2b49-473b-9c81-a7871072a63d")
+		(at 109.22 998.22)
+		(uuid "3b98f52e-2aa1-4418-a8e3-706bb16bc673")
 	)
 	(no_connect
-		(at 109.22 1215.39)
-		(uuid "4d382b5c-a7d1-48c8-b976-9b3f58862470")
+		(at 109.22 995.68)
+		(uuid "8a9b851c-0b2a-49f8-856e-88b840052229")
 	)
 	(no_connect
-		(at 109.22 1233.17)
-		(uuid "a1c6d41c-afc2-4f64-b45c-26bb464081f7")
+		(at 109.22 982.98)
+		(uuid "b8c82898-dd13-4c6a-b40d-b82d076405c3")
 	)
 	(no_connect
-		(at 109.22 1230.63)
-		(uuid "fcbf35f0-8dcb-48bc-96ec-8df8f424d596")
-	)
-	(wire
-		(pts
-			(xy 135.89 167.64) (xy 135.89 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06fc14de-d410-4b37-94e1-c3635ea077ce")
+		(at 109.22 993.14)
+		(uuid "eca25459-5bc0-4504-858a-947740abe877")
 	)
 	(wire
 		(pts
@@ -2031,16 +1935,6 @@
 			(type default)
 		)
 		(uuid "093a2662-0cfd-4508-8796-46a522ade982")
-	)
-	(wire
-		(pts
-			(xy 109.22 1092.2) (xy 115.57 1092.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1126efa7-095c-468a-a925-59dcbe2d2f61")
 	)
 	(wire
 		(pts
@@ -2104,16 +1998,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 1210.31) (xy 110.49 1210.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17551080-9c42-47eb-a956-4f7a5678b496")
-	)
-	(wire
-		(pts
 			(xy 109.22 402.59) (xy 140.97 402.59)
 		)
 		(stroke
@@ -2121,16 +2005,6 @@
 			(type default)
 		)
 		(uuid "175d89fc-9a9f-437a-8d3e-7f0f59ca6041")
-	)
-	(wire
-		(pts
-			(xy 123.19 1092.2) (xy 127 1092.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e6becd-06ff-427d-a270-c175abec6cc4")
 	)
 	(wire
 		(pts
@@ -2204,16 +2078,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 982.98) (xy 139.7 993.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2fae18-6c44-43c9-badf-2883b993eaa0")
-	)
-	(wire
-		(pts
 			(xy 113.03 632.46) (xy 115.57 632.46)
 		)
 		(stroke
@@ -2234,16 +2098,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 993.14) (xy 139.7 1071.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d3d5f94-3fbb-4090-896e-2fb5a4624317")
-	)
-	(wire
-		(pts
 			(xy 109.22 977.9) (xy 115.57 977.9)
 		)
 		(stroke
@@ -2251,16 +2105,6 @@
 			(type default)
 		)
 		(uuid "2dbd3429-9527-4c92-ab98-74c89fca59fa")
-	)
-	(wire
-		(pts
-			(xy 113.03 511.81) (xy 115.57 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f9c1abd-747b-43ed-b15a-686f1c6a3877")
 	)
 	(wire
 		(pts
@@ -2304,26 +2148,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 1097.28) (xy 139.7 1108.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35681f57-7495-4242-904f-dfd7cbcadd18")
-	)
-	(wire
-		(pts
-			(xy 109.22 1097.28) (xy 139.7 1097.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ab66af-c352-4bc5-9e6f-1ff45693a642")
-	)
-	(wire
-		(pts
 			(xy 111.76 121.92) (xy 109.22 121.92)
 		)
 		(stroke
@@ -2331,36 +2155,6 @@
 			(type default)
 		)
 		(uuid "35ea451a-163b-4733-ad19-a389abef789e")
-	)
-	(wire
-		(pts
-			(xy 115.57 511.81) (xy 116.84 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3768d951-f23f-4513-bd77-4c0a306b29fd")
-	)
-	(wire
-		(pts
-			(xy 50.8 1113.79) (xy 50.8 1120.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d898c5f-e9f6-44f1-ae32-25ceb387201f")
-	)
-	(wire
-		(pts
-			(xy 54.61 1220.47) (xy 73.66 1220.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8f7da5-a99e-4fcd-9f39-3c357f1cb8a9")
 	)
 	(wire
 		(pts
@@ -2494,16 +2288,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 1281.43) (xy 109.22 1281.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4edb46f8-8311-44d7-8825-a829753636a6")
-	)
-	(wire
-		(pts
 			(xy 50.8 171.45) (xy 50.8 176.53)
 		)
 		(stroke
@@ -2574,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 180.34) (xy 135.89 257.81)
+			(xy 135.89 167.64) (xy 135.89 257.81)
 		)
 		(stroke
 			(width 0)
@@ -2584,23 +2368,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 1163.32) (xy 109.22 1163.32)
+			(xy 113.03 511.81) (xy 115.57 511.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5faaa1cb-b9d8-456b-8420-cd016150b940")
-	)
-	(wire
-		(pts
-			(xy 111.76 1168.4) (xy 111.76 1163.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe0dcce-c3f3-4375-8c85-3cabee343242")
+		(uuid "5d83afb7-3810-4196-8e20-812a32939e1e")
 	)
 	(wire
 		(pts
@@ -2614,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 751.84) (xy 139.7 763.27)
+			(xy 139.7 751.84) (xy 139.7 842.01)
 		)
 		(stroke
 			(width 0)
@@ -2664,26 +2438,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 1286.51) (xy 111.76 1281.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "657e3f1b-cf9d-415b-ad43-d746e3118d4c")
-	)
-	(wire
-		(pts
-			(xy 110.49 1210.31) (xy 115.57 1210.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "667439cd-c2f5-4cd5-a028-332f3fdd6d93")
-	)
-	(wire
-		(pts
 			(xy 55.88 494.03) (xy 55.88 521.97)
 		)
 		(stroke
@@ -2691,16 +2445,6 @@
 			(type default)
 		)
 		(uuid "699f8df6-fab2-434c-bc2a-14d689e1feb1")
-	)
-	(wire
-		(pts
-			(xy 139.7 1071.88) (xy 55.88 1071.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6655bb-1cda-446f-8dd1-9e74c88a89e9")
 	)
 	(wire
 		(pts
@@ -2724,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 281.94) (xy 139.7 295.91)
+			(xy 139.7 281.94) (xy 139.7 375.92)
 		)
 		(stroke
 			(width 0)
@@ -2824,26 +2568,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 1210.31) (xy 127 1210.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cbe644a-2148-492c-8fac-e9092c5e91e6")
-	)
-	(wire
-		(pts
-			(xy 140.97 402.59) (xy 140.97 415.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8221789b-0406-4e20-8d0e-9ddfa134af93")
-	)
-	(wire
-		(pts
 			(xy 111.76 582.93) (xy 109.22 582.93)
 		)
 		(stroke
@@ -2854,23 +2578,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 637.54) (xy 139.7 648.97)
+			(xy 139.7 637.54) (xy 139.7 727.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "855121eb-fdb2-4c3d-9003-e0d61a8380a3")
-	)
-	(wire
-		(pts
-			(xy 139.7 763.27) (xy 139.7 842.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d9e695-bb72-4dbd-8f89-1542ff91bcf5")
 	)
 	(wire
 		(pts
@@ -2891,26 +2605,6 @@
 			(type default)
 		)
 		(uuid "87d4dc53-3bf7-4199-afe1-becdb5eaeea5")
-	)
-	(wire
-		(pts
-			(xy 50.8 1219.2) (xy 50.8 1224.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89ffcb18-8fe1-4192-898c-4a794a0a9dc0")
-	)
-	(wire
-		(pts
-			(xy 139.7 1189.99) (xy 54.61 1189.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a141e7a-f388-4e6d-9ca7-f961583bfbb4")
 	)
 	(wire
 		(pts
@@ -2941,16 +2635,6 @@
 			(type default)
 		)
 		(uuid "9040f3c1-a568-4f85-9429-e5947ed3376a")
-	)
-	(wire
-		(pts
-			(xy 50.8 1238.25) (xy 73.66 1238.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "913b7b95-f4d8-4868-9c7c-9834c89f50ed")
 	)
 	(wire
 		(pts
@@ -3064,16 +2748,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 1101.09) (xy 50.8 1106.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5bc3c0b-e172-49db-b04b-d1b439e58ef6")
-	)
-	(wire
-		(pts
 			(xy 135.89 257.81) (xy 55.88 257.81)
 		)
 		(stroke
@@ -3114,36 +2788,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 648.97) (xy 139.7 727.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a97dd2c1-9aaa-4fee-9925-86425dcc8a34")
-	)
-	(wire
-		(pts
-			(xy 50.8 1120.14) (xy 73.66 1120.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb2607f-cf95-4612-ac4a-ef4b3363a71d")
-	)
-	(wire
-		(pts
-			(xy 54.61 1189.99) (xy 54.61 1220.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1629cf8-f581-4328-b91d-16ab8b24202c")
-	)
-	(wire
-		(pts
 			(xy 54.61 958.85) (xy 54.61 988.06)
 		)
 		(stroke
@@ -3171,26 +2815,6 @@
 			(type default)
 		)
 		(uuid "b3703aa3-1479-4e4c-81a5-ddd7a83a26e5")
-	)
-	(wire
-		(pts
-			(xy 139.7 295.91) (xy 139.7 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4d6ac30-d969-4cdb-a7b4-0b9bbca0215e")
-	)
-	(wire
-		(pts
-			(xy 109.22 1092.2) (xy 109.22 1087.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52ef309-3740-4e56-ad2f-6475d8e61875")
 	)
 	(wire
 		(pts
@@ -3244,16 +2868,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 527.05) (xy 139.7 609.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf90b0ac-d440-44d8-bce4-82cf7c682c3f")
-	)
-	(wire
-		(pts
 			(xy 50.8 419.1) (xy 50.8 425.45)
 		)
 		(stroke
@@ -3264,7 +2878,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 516.89) (xy 139.7 527.05)
+			(xy 139.7 516.89) (xy 139.7 609.6)
 		)
 		(stroke
 			(width 0)
@@ -3334,26 +2948,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 1071.88) (xy 55.88 1102.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d058a6b0-cd11-4229-a665-2791313dc226")
-	)
-	(wire
-		(pts
-			(xy 139.7 1108.71) (xy 139.7 1189.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c54072-cdeb-4281-95c4-3998a74bd6ed")
-	)
-	(wire
-		(pts
 			(xy 50.8 190.5) (xy 73.66 190.5)
 		)
 		(stroke
@@ -3361,16 +2955,6 @@
 			(type default)
 		)
 		(uuid "d1e8fd9a-92b9-477d-8d9b-091d73534efd")
-	)
-	(wire
-		(pts
-			(xy 50.8 1231.9) (xy 50.8 1238.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d615dc1b-e849-49c9-abf4-06f4f98a4631")
 	)
 	(wire
 		(pts
@@ -3384,43 +2968,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 982.98) (xy 139.7 982.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d856b5cb-ab2f-4607-959c-6f48b0a4768e")
-	)
-	(wire
-		(pts
-			(xy 140.97 415.29) (xy 140.97 494.03)
+			(xy 140.97 402.59) (xy 140.97 494.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc3f8d67-cf27-45d5-99e2-0e57c38e8455")
-	)
-	(wire
-		(pts
-			(xy 110.49 1210.31) (xy 110.49 1205.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc541b3b-75ed-4e57-bf51-d7bb8644b365")
-	)
-	(wire
-		(pts
-			(xy 55.88 1102.36) (xy 73.66 1102.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2aa5983-db22-4008-adb6-018a5ecb7f93")
 	)
 	(wire
 		(pts
@@ -3672,16 +3226,6 @@
 		)
 		(uuid "017788ce-9e6a-4d90-ba6f-01de9e8a4703")
 	)
-	(label "DIG_4_MAX7221_9"
-		(at 109.22 993.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01f4bba5-611e-4f36-891b-5cc3a029451b")
-	)
 	(label "SEG_A_MAX7221_7"
 		(at 199.39 777.24 0)
 		(effects
@@ -3722,16 +3266,6 @@
 		)
 		(uuid "02b19a15-4b16-4132-b4ec-4fe60a1f4bc5")
 	)
-	(label "SEG_C_MAX7221_11"
-		(at 163.83 1289.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02da2579-abf2-4812-b5b4-5a00ba6521b5")
-	)
 	(label "SEG_DP_MAX7221_7"
 		(at 242.57 803.91 180)
 		(effects
@@ -3751,16 +3285,6 @@
 			(justify left bottom)
 		)
 		(uuid "03547de4-f8dd-49e4-b91c-6b2c73d41eb0")
-	)
-	(label "SEG_D_MAX7221_9"
-		(at 242.57 1003.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0362cc61-3ed5-41ce-8cfc-5b63107c74f9")
 	)
 	(label "SEG_F_MAX7221_4"
 		(at 199.39 398.78 0)
@@ -3801,16 +3325,6 @@
 			(justify right bottom)
 		)
 		(uuid "045a23e5-aed0-4546-89be-2905c38db9a4")
-	)
-	(label "DIG_2_MAX7221_10"
-		(at 163.83 1144.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "046e253a-8543-43ac-97c9-acace626d61f")
 	)
 	(label "SEG_A_MAX7221_4"
 		(at 278.13 403.86 0)
@@ -3902,16 +3416,6 @@
 		)
 		(uuid "057ee9bb-2116-4a0d-8371-9eeaf9b46e34")
 	)
-	(label "SEG_A_MAX7221_10"
-		(at 199.39 1170.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "059a72c7-c8b0-41ae-878a-34630bed57cb")
-	)
 	(label "DIG_2_MAX7221_6"
 		(at 163.83 684.53 180)
 		(effects
@@ -4002,16 +3506,6 @@
 		)
 		(uuid "08481cef-4717-47e2-96af-8b70b828bb21")
 	)
-	(label "SEG_C_MAX7221_10"
-		(at 163.83 1098.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "086d5a25-8874-4763-96cf-624986a7f473")
-	)
 	(label "SEG_D_MAX7221_8"
 		(at 163.83 913.13 180)
 		(effects
@@ -4021,16 +3515,6 @@
 			(justify right bottom)
 		)
 		(uuid "0881a62c-9107-49a4-bf4d-4355ee1c6e84")
-	)
-	(label "SEG_G_MAX7221_10"
-		(at 278.13 1090.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08b5733a-b827-4638-b91d-220505ab33c5")
 	)
 	(label "DIG_4_MAX7221_3"
 		(at 242.57 280.67 180)
@@ -4051,16 +3535,6 @@
 			(justify right bottom)
 		)
 		(uuid "09036c79-fbed-4d4c-b53b-690ce4db8295")
-	)
-	(label "SEG_D_MAX7221_10"
-		(at 163.83 1165.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09094e2f-6c3a-416c-a212-c4f180e2090b")
 	)
 	(label "SEG_E_MAX7221_6"
 		(at 242.57 703.58 180)
@@ -4122,26 +3596,6 @@
 		)
 		(uuid "0a6ec4a6-2525-4ca3-b9f7-08645a94747b")
 	)
-	(label "DIG_7_MAX7221_10"
-		(at 278.13 1168.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a7f86a9-3db1-4d89-b6f9-1301f4ff0a9e")
-	)
-	(label "SEG_D_MAX7221_9"
-		(at 242.57 1051.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a9d9581-8f91-4035-9070-7e7f438c2c38")
-	)
 	(label "SEG_C_MAX7221_7"
 		(at 163.83 753.11 180)
 		(effects
@@ -4151,16 +3605,6 @@
 			(justify right bottom)
 		)
 		(uuid "0ac5a936-4cf7-403f-a87d-e8c757189b34")
-	)
-	(label "SEG_E_MAX7221_10"
-		(at 242.57 1139.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ae5c4ee-18fb-4e41-98cd-fe96b2a9d9ec")
 	)
 	(label "SEG_C_MAX7221_2"
 		(at 163.83 193.04 180)
@@ -4182,16 +3626,6 @@
 		)
 		(uuid "0bd20350-054c-4fe2-aa7c-4a75a4da0ed8")
 	)
-	(label "DIG_1_MAX7221_11"
-		(at 199.39 1238.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bdacec6-9447-4511-951b-288e58773385")
-	)
 	(label "SEG_A_MAX7221_2"
 		(at 278.13 193.04 0)
 		(effects
@@ -4212,16 +3646,6 @@
 		)
 		(uuid "0c56027c-d3e9-459a-99fa-60f7b5a0737f")
 	)
-	(label "SEG_F_MAX7221_9"
-		(at 278.13 1003.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c5ee654-df2b-42dd-acde-e8af165323b7")
-	)
 	(label "DIG_1_MAX7221_4"
 		(at 163.83 425.45 180)
 		(effects
@@ -4231,16 +3655,6 @@
 			(justify right bottom)
 		)
 		(uuid "0ca693c3-1170-411b-b48a-77527708fbc7")
-	)
-	(label "DIG_4_MAX7221_10"
-		(at 242.57 1096.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0cdc39fa-7441-48ec-97b1-60072423392a")
 	)
 	(label "SEG_A_MAX7221_5"
 		(at 199.39 518.16 0)
@@ -4262,16 +3676,6 @@
 		)
 		(uuid "0d6fd1f7-1452-4869-a047-d887e5c3e3ab")
 	)
-	(label "SEG_C_MAX7221_11"
-		(at 163.83 1216.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d88c362-980e-401a-9627-444c5a1c0b6f")
-	)
 	(label "SEG_B_MAX7221_7"
 		(at 278.13 779.78 0)
 		(effects
@@ -4281,26 +3685,6 @@
 			(justify left bottom)
 		)
 		(uuid "0dad48b6-54c4-481b-b5dd-0d3e4d087938")
-	)
-	(label "SEG_G_MAX7221_11"
-		(at 278.13 1209.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0db9c916-88b9-43de-ab7f-db18d9db7b18")
-	)
-	(label "SEG_DP_MAX7221_11"
-		(at 163.83 1267.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0dbfc0e2-d6e8-4502-a559-311a5c26c03a")
 	)
 	(label "DIG_5_MAX7221_2"
 		(at 242.57 190.5 180)
@@ -4362,16 +3746,6 @@
 		)
 		(uuid "0ff5f02a-969c-4030-8968-60d3a09627d2")
 	)
-	(label "DIG_4_MAX7221_10"
-		(at 109.22 1107.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10279038-a68a-464c-8c83-ba72a0e8efaf")
-	)
 	(label "SEG_B_MAX7221_9"
 		(at 73.66 1016 180)
 		(effects
@@ -4401,16 +3775,6 @@
 			(justify left bottom)
 		)
 		(uuid "115f3071-5834-4e93-9216-da5181a11a9a")
-	)
-	(label "SEG_G_MAX7221_10"
-		(at 199.39 1115.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1184899b-3bfe-4319-96bf-8543ea8ac4d1")
 	)
 	(label "SEG_G_MAX7221_8"
 		(at 199.39 886.46 0)
@@ -4472,16 +3836,6 @@
 		)
 		(uuid "132f3ece-225a-4e72-b579-c37844f38494")
 	)
-	(label "DIG_3_MAX7221_11"
-		(at 73.66 1233.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "13611639-1b93-4771-8564-eaece5e875d0")
-	)
 	(label "SEG_DP_MAX7221_6"
 		(at 163.83 713.74 180)
 		(effects
@@ -4531,26 +3885,6 @@
 			(justify right bottom)
 		)
 		(uuid "14b90b1b-86a7-4537-a3f4-f7c58e04e758")
-	)
-	(label "SEG_DP_MAX7221_11"
-		(at 73.66 1263.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14db8aba-ded0-449a-80a0-bd0502409681")
-	)
-	(label "SEG_E_MAX7221_9"
-		(at 242.57 976.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "158053f8-38be-430c-8ab8-b655772cd224")
 	)
 	(label "SEG_B_MAX7221_3"
 		(at 199.39 358.14 0)
@@ -4672,16 +4006,6 @@
 		)
 		(uuid "18eb4e95-8c96-4d5a-8800-bbe02ab8c747")
 	)
-	(label "SEG_F_MAX7221_11"
-		(at 199.39 1211.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "196496c0-df95-4feb-afd6-d2d27404e7a8")
-	)
 	(label "SEG_F_MAX7221_8"
 		(at 278.13 913.13 0)
 		(effects
@@ -4762,16 +4086,6 @@
 		)
 		(uuid "1c6fd68e-bec5-4161-bc0e-6ba2f7592d3e")
 	)
-	(label "SEG_G_MAX7221_10"
-		(at 278.13 1139.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1cbb0161-68f6-467e-ae99-ea2ed45d84f1")
-	)
 	(label "SEG_F_MAX7221_5"
 		(at 199.39 561.34 0)
 		(effects
@@ -4801,16 +4115,6 @@
 			(justify right bottom)
 		)
 		(uuid "1d4b42fe-d968-49d4-a921-cc37007ba4eb")
-	)
-	(label "DIG_2_MAX7221_11"
-		(at 73.66 1230.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1d7425ad-2b89-469b-a7ee-07b5ea41562a")
 	)
 	(label "SEG_D_MAX7221_2"
 		(at 163.83 236.22 180)
@@ -4882,16 +4186,6 @@
 		)
 		(uuid "1edb21dd-2063-4e48-a5d3-25737c643fe8")
 	)
-	(label "SEG_F_MAX7221_10"
-		(at 73.66 1155.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1edfbc05-e05b-418f-8793-0846bbd36fd1")
-	)
 	(label "SEG_E_MAX7221_5"
 		(at 73.66 570.23 180)
 		(effects
@@ -4941,16 +4235,6 @@
 			(justify right bottom)
 		)
 		(uuid "209df06e-ec6f-4c4e-be19-965246ab216f")
-	)
-	(label "SEG_C_MAX7221_11"
-		(at 73.66 1253.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2167c90f-4f18-40c0-9a85-1a3fd1085a9d")
 	)
 	(label "SEG_F_MAX7221_1"
 		(at 199.39 76.2 0)
@@ -5071,16 +4355,6 @@
 			(justify right bottom)
 		)
 		(uuid "2448a295-7c05-4737-8a8c-bfb15c717253")
-	)
-	(label "SEG_B_MAX7221_9"
-		(at 278.13 1035.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2457ba92-62b3-41cd-9a34-06ef58ff419a")
 	)
 	(label "DIG_0_MAX7221_7"
 		(at 73.66 762 180)
@@ -5292,16 +4566,6 @@
 		)
 		(uuid "29d1d3f0-ab0f-43db-9860-07487ad8cb41")
 	)
-	(label "SEG_C_MAX7221_9"
-		(at 242.57 1056.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a21af35-b10c-4e1b-bb19-466d9289ac70")
-	)
 	(label "SEG_C_MAX7221_6"
 		(at 242.57 711.2 180)
 		(effects
@@ -5342,16 +4606,6 @@
 		)
 		(uuid "2abe73db-8a1a-4a32-88c5-63caf1c0dbba")
 	)
-	(label "SEG_B_MAX7221_9"
-		(at 278.13 1059.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2aed43fa-d26c-4fec-8e1c-860666f8d9a9")
-	)
 	(label "DIG_1_MAX7221_6"
 		(at 199.39 660.4 0)
 		(effects
@@ -5361,16 +4615,6 @@
 			(justify left bottom)
 		)
 		(uuid "2b1e49da-0a5e-49f8-aad5-3f2effb813b0")
-	)
-	(label "SEG_E_MAX7221_10"
-		(at 242.57 1115.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b22b5a4-d563-4e2a-8d0c-8ffd41b9ee6f")
 	)
 	(label "SEG_DP_MAX7221_7"
 		(at 242.57 755.65 180)
@@ -5462,16 +4706,6 @@
 		)
 		(uuid "2e1522ed-8cb0-4049-8c58-0409adba3f33")
 	)
-	(label "SEG_G_MAX7221_11"
-		(at 199.39 1209.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e4bf967-d1d5-41cd-8783-cb303126c9ce")
-	)
 	(label "SEG_B_MAX7221_6"
 		(at 199.39 665.48 0)
 		(effects
@@ -5482,16 +4716,6 @@
 		)
 		(uuid "2e73611d-0a7a-4a7e-b017-ef5717d2c22d")
 	)
-	(label "DIG_1_MAX7221_11"
-		(at 163.83 1238.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e9b0ef9-38d6-43bf-97b5-da883ba43ddc")
-	)
 	(label "SEG_E_MAX7221_5"
 		(at 242.57 558.8 180)
 		(effects
@@ -5501,36 +4725,6 @@
 			(justify right bottom)
 		)
 		(uuid "2edc1a6b-7d8f-4df0-8f39-f8fa7c1f997e")
-	)
-	(label "DIG_3_MAX7221_10"
-		(at 73.66 1115.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ee415da-0572-4da9-9af5-b40136067cbb")
-	)
-	(label "DIG_6_MAX7221_9"
-		(at 109.22 998.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2eebea24-e54d-499c-894f-6c32b789d30c")
-	)
-	(label "SEG_G_MAX7221_10"
-		(at 199.39 1139.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2eed54a1-6f0f-4c82-8ff3-5b80f6adc08c")
 	)
 	(label "SEG_E_MAX7221_3"
 		(at 163.83 323.85 180)
@@ -5571,16 +4765,6 @@
 			(justify right bottom)
 		)
 		(uuid "2fa8f142-bc8e-4bbb-b106-c57704a61e04")
-	)
-	(label "SEG_F_MAX7221_9"
-		(at 278.13 1051.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fc60460-a0e1-4bb0-b7fb-86e4aadb9607")
 	)
 	(label "SEG_DP_MAX7221_9"
 		(at 163.83 986.79 180)
@@ -5672,16 +4856,6 @@
 		)
 		(uuid "32acf8a6-9af8-4b33-8b8e-be101bb22966")
 	)
-	(label "DIG_3_MAX7221_10"
-		(at 199.39 1168.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32cac87d-0b7f-4a4c-9aa0-46f42fb1c085")
-	)
 	(label "SEG_C_MAX7221_3"
 		(at 163.83 331.47 180)
 		(effects
@@ -5751,26 +4925,6 @@
 			(justify left bottom)
 		)
 		(uuid "34673325-0f33-4e72-b603-4f624f636b1e")
-	)
-	(label "SEG_DP_MAX7221_10"
-		(at 242.57 1173.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "346a78a4-7c31-43ea-93eb-f2938bec62ed")
-	)
-	(label "SEG_A_MAX7221_11"
-		(at 199.39 1289.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3479b741-7e46-4f3f-9fd1-c7b3c40373dd")
 	)
 	(label "SEG_G_MAX7221_8"
 		(at 199.39 862.33 0)
@@ -5842,16 +4996,6 @@
 		)
 		(uuid "3544db69-1b1f-496e-9839-a7ba96785ba6")
 	)
-	(label "SEG_B_MAX7221_10"
-		(at 199.39 1173.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "354d5e38-1bea-4cc6-ad89-1a088939cc58")
-	)
 	(label "SEG_F_MAX7221_5"
 		(at 199.39 513.08 0)
 		(effects
@@ -5862,16 +5006,6 @@
 		)
 		(uuid "3563d857-0ceb-4619-8b49-f72f2fb4309b")
 	)
-	(label "SEG_E_MAX7221_11"
-		(at 163.83 1233.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "359d82a1-6ebc-4c9b-b503-5e875abbf05b")
-	)
 	(label "SEG_DP_MAX7221_5"
 		(at 242.57 544.83 180)
 		(effects
@@ -5881,16 +5015,6 @@
 			(justify right bottom)
 		)
 		(uuid "35a7797b-038f-42d4-a81a-837c0b39f00f")
-	)
-	(label "SEG_DP_MAX7221_10"
-		(at 163.83 1173.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35b193b3-13f6-41e0-a1c5-58ae1d43274a")
 	)
 	(label "SEG_E_MAX7221_8"
 		(at 163.83 934.72 180)
@@ -5941,26 +5065,6 @@
 			(justify left bottom)
 		)
 		(uuid "3761bbc4-8c5f-40d5-bf4b-1393b7d7cc8a")
-	)
-	(label "SEG_DP_MAX7221_10"
-		(at 242.57 1125.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37700b19-e82e-4f70-a30d-30c332d05116")
-	)
-	(label "DIG_5_MAX7221_9"
-		(at 109.22 995.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3795b6b8-d521-4065-9476-adff5caf55dc")
 	)
 	(label "SEG_E_MAX7221_1"
 		(at 163.83 97.79 180)
@@ -6062,16 +5166,6 @@
 		)
 		(uuid "3bbbb944-61bc-4eff-945b-547f16da86ab")
 	)
-	(label "SEG_D_MAX7221_11"
-		(at 163.83 1259.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3c2c6727-baab-4666-a841-d7e70f86de6d")
-	)
 	(label "SEG_B_MAX7221_8"
 		(at 73.66 901.7 180)
 		(effects
@@ -6101,16 +5195,6 @@
 			(justify right bottom)
 		)
 		(uuid "3c78486e-b6b2-41d8-8bab-4909d1c995c9")
-	)
-	(label "SEG_F_MAX7221_11"
-		(at 199.39 1259.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c8be22e-befc-4349-bb57-19d9becde7e0")
 	)
 	(label "DIG_0_MAX7221_3"
 		(at 199.39 280.67 0)
@@ -6162,16 +5246,6 @@
 		)
 		(uuid "3d8c1259-b735-4bc0-a7a9-20ea9f0e5f0e")
 	)
-	(label "SEG_A_MAX7221_10"
-		(at 278.13 1098.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3db8b7cb-d977-471e-b168-1fdf7c0fbb05")
-	)
 	(label "SEG_B_MAX7221_7"
 		(at 199.39 779.78 0)
 		(effects
@@ -6181,26 +5255,6 @@
 			(justify left bottom)
 		)
 		(uuid "3e28c1b9-4935-4315-af3b-ce5c20b3b180")
-	)
-	(label "DIG_5_MAX7221_9"
-		(at 278.13 1005.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e444a33-3291-44e5-92d6-19ba52e886fd")
-	)
-	(label "SEG_A_MAX7221_9"
-		(at 278.13 1032.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e4aae09-a998-4d8d-b21b-5f5d34516eb7")
 	)
 	(label "DIG_4_MAX7221_7"
 		(at 278.13 750.57 0)
@@ -6221,16 +5275,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ed200e6-e69d-4406-8832-3b4d9b737f85")
-	)
-	(label "SEG_E_MAX7221_11"
-		(at 163.83 1257.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f1329f9-1751-41bd-ba48-62a3feb342ed")
 	)
 	(label "SEG_F_MAX7221_7"
 		(at 278.13 820.42 0)
@@ -6372,16 +5416,6 @@
 		)
 		(uuid "41c5b2db-a4e4-4824-98b5-6e51947170f2")
 	)
-	(label "SEG_A_MAX7221_9"
-		(at 278.13 1056.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41e3a435-7398-4c51-812a-2daf0af04b99")
-	)
 	(label "SEG_B_MAX7221_4"
 		(at 199.39 430.53 0)
 		(effects
@@ -6391,26 +5425,6 @@
 			(justify left bottom)
 		)
 		(uuid "41fd1f45-3bbf-4d4a-be32-d71c49f9da34")
-	)
-	(label "SEG_F_MAX7221_10"
-		(at 278.13 1165.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "421df1be-c90d-4dcc-8a71-bc1ca62400dc")
-	)
-	(label "DIG_3_MAX7221_10"
-		(at 163.83 1168.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "426ed9e4-50b7-4fa0-a138-0138259bf736")
 	)
 	(label "SEG_C_MAX7221_7"
 		(at 73.66 789.94 180)
@@ -6441,36 +5455,6 @@
 			(justify left bottom)
 		)
 		(uuid "43a93dc3-d654-4c84-b5dc-117358ac2242")
-	)
-	(label "SEG_G_MAX7221_11"
-		(at 199.39 1233.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43d85cc5-6231-48b9-8c4e-fe61eec1d2ff")
-	)
-	(label "SEG_F_MAX7221_10"
-		(at 278.13 1117.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43e14232-0239-44a5-a657-5750991d225c")
-	)
-	(label "SEG_B_MAX7221_10"
-		(at 199.39 1101.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44403ff2-ff27-46a4-8f32-12d8f2b29d3d")
 	)
 	(label "SEG_F_MAX7221_8"
 		(at 199.39 889 0)
@@ -6511,16 +5495,6 @@
 			(justify right bottom)
 		)
 		(uuid "4528162f-0c08-49b8-8a18-535e794fffe4")
-	)
-	(label "SEG_DP_MAX7221_10"
-		(at 242.57 1101.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "453a226c-2bf0-435f-9cb5-d76aa2ce110b")
 	)
 	(label "SEG_DP_MAX7221_3"
 		(at 163.83 285.75 180)
@@ -6572,16 +5546,6 @@
 		)
 		(uuid "46c2b76b-2188-419a-bf49-8060ac374e83")
 	)
-	(label "DIG_0_MAX7221_10"
-		(at 163.83 1096.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "473e55eb-feca-4aed-8191-0115a7b0b47f")
-	)
 	(label "SEG_DP_MAX7221_7"
 		(at 163.83 779.78 180)
 		(effects
@@ -6611,16 +5575,6 @@
 			(justify left bottom)
 		)
 		(uuid "47d9319a-1263-49af-a772-9f52d03d0e67")
-	)
-	(label "SEG_D_MAX7221_10"
-		(at 163.83 1141.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47e3ba4a-95b1-4b57-be01-167d47c3aea0")
 	)
 	(label "SEG_A_MAX7221_7"
 		(at 278.13 825.5 0)
@@ -6702,26 +5656,6 @@
 		)
 		(uuid "49b36313-f9b9-4d35-b496-740d9e795a00")
 	)
-	(label "SEG_C_MAX7221_10"
-		(at 242.57 1170.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "49b61c77-0037-4a2a-960b-80dd83756c7f")
-	)
-	(label "SEG_D_MAX7221_9"
-		(at 242.57 979.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "49bd17c6-716a-48f2-a063-04454a363da7")
-	)
 	(label "SEG_DP_MAX7221_4"
 		(at 163.83 478.79 180)
 		(effects
@@ -6761,16 +5695,6 @@
 			(justify right bottom)
 		)
 		(uuid "4b9b10a7-4271-4a5f-b00c-9c63b720ea8c")
-	)
-	(label "SEG_DP_MAX7221_9"
-		(at 242.57 986.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ba8c403-b221-4cde-84dc-0a313a434231")
 	)
 	(label "DIG_4_MAX7221_5"
 		(at 278.13 515.62 0)
@@ -6871,16 +5795,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f105d95-866a-41e2-bf18-7c25eb45e3d1")
-	)
-	(label "SEG_DP_MAX7221_11"
-		(at 163.83 1219.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f122ad5-5780-404e-a3db-18c5af44612b")
 	)
 	(label "DIG_2_MAX7221_5"
 		(at 199.39 563.88 0)
@@ -7012,26 +5926,6 @@
 		)
 		(uuid "52d2ca0f-d765-428a-bb18-e3b9c00b67cf")
 	)
-	(label "SEG_DP_MAX7221_11"
-		(at 242.57 1219.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52fce704-bff3-4776-bb36-e61981645ab4")
-	)
-	(label "SEG_G_MAX7221_10"
-		(at 278.13 1115.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53795bb3-e02f-4baf-a640-354b1e47503e")
-	)
 	(label "SEG_F_MAX7221_6"
 		(at 199.39 681.99 0)
 		(effects
@@ -7041,16 +5935,6 @@
 			(justify left bottom)
 		)
 		(uuid "53cc01d9-e39f-44b0-a9cf-433a34102c97")
-	)
-	(label "DIG_6_MAX7221_10"
-		(at 109.22 1112.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53fa6684-0032-46b7-b692-bf83e89961d8")
 	)
 	(label "DIG_7_MAX7221_8"
 		(at 109.22 886.46 0)
@@ -7062,26 +5946,6 @@
 		)
 		(uuid "5433371d-287d-44de-a0e9-024175871cec")
 	)
-	(label "SEG_DP_MAX7221_10"
-		(at 163.83 1101.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "544e5323-2ff2-4524-9edc-aefd9fb4cff9")
-	)
-	(label "SEG_C_MAX7221_11"
-		(at 163.83 1240.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54547998-835c-43fe-a54e-dfbacac0a7f4")
-	)
 	(label "DIG_6_MAX7221_1"
 		(at 278.13 102.87 0)
 		(effects
@@ -7091,26 +5955,6 @@
 			(justify left bottom)
 		)
 		(uuid "549239ee-5655-4f80-88cf-d6afeb077991")
-	)
-	(label "SEG_F_MAX7221_10"
-		(at 199.39 1165.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55327518-ece5-4496-8940-a3bd835cb255")
-	)
-	(label "SEG_A_MAX7221_11"
-		(at 199.39 1264.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55385aed-10cc-4350-839b-1c73de34f76c")
 	)
 	(label "SEG_B_MAX7221_6"
 		(at 278.13 689.61 0)
@@ -7122,16 +5966,6 @@
 		)
 		(uuid "55c319d2-c65a-4c78-8a2c-8ffca816a266")
 	)
-	(label "DIG_0_MAX7221_11"
-		(at 163.83 1214.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5622bdb6-652c-464c-b3b0-e9c8d7519e49")
-	)
 	(label "DIG_7_MAX7221_4"
 		(at 109.22 420.37 0)
 		(effects
@@ -7141,26 +5975,6 @@
 			(justify left bottom)
 		)
 		(uuid "563c661e-9d36-4ec9-9dc0-0b53ac544def")
-	)
-	(label "SEG_A_MAX7221_10"
-		(at 199.39 1122.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "567f84a8-4edc-4f9e-a6ee-a6df70ed5d36")
-	)
-	(label "SEG_F_MAX7221_10"
-		(at 278.13 1093.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56959d07-52c1-4c07-81db-1bd8d578eaad")
 	)
 	(label "DIG_2_MAX7221_8"
 		(at 73.66 883.92 180)
@@ -7192,16 +6006,6 @@
 		)
 		(uuid "56faee29-b089-444f-8509-c90234fff652")
 	)
-	(label "DIG_7_MAX7221_10"
-		(at 109.22 1115.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56ff2617-cc6b-4b0e-a684-cc0f98f6201f")
-	)
 	(label "SEG_B_MAX7221_2"
 		(at 199.39 171.45 0)
 		(effects
@@ -7211,16 +6015,6 @@
 			(justify left bottom)
 		)
 		(uuid "57296ae5-9d0d-498b-81b7-85f38b9df38a")
-	)
-	(label "SEG_C_MAX7221_10"
-		(at 163.83 1146.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "57aad2de-18ed-4e24-a853-a586673fdc50")
 	)
 	(label "SEG_G_MAX7221_7"
 		(at 199.39 793.75 0)
@@ -7252,26 +6046,6 @@
 		)
 		(uuid "594ef503-7928-4c39-8107-cdea0b3632a3")
 	)
-	(label "SEG_C_MAX7221_10"
-		(at 242.57 1098.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59a583a7-9334-451a-b489-d6ded6ef03b5")
-	)
-	(label "SEG_G_MAX7221_10"
-		(at 73.66 1160.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59d47b5b-27b7-4d04-b553-8526d163e69c")
-	)
 	(label "SEG_A_MAX7221_9"
 		(at 73.66 1010.92 180)
 		(effects
@@ -7301,16 +6075,6 @@
 			(justify right bottom)
 		)
 		(uuid "5ac55042-c818-4cbb-9886-493ec1777943")
-	)
-	(label "SEG_A_MAX7221_9"
-		(at 278.13 1008.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b252423-c35f-48fb-a53d-869313df643b")
 	)
 	(label "SEG_A_MAX7221_3"
 		(at 73.66 309.88 180)
@@ -7352,16 +6116,6 @@
 		)
 		(uuid "5c77a9ad-24dd-4a4c-a9b8-5dd777054598")
 	)
-	(label "SEG_D_MAX7221_10"
-		(at 242.57 1165.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ca30794-2473-411b-a4f6-979def443c16")
-	)
 	(label "DIG_0_MAX7221_1"
 		(at 199.39 54.61 0)
 		(effects
@@ -7382,16 +6136,6 @@
 		)
 		(uuid "5d476ef8-d0d8-4d31-a9d0-e087de73f579")
 	)
-	(label "SEG_E_MAX7221_10"
-		(at 163.83 1115.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d484863-8930-4ba6-a9c8-537b637f877d")
-	)
 	(label "DIG_1_MAX7221_8"
 		(at 163.83 891.54 180)
 		(effects
@@ -7411,16 +6155,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d828441-2666-4654-b493-3f66c6917a67")
-	)
-	(label "DIG_5_MAX7221_10"
-		(at 109.22 1109.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5da8e871-407e-479b-ab89-8aa30302928f")
 	)
 	(label "DIG_3_MAX7221_8"
 		(at 163.83 939.8 180)
@@ -7502,16 +6236,6 @@
 		)
 		(uuid "5f06dc18-c7b0-4dfb-92ad-f7534c5f7a3c")
 	)
-	(label "DIG_5_MAX7221_10"
-		(at 242.57 1120.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f9e9fe0-6c3f-44bb-9dae-2f0b92698459")
-	)
 	(label "SEG_D_MAX7221_2"
 		(at 242.57 236.22 180)
 		(effects
@@ -7541,16 +6265,6 @@
 			(justify right bottom)
 		)
 		(uuid "6076edbb-e7ab-4eeb-88f2-598f412903e5")
-	)
-	(label "SEG_E_MAX7221_11"
-		(at 163.83 1281.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60ac0bda-58f4-46a0-a4fe-afb2211718d3")
 	)
 	(label "SEG_G_MAX7221_2"
 		(at 199.39 185.42 0)
@@ -7621,16 +6335,6 @@
 			(justify left bottom)
 		)
 		(uuid "631740c7-5871-4a36-a47d-f6ae8ac1b578")
-	)
-	(label "SEG_C_MAX7221_10"
-		(at 163.83 1170.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "633dec33-1053-4b41-9233-9e9dd179d605")
 	)
 	(label "DIG_3_MAX7221_3"
 		(at 199.39 353.06 0)
@@ -7782,16 +6486,6 @@
 		)
 		(uuid "66ddbe70-63a9-4aea-a427-f05e4f0e3a1d")
 	)
-	(label "SEG_DP_MAX7221_9"
-		(at 242.57 1035.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67486335-c901-4f4a-bb90-1c32fec08da1")
-	)
 	(label "DIG_7_MAX7221_7"
 		(at 109.22 769.62 0)
 		(effects
@@ -7812,16 +6506,6 @@
 		)
 		(uuid "686bf8ad-130d-4243-8786-8caafc6854b1")
 	)
-	(label "SEG_F_MAX7221_9"
-		(at 278.13 979.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6902f4a3-c5f2-4a2a-bb34-a94a85dabb39")
-	)
 	(label "SEG_C_MAX7221_3"
 		(at 242.57 355.6 180)
 		(effects
@@ -7841,16 +6525,6 @@
 			(justify left bottom)
 		)
 		(uuid "69161e6f-0a82-454f-b63b-e3f6c8e272b6")
-	)
-	(label "DIG_6_MAX7221_9"
-		(at 242.57 1029.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "691ca89f-cf1a-4716-9713-1ba9e2580fcb")
 	)
 	(label "SEG_D_MAX7221_7"
 		(at 242.57 820.42 180)
@@ -7931,26 +6605,6 @@
 			(justify right bottom)
 		)
 		(uuid "6b3348d4-1e08-4ee1-843a-bd7bb77f4d0c")
-	)
-	(label "DIG_3_MAX7221_11"
-		(at 199.39 1286.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b57639c-2a93-444d-b284-2fd71f32a7a6")
-	)
-	(label "DIG_0_MAX7221_10"
-		(at 73.66 1107.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b7c6d4d-2b71-4a9a-985c-d654cdc47afb")
 	)
 	(label "SEG_F_MAX7221_5"
 		(at 278.13 513.08 0)
@@ -8082,16 +6736,6 @@
 		)
 		(uuid "6ed3e991-d81a-4af5-818c-d5570f4c8536")
 	)
-	(label "SEG_B_MAX7221_11"
-		(at 278.13 1219.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f34b9a4-9d2f-4c54-a3b7-3b29aaf6ac8d")
-	)
 	(label "SEG_D_MAX7221_2"
 		(at 163.83 163.83 180)
 		(effects
@@ -8102,26 +6746,6 @@
 		)
 		(uuid "6f6c02dc-ec2f-41a8-9b94-4378ad971e17")
 	)
-	(label "SEG_DP_MAX7221_9"
-		(at 242.57 1010.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f71f8f7-ea3b-4030-ae64-10c440d7f7ab")
-	)
-	(label "SEG_C_MAX7221_11"
-		(at 242.57 1216.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f90c282-a22b-4bd8-9c05-3d3e6465cfd8")
-	)
 	(label "SEG_B_MAX7221_6"
 		(at 278.13 713.74 0)
 		(effects
@@ -8131,16 +6755,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f95fcd8-288d-4d05-baa2-fe1e68ccbdb0")
-	)
-	(label "SEG_A_MAX7221_11"
-		(at 278.13 1216.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fa491ce-c267-4113-bea3-5445c1489b12")
 	)
 	(label "SEG_F_MAX7221_7"
 		(at 278.13 772.16 0)
@@ -8302,16 +6916,6 @@
 		)
 		(uuid "732fec26-1cf0-4d34-935d-ab8863406848")
 	)
-	(label "DIG_4_MAX7221_9"
-		(at 242.57 981.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7340baf9-f31a-45d7-aa13-e8b1b45c2bfa")
-	)
 	(label "DIG_6_MAX7221_8"
 		(at 242.57 915.67 180)
 		(effects
@@ -8341,16 +6945,6 @@
 			(justify right bottom)
 		)
 		(uuid "7427cf25-b246-4e6a-87d3-35dc030550b7")
-	)
-	(label "SEG_G_MAX7221_11"
-		(at 199.39 1257.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "742f743c-ef0b-4bdb-9797-b92d92d3134a")
 	)
 	(label "SEG_G_MAX7221_5"
 		(at 199.39 534.67 0)
@@ -8412,16 +7006,6 @@
 		)
 		(uuid "75795fc3-b07f-4146-8ddf-f948249d5e29")
 	)
-	(label "SEG_E_MAX7221_10"
-		(at 163.83 1163.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "757a3339-b7af-452f-9b38-6485bb8eef61")
-	)
 	(label "DIG_6_MAX7221_2"
 		(at 242.57 214.63 180)
 		(effects
@@ -8431,16 +7015,6 @@
 			(justify right bottom)
 		)
 		(uuid "75a74651-b6da-4d01-b542-fd2f419fb117")
-	)
-	(label "DIG_2_MAX7221_10"
-		(at 199.39 1144.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75dd39ea-3be7-48eb-9c0c-759a620f2869")
 	)
 	(label "SEG_G_MAX7221_5"
 		(at 199.39 510.54 0)
@@ -8512,16 +7086,6 @@
 		)
 		(uuid "76e96fd6-c8fd-4755-9b3a-0dc0b5ed1702")
 	)
-	(label "SEG_F_MAX7221_10"
-		(at 199.39 1117.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7771ec7d-888f-4ebb-8f6c-218eb69c493c")
-	)
 	(label "SEG_C_MAX7221_8"
 		(at 73.66 906.78 180)
 		(effects
@@ -8572,16 +7136,6 @@
 		)
 		(uuid "7974e746-0701-42ec-8c40-f3f793fb353b")
 	)
-	(label "DIG_5_MAX7221_9"
-		(at 242.57 1005.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a0f81f4-c0eb-468a-9ca7-624f552e723c")
-	)
 	(label "SEG_A_MAX7221_8"
 		(at 278.13 869.95 0)
 		(effects
@@ -8601,16 +7155,6 @@
 			(justify left bottom)
 		)
 		(uuid "7a333f99-f52b-400c-8c9c-78eb8f91da4e")
-	)
-	(label "SEG_D_MAX7221_11"
-		(at 242.57 1211.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a623aed-774e-46f7-b3c2-a8b2544e30c8")
 	)
 	(label "SEG_DP_MAX7221_4"
 		(at 163.83 430.53 180)
@@ -8652,16 +7196,6 @@
 		)
 		(uuid "7ba7da1c-d072-4e6d-a937-9ffd48fd53aa")
 	)
-	(label "SEG_A_MAX7221_10"
-		(at 278.13 1170.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bc6a670-7f9c-4ea8-a8e9-47381c607ce9")
-	)
 	(label "SEG_DP_MAX7221_3"
 		(at 73.66 330.2 180)
 		(effects
@@ -8671,16 +7205,6 @@
 			(justify right bottom)
 		)
 		(uuid "7c07853e-4f0a-4d68-b798-779c984b28d8")
-	)
-	(label "SEG_E_MAX7221_10"
-		(at 163.83 1139.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c50bde1-a1bc-4b0e-a4d1-f3c1aa50304b")
 	)
 	(label "SEG_G_MAX7221_5"
 		(at 199.39 582.93 0)
@@ -8802,16 +7326,6 @@
 		)
 		(uuid "7e5f4b52-3eee-41c0-8b50-8532c9e2e645")
 	)
-	(label "SEG_B_MAX7221_10"
-		(at 73.66 1130.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e7e2031-67f2-4e74-a024-dbe54a59d136")
-	)
 	(label "DIG_7_MAX7221_6"
 		(at 242.57 708.66 180)
 		(effects
@@ -8881,16 +7395,6 @@
 			(justify left bottom)
 		)
 		(uuid "80398162-94ec-4818-80c5-deafb042921a")
-	)
-	(label "SEG_F_MAX7221_9"
-		(at 278.13 1027.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80654a36-b57b-49f7-ac62-f21a040fdc75")
 	)
 	(label "SEG_DP_MAX7221_4"
 		(at 242.57 478.79 180)
@@ -9042,26 +7546,6 @@
 		)
 		(uuid "83e9c473-ab6a-4daf-a690-421697693a39")
 	)
-	(label "SEG_B_MAX7221_9"
-		(at 278.13 986.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83fd14cb-fdaa-4902-b28a-66943a99777a")
-	)
-	(label "SEG_E_MAX7221_10"
-		(at 73.66 1150.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "842e9bf3-c13d-47f8-bfc4-9ad1c905ceba")
-	)
 	(label "SEG_B_MAX7221_5"
 		(at 199.39 593.09 0)
 		(effects
@@ -9182,16 +7666,6 @@
 		)
 		(uuid "86df6bb0-024b-46c9-8eab-5b33765f9fdb")
 	)
-	(label "SEG_G_MAX7221_10"
-		(at 199.39 1163.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8719de3f-61d7-4861-9781-84133c6574e6")
-	)
 	(label "SEG_G_MAX7221_8"
 		(at 199.39 934.72 0)
 		(effects
@@ -9282,16 +7756,6 @@
 		)
 		(uuid "89b07efb-07bf-4a80-aace-38022707bf1e")
 	)
-	(label "SEG_D_MAX7221_10"
-		(at 242.57 1141.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "89ce776a-e303-49d9-b202-66370bdfb698")
-	)
 	(label "SEG_A_MAX7221_8"
 		(at 73.66 896.62 180)
 		(effects
@@ -9322,16 +7786,6 @@
 		)
 		(uuid "8aaa8cbf-c15c-4fc1-bc83-f199d5315773")
 	)
-	(label "DIG_7_MAX7221_9"
-		(at 242.57 1054.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8abbf735-82d2-4cd5-8ba4-10a99b0a1414")
-	)
 	(label "SEG_A_MAX7221_9"
 		(at 199.39 984.25 0)
 		(effects
@@ -9341,16 +7795,6 @@
 			(justify left bottom)
 		)
 		(uuid "8ac39764-e63a-4f3c-9199-9fde84d6fb1c")
-	)
-	(label "SEG_B_MAX7221_10"
-		(at 278.13 1149.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8afde990-c0a6-43af-a7b7-3acaa0e8bc2c")
 	)
 	(label "SEG_D_MAX7221_1"
 		(at 163.83 124.46 180)
@@ -9401,26 +7845,6 @@
 			(justify right bottom)
 		)
 		(uuid "8c388495-aeb8-4cb0-a769-e25fb64ca594")
-	)
-	(label "DIG_7_MAX7221_9"
-		(at 278.13 1054.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cb54737-b142-4efe-83ff-d2f14dfc37d5")
-	)
-	(label "SEG_D_MAX7221_10"
-		(at 242.57 1093.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8cd4673b-8b26-44d8-bf1a-f597bba4bc7a")
 	)
 	(label "DIG_5_MAX7221_8"
 		(at 278.13 891.54 0)
@@ -9481,16 +7905,6 @@
 			(justify left bottom)
 		)
 		(uuid "8e217551-4bef-40ab-a9d1-fa9b8a55dd5a")
-	)
-	(label "SEG_G_MAX7221_9"
-		(at 278.13 1000.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e71c6eb-0f9f-4a99-925a-777b8a9cf6c6")
 	)
 	(label "SEG_E_MAX7221_6"
 		(at 163.83 679.45 180)
@@ -9672,16 +8086,6 @@
 		)
 		(uuid "958efb7b-ec7b-43b3-a197-6a51eed767b8")
 	)
-	(label "SEG_B_MAX7221_11"
-		(at 199.39 1219.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95c19e39-fab1-4110-b654-3f649fc54d3c")
-	)
 	(label "SEG_D_MAX7221_5"
 		(at 242.57 537.21 180)
 		(effects
@@ -9691,16 +8095,6 @@
 			(justify right bottom)
 		)
 		(uuid "96175ffa-3d4f-4ff7-beaa-e665ee5f8eee")
-	)
-	(label "SEG_G_MAX7221_11"
-		(at 199.39 1281.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "968c09ae-46f7-4f48-b8e3-156f5c352b1e")
 	)
 	(label "SEG_D_MAX7221_5"
 		(at 242.57 585.47 180)
@@ -9812,26 +8206,6 @@
 		)
 		(uuid "9a8d3a01-c685-4231-bf07-825a07db6cc4")
 	)
-	(label "SEG_D_MAX7221_11"
-		(at 73.66 1258.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ab534d1-787e-48dd-9487-b0665076dfe8")
-	)
-	(label "SEG_C_MAX7221_9"
-		(at 242.57 1008.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9b1d04d8-dca4-4ab7-9a06-a9fb52baa32a")
-	)
 	(label "SEG_B_MAX7221_2"
 		(at 278.13 171.45 0)
 		(effects
@@ -9861,26 +8235,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b63063a-8bda-4bd6-b702-466100ba6ee7")
-	)
-	(label "SEG_A_MAX7221_11"
-		(at 199.39 1216.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b886754-de79-471f-ab81-2171e75034c6")
-	)
-	(label "SEG_G_MAX7221_10"
-		(at 278.13 1163.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ba7fa4c-b65a-4762-b2c0-7f3bc483b951")
 	)
 	(label "SEG_A_MAX7221_5"
 		(at 199.39 542.29 0)
@@ -9922,36 +8276,6 @@
 		)
 		(uuid "9d29ce4c-6c2b-4dd2-bccc-425cc4f668c2")
 	)
-	(label "SEG_E_MAX7221_9"
-		(at 242.57 1024.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9db48146-946b-486a-b1dd-a47a8c491357")
-	)
-	(label "SEG_A_MAX7221_10"
-		(at 278.13 1146.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9db4e286-e204-48aa-864e-df9b1572394c")
-	)
-	(label "SEG_DP_MAX7221_9"
-		(at 242.57 1059.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9df883fa-6133-46bf-a8a1-9d061005ab7c")
-	)
 	(label "SEG_G_MAX7221_6"
 		(at 199.39 655.32 0)
 		(effects
@@ -9961,26 +8285,6 @@
 			(justify left bottom)
 		)
 		(uuid "9dfd6e84-1f2a-41af-938b-d4ffdfaeabdc")
-	)
-	(label "DIG_2_MAX7221_11"
-		(at 199.39 1262.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e64ce14-ade2-4b14-bb30-7a46ebd9cf32")
-	)
-	(label "SEG_A_MAX7221_9"
-		(at 278.13 984.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9eb10616-67ba-4de7-a078-12d4b5b93aa5")
 	)
 	(label "DIG_6_MAX7221_5"
 		(at 109.22 532.13 0)
@@ -10011,26 +8315,6 @@
 			(justify right bottom)
 		)
 		(uuid "9f35379d-e9ca-4085-bcaf-a31007081409")
-	)
-	(label "SEG_C_MAX7221_11"
-		(at 163.83 1264.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9fb9c97b-4fa1-4d5e-b75a-344d299646cf")
-	)
-	(label "SEG_B_MAX7221_9"
-		(at 278.13 1010.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a09d94e5-d03b-488e-ba93-476faf54b6d0")
 	)
 	(label "SEG_G_MAX7221_1"
 		(at 278.13 73.66 0)
@@ -10081,16 +8365,6 @@
 			(justify right bottom)
 		)
 		(uuid "a17c834b-1362-4d6a-b661-c9dcddec1248")
-	)
-	(label "SEG_B_MAX7221_11"
-		(at 73.66 1248.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1aaa1bd-b287-4a88-aab3-f0da5d9b318b")
 	)
 	(label "DIG_7_MAX7221_1"
 		(at 109.22 73.66 0)
@@ -10182,16 +8456,6 @@
 		)
 		(uuid "a332e27f-50a1-4018-9312-a9b48835d315")
 	)
-	(label "SEG_A_MAX7221_11"
-		(at 73.66 1243.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3586c5b-ede8-4093-9f17-c229c3f59185")
-	)
 	(label "SEG_G_MAX7221_7"
 		(at 199.39 817.88 0)
 		(effects
@@ -10202,16 +8466,6 @@
 		)
 		(uuid "a35f92b9-0a3d-4f28-a754-eeb95229fc18")
 	)
-	(label "SEG_D_MAX7221_10"
-		(at 163.83 1117.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3622b77-868c-493c-90e6-e5129afa056c")
-	)
 	(label "DIG_5_MAX7221_1"
 		(at 278.13 78.74 0)
 		(effects
@@ -10221,16 +8475,6 @@
 			(justify left bottom)
 		)
 		(uuid "a36afe70-e776-4530-978a-cba12ea2f369")
-	)
-	(label "DIG_4_MAX7221_11"
-		(at 109.22 1225.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3900402-0fb1-4547-8f99-a544c8f7a52d")
 	)
 	(label "SEG_E_MAX7221_4"
 		(at 163.83 420.37 180)
@@ -10272,36 +8516,6 @@
 		)
 		(uuid "a42914c4-86a3-4175-97ca-f00f28ff4da6")
 	)
-	(label "SEG_DP_MAX7221_10"
-		(at 163.83 1149.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a44ce3c4-40bc-4158-b1e3-1bf911276e46")
-	)
-	(label "SEG_B_MAX7221_11"
-		(at 199.39 1243.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a47564af-a003-46e1-ba6e-d8c5fd5ec329")
-	)
-	(label "SEG_DP_MAX7221_10"
-		(at 163.83 1125.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a475eb19-9c33-42ba-812a-cddcaacd7f25")
-	)
 	(label "SEG_B_MAX7221_4"
 		(at 278.13 406.4 0)
 		(effects
@@ -10321,16 +8535,6 @@
 			(justify right bottom)
 		)
 		(uuid "a4b523ee-1a5c-424b-a89d-31f70d5c5b1a")
-	)
-	(label "SEG_G_MAX7221_11"
-		(at 73.66 1278.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4c2c901-06d4-41f1-939b-6fb111df3041")
 	)
 	(label "SEG_B_MAX7221_8"
 		(at 199.39 920.75 0)
@@ -10352,16 +8556,6 @@
 		)
 		(uuid "a4f6ebd3-0b06-4184-86e8-822451e0b88e")
 	)
-	(label "SEG_F_MAX7221_10"
-		(at 199.39 1141.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a594aefb-ce2d-4650-89f0-b8c5782936a4")
-	)
 	(label "SEG_DP_MAX7221_2"
 		(at 242.57 219.71 180)
 		(effects
@@ -10371,16 +8565,6 @@
 			(justify right bottom)
 		)
 		(uuid "a69dc1f6-d575-462e-a36f-208bcc75282d")
-	)
-	(label "SEG_A_MAX7221_10"
-		(at 278.13 1122.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6f585b1-561d-49dc-ab97-480f46df1be3")
 	)
 	(label "SEG_B_MAX7221_7"
 		(at 278.13 803.91 0)
@@ -10582,16 +8766,6 @@
 		)
 		(uuid "abfc48f2-0628-41ae-9ad4-1133f181ebbc")
 	)
-	(label "DIG_7_MAX7221_9"
-		(at 109.22 1000.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac4bbbea-7ed2-404c-a3ac-94b81c31098c")
-	)
 	(label "DIG_7_MAX7221_2"
 		(at 242.57 238.76 180)
 		(effects
@@ -10611,16 +8785,6 @@
 			(justify right bottom)
 		)
 		(uuid "ae13aeb2-907c-4804-8e82-25bcfd0f056c")
-	)
-	(label "DIG_1_MAX7221_11"
-		(at 73.66 1228.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ae872b22-e52f-4857-be84-a42f9e3d9a20")
 	)
 	(label "SEG_A_MAX7221_1"
 		(at 199.39 105.41 0)
@@ -10722,16 +8886,6 @@
 		)
 		(uuid "b10c8cad-052f-47ff-b556-e242aa73b0ff")
 	)
-	(label "SEG_B_MAX7221_10"
-		(at 199.39 1149.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b17a39a8-5dae-4428-b737-0064f4681252")
-	)
 	(label "DIG_5_MAX7221_4"
 		(at 109.22 415.29 0)
 		(effects
@@ -10741,16 +8895,6 @@
 			(justify left bottom)
 		)
 		(uuid "b1f1039c-7b46-4d76-b6a6-d5c3f1d9bd8d")
-	)
-	(label "DIG_2_MAX7221_10"
-		(at 73.66 1112.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b216d084-b47d-4f8f-ac63-1c0ae90ead91")
 	)
 	(label "DIG_3_MAX7221_1"
 		(at 73.66 73.66 180)
@@ -10821,16 +8965,6 @@
 			(justify right bottom)
 		)
 		(uuid "b40c6c14-2681-49d6-a5bb-0633a70b4e54")
-	)
-	(label "SEG_E_MAX7221_11"
-		(at 163.83 1209.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4413da1-3f6a-4ef6-b530-e1ea664b01a0")
 	)
 	(label "SEG_A_MAX7221_6"
 		(at 199.39 638.81 0)
@@ -10982,16 +9116,6 @@
 		)
 		(uuid "b8095c46-68f1-4034-b2a6-bb67609ca2b0")
 	)
-	(label "SEG_C_MAX7221_9"
-		(at 242.57 984.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8f3ac71-eee0-493c-95d5-64337a6d6ea1")
-	)
 	(label "DIG_4_MAX7221_1"
 		(at 278.13 54.61 0)
 		(effects
@@ -11012,16 +9136,6 @@
 		)
 		(uuid "b91a61c3-517a-4dcf-b950-1c1f90049fa0")
 	)
-	(label "SEG_B_MAX7221_10"
-		(at 278.13 1173.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b92221a0-39aa-4859-b0b5-955bb2fde584")
-	)
 	(label "SEG_D_MAX7221_4"
 		(at 163.83 422.91 180)
 		(effects
@@ -11031,16 +9145,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba04a148-00a3-420a-84a5-5d6e501bc294")
-	)
-	(label "SEG_A_MAX7221_10"
-		(at 73.66 1125.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba7740c1-f562-4bfb-ab78-3e990e50805d")
 	)
 	(label "SEG_A_MAX7221_3"
 		(at 199.39 355.6 0)
@@ -11072,16 +9176,6 @@
 		)
 		(uuid "bb5908a5-b3b0-4b2b-95a5-b8e3dcd61526")
 	)
-	(label "SEG_G_MAX7221_9"
-		(at 278.13 976.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb79cdbf-2127-4dfa-9d96-f6625a9b8f72")
-	)
 	(label "SEG_D_MAX7221_6"
 		(at 73.66 680.72 180)
 		(effects
@@ -11091,16 +9185,6 @@
 			(justify right bottom)
 		)
 		(uuid "bb7f18b3-7d4e-41fa-a736-dde46452dbeb")
-	)
-	(label "DIG_4_MAX7221_9"
-		(at 278.13 981.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb85cfdc-1930-4524-9d57-a06a8b29bfd9")
 	)
 	(label "SEG_B_MAX7221_8"
 		(at 278.13 896.62 0)
@@ -11151,16 +9235,6 @@
 			(justify right bottom)
 		)
 		(uuid "bc6e197c-6ffb-4ce1-a4ea-86eb4ec27ab0")
-	)
-	(label "SEG_E_MAX7221_10"
-		(at 242.57 1090.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc7d5411-d85e-4b7b-a65d-72f4274b5623")
 	)
 	(label "SEG_D_MAX7221_8"
 		(at 163.83 889 180)
@@ -11242,16 +9316,6 @@
 		)
 		(uuid "bead85d9-d4bd-4af5-9f92-5c2ce37d9966")
 	)
-	(label "SEG_E_MAX7221_11"
-		(at 242.57 1209.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bebca5fb-7b30-4107-baa0-f89cac0d0d9e")
-	)
 	(label "DIG_1_MAX7221_1"
 		(at 199.39 78.74 0)
 		(effects
@@ -11301,16 +9365,6 @@
 			(justify left bottom)
 		)
 		(uuid "c05758a4-8954-4753-9a6a-85fa063fca9d")
-	)
-	(label "SEG_DP_MAX7221_11"
-		(at 163.83 1291.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c07501ae-567a-47a8-819f-d46584f381f3")
 	)
 	(label "DIG_7_MAX7221_4"
 		(at 278.13 473.71 0)
@@ -11372,16 +9426,6 @@
 		)
 		(uuid "c1a97393-1591-4596-8eb8-f5064ff76e4a")
 	)
-	(label "DIG_0_MAX7221_11"
-		(at 73.66 1225.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c225e038-1afa-4eaf-a8ef-b5b4d78ab889")
-	)
 	(label "SEG_DP_MAX7221_4"
 		(at 242.57 454.66 180)
 		(effects
@@ -11391,16 +9435,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2284654-ae79-4e0f-8955-d9ee07b3bcea")
-	)
-	(label "SEG_G_MAX7221_10"
-		(at 199.39 1090.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2ccbcfd-443e-44b6-864f-75257b4639c9")
 	)
 	(label "SEG_A_MAX7221_9"
 		(at 199.39 1032.51 0)
@@ -11421,16 +9455,6 @@
 			(justify left bottom)
 		)
 		(uuid "c33e8eaf-7af7-42ae-aefc-ea0bc2a2ef43")
-	)
-	(label "SEG_E_MAX7221_11"
-		(at 73.66 1268.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3980736-1dc7-4d31-ac2f-db0d85410a1c")
 	)
 	(label "DIG_2_MAX7221_9"
 		(at 73.66 998.22 180)
@@ -11582,16 +9606,6 @@
 		)
 		(uuid "c650c1e3-4be3-4e8b-aab4-a9d838f8fe44")
 	)
-	(label "SEG_DP_MAX7221_10"
-		(at 242.57 1149.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6606e83-54bf-438e-8eb7-0c8dcba1243c")
-	)
 	(label "DIG_6_MAX7221_2"
 		(at 278.13 214.63 0)
 		(effects
@@ -11682,16 +9696,6 @@
 		)
 		(uuid "c8887cad-794b-4a91-b0e6-b060edbb1e0a")
 	)
-	(label "SEG_G_MAX7221_9"
-		(at 278.13 1024.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c889c701-103d-4cc0-8774-257185958c70")
-	)
 	(label "SEG_G_MAX7221_2"
 		(at 73.66 231.14 180)
 		(effects
@@ -11732,16 +9736,6 @@
 		)
 		(uuid "ca2de1c3-7d7c-4654-be43-1f7caeb86930")
 	)
-	(label "SEG_F_MAX7221_10"
-		(at 278.13 1141.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "caee4281-bc84-407d-ae02-aac6345f1ed4")
-	)
 	(label "SEG_DP_MAX7221_4"
 		(at 242.57 406.4 180)
 		(effects
@@ -11761,16 +9755,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb87d3ec-6c36-40a7-87d9-49cfbc1e5864")
-	)
-	(label "SEG_E_MAX7221_10"
-		(at 163.83 1090.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cb9699c5-d139-4ca7-bcc0-75dbb842bf16")
 	)
 	(label "SEG_B_MAX7221_5"
 		(at 278.13 520.7 0)
@@ -11852,16 +9836,6 @@
 		)
 		(uuid "cf8da793-2c0a-4fd4-927c-715853c25eec")
 	)
-	(label "SEG_C_MAX7221_10"
-		(at 163.83 1122.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cfca866a-322c-4122-bef6-cced48e37f45")
-	)
 	(label "SEG_E_MAX7221_6"
 		(at 163.83 631.19 180)
 		(effects
@@ -11911,16 +9885,6 @@
 			(justify left bottom)
 		)
 		(uuid "d0d6931e-e29c-4ba6-97bf-e9ead7ca9b37")
-	)
-	(label "SEG_D_MAX7221_10"
-		(at 73.66 1140.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0e51cfe-19fe-4367-a963-044f84fad30e")
 	)
 	(label "DIG_0_MAX7221_8"
 		(at 199.39 867.41 0)
@@ -12082,16 +10046,6 @@
 		)
 		(uuid "d536d321-9ef5-45eb-9ae1-e8e8ca6f99d1")
 	)
-	(label "SEG_C_MAX7221_10"
-		(at 242.57 1146.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d53c6003-fcef-4987-a7ed-43527f33b75c")
-	)
 	(label "SEG_E_MAX7221_4"
 		(at 242.57 420.37 180)
 		(effects
@@ -12111,26 +10065,6 @@
 			(justify right bottom)
 		)
 		(uuid "d569ea11-91b9-47c2-ad3d-63ae5bcca834")
-	)
-	(label "SEG_E_MAX7221_10"
-		(at 242.57 1163.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5eaded3-04a2-48dc-836a-4d46d302edac")
-	)
-	(label "DIG_1_MAX7221_10"
-		(at 199.39 1120.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5fc6fa0-0688-4763-a8bc-97266b6f765d")
 	)
 	(label "DIG_5_MAX7221_1"
 		(at 109.22 68.58 0)
@@ -12182,16 +10116,6 @@
 		)
 		(uuid "d8b0b02c-a394-4e74-bd1e-359c081a638b")
 	)
-	(label "SEG_B_MAX7221_10"
-		(at 278.13 1125.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8cd05b2-1e87-4f58-9c09-9862254ef587")
-	)
 	(label "SEG_E_MAX7221_3"
 		(at 242.57 275.59 180)
 		(effects
@@ -12202,16 +10126,6 @@
 		)
 		(uuid "d9015f83-3ffe-4b9c-8549-ca62f7b76ae0")
 	)
-	(label "DIG_1_MAX7221_10"
-		(at 73.66 1109.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d95be3fe-5e9c-4f66-aa75-ca45fa74a985")
-	)
 	(label "SEG_G_MAX7221_6"
 		(at 199.39 631.19 0)
 		(effects
@@ -12221,26 +10135,6 @@
 			(justify left bottom)
 		)
 		(uuid "d97542e6-dec5-4738-ad7d-d443b00269d4")
-	)
-	(label "SEG_D_MAX7221_9"
-		(at 242.57 1027.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d978108a-6c5c-4b6c-b73b-a534fe31f9b4")
-	)
-	(label "DIG_4_MAX7221_11"
-		(at 278.13 1214.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d97d5978-0591-4039-b6f6-6c464a66ed74")
 	)
 	(label "SEG_G_MAX7221_7"
 		(at 278.13 745.49 0)
@@ -12272,26 +10166,6 @@
 		)
 		(uuid "da047a2e-edd7-432b-bb7f-5f5af7360543")
 	)
-	(label "SEG_F_MAX7221_11"
-		(at 199.39 1283.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da13608a-f432-4bea-aaea-8ad1c95a62ea")
-	)
-	(label "DIG_6_MAX7221_10"
-		(at 242.57 1144.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da23f9df-3d70-4aba-a921-fe02f8bd012d")
-	)
 	(label "DIG_1_MAX7221_7"
 		(at 163.83 774.7 180)
 		(effects
@@ -12321,16 +10195,6 @@
 			(justify right bottom)
 		)
 		(uuid "dc60d03b-2dda-4d67-8ffa-9272397545a9")
-	)
-	(label "SEG_G_MAX7221_9"
-		(at 278.13 1049.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc610c21-46f5-4cd1-9371-094e60487232")
 	)
 	(label "SEG_B_MAX7221_8"
 		(at 199.39 872.49 0)
@@ -12362,16 +10226,6 @@
 		)
 		(uuid "dd1b3319-577a-44a3-8e48-a7ed62471981")
 	)
-	(label "DIG_6_MAX7221_9"
-		(at 278.13 1029.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd246490-70a9-4d05-b352-5fc83f2d25d3")
-	)
 	(label "SEG_B_MAX7221_1"
 		(at 278.13 83.82 0)
 		(effects
@@ -12382,16 +10236,6 @@
 		)
 		(uuid "dd3e5a29-22c2-4bef-8062-500192e4f3b6")
 	)
-	(label "DIG_0_MAX7221_10"
-		(at 199.39 1096.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd60680a-7575-4750-85be-9428e4f938bc")
-	)
 	(label "SEG_E_MAX7221_1"
 		(at 242.57 97.79 180)
 		(effects
@@ -12401,16 +10245,6 @@
 			(justify right bottom)
 		)
 		(uuid "dd702153-3f1d-4a01-b5f2-f922408c34ad")
-	)
-	(label "SEG_F_MAX7221_11"
-		(at 73.66 1273.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd7774a1-8050-4319-8ee4-8302e2ceb96d")
 	)
 	(label "DIG_4_MAX7221_3"
 		(at 109.22 292.1 0)
@@ -12442,16 +10276,6 @@
 		)
 		(uuid "ddeb7ed8-5384-4ddc-b74a-355dba86cbad")
 	)
-	(label "SEG_D_MAX7221_10"
-		(at 242.57 1117.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de0dce42-b05d-437b-845e-d1a41d2d8880")
-	)
 	(label "SEG_C_MAX7221_1"
 		(at 242.57 81.28 180)
 		(effects
@@ -12482,16 +10306,6 @@
 		)
 		(uuid "de80aa0e-bc03-4a89-b628-73e073e0ab5e")
 	)
-	(label "SEG_C_MAX7221_10"
-		(at 73.66 1135.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de93c7f4-3236-4284-8f0c-fb0eeab73bd8")
-	)
 	(label "SEG_F_MAX7221_8"
 		(at 199.39 864.87 0)
 		(effects
@@ -12511,16 +10325,6 @@
 			(justify right bottom)
 		)
 		(uuid "df859385-befd-410e-bc53-1e17c979e66b")
-	)
-	(label "SEG_F_MAX7221_11"
-		(at 278.13 1211.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfc5aa49-aec9-47f4-8a23-03ee6286f149")
 	)
 	(label "DIG_0_MAX7221_3"
 		(at 163.83 280.67 180)
@@ -12572,16 +10376,6 @@
 		)
 		(uuid "e1c4a5d6-3705-4452-8284-cfdebfe6ca4a")
 	)
-	(label "SEG_B_MAX7221_10"
-		(at 199.39 1125.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1f4f3d4-ec39-4536-9093-0b613e0aab02")
-	)
 	(label "SEG_F_MAX7221_1"
 		(at 199.39 100.33 0)
 		(effects
@@ -12612,16 +10406,6 @@
 		)
 		(uuid "e23ef5b8-bcaf-4ad3-b0d7-4b1c09993b51")
 	)
-	(label "SEG_D_MAX7221_11"
-		(at 163.83 1211.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e27cf990-65cf-4e75-b5e0-f906cdd09da6")
-	)
 	(label "SEG_A_MAX7221_1"
 		(at 199.39 57.15 0)
 		(effects
@@ -12651,16 +10435,6 @@
 			(justify left bottom)
 		)
 		(uuid "e312c074-5254-442e-a371-23ae4ada983b")
-	)
-	(label "SEG_A_MAX7221_10"
-		(at 199.39 1146.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e31da968-087a-4809-83fb-75c8dd0113fa")
 	)
 	(label "SEG_F_MAX7221_1"
 		(at 199.39 124.46 0)
@@ -12722,16 +10496,6 @@
 		)
 		(uuid "e47948c5-ed73-4c49-9320-0cfb5c40e530")
 	)
-	(label "SEG_E_MAX7221_9"
-		(at 242.57 1049.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4fe7567-4e4c-4653-af03-a683a1fbbab9")
-	)
 	(label "SEG_F_MAX7221_6"
 		(at 278.13 633.73 0)
 		(effects
@@ -12751,16 +10515,6 @@
 			(justify right bottom)
 		)
 		(uuid "e548dd96-96b2-4777-9bcf-27a5daf65216")
-	)
-	(label "SEG_DP_MAX7221_11"
-		(at 163.83 1243.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e56c31e0-c344-4ac5-a309-0199fb0c781f")
 	)
 	(label "SEG_G_MAX7221_6"
 		(at 278.13 679.45 0)
@@ -12791,16 +10545,6 @@
 			(justify right bottom)
 		)
 		(uuid "e67b2ccb-e35c-4af1-89e4-1024818e88d1")
-	)
-	(label "DIG_4_MAX7221_10"
-		(at 278.13 1096.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6dc6659-0bd8-456e-983b-1967d388be52")
 	)
 	(label "DIG_4_MAX7221_6"
 		(at 242.57 636.27 180)
@@ -12852,16 +10596,6 @@
 		)
 		(uuid "e7cf7e14-6d03-4a5f-a43e-2e8daf56ed9a")
 	)
-	(label "SEG_DP_MAX7221_10"
-		(at 73.66 1145.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e81de405-9de0-456c-b0f6-2b26ad56b1dd")
-	)
 	(label "SEG_D_MAX7221_3"
 		(at 73.66 325.12 180)
 		(effects
@@ -12871,16 +10605,6 @@
 			(justify right bottom)
 		)
 		(uuid "e8928bdc-918a-4c5b-a61b-8937857f2241")
-	)
-	(label "DIG_3_MAX7221_11"
-		(at 163.83 1286.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e8b24ecc-6434-4f2a-9f70-64be5ad2b9bd")
 	)
 	(label "SEG_B_MAX7221_6"
 		(at 199.39 641.35 0)
@@ -12911,26 +10635,6 @@
 			(justify right bottom)
 		)
 		(uuid "e9bdc5e0-bf7b-45e7-86c0-0d57160c8ff1")
-	)
-	(label "SEG_D_MAX7221_11"
-		(at 163.83 1235.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9d2f23b-cf7f-4e07-a391-bd87ecd8a7af")
-	)
-	(label "DIG_4_MAX7221_11"
-		(at 242.57 1214.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9ebcb05-023f-49ce-bc71-1f0411b0d8c0")
 	)
 	(label "SEG_A_MAX7221_2"
 		(at 199.39 241.3 0)
@@ -12992,16 +10696,6 @@
 		)
 		(uuid "eb8c34a5-4553-48ec-9e24-6d9a866c124b")
 	)
-	(label "SEG_F_MAX7221_11"
-		(at 199.39 1235.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb8f16cf-1c4c-4a72-9f28-72a8f2a9d183")
-	)
 	(label "SEG_F_MAX7221_5"
 		(at 73.66 575.31 180)
 		(effects
@@ -13021,16 +10715,6 @@
 			(justify right bottom)
 		)
 		(uuid "ebcd7c04-9a47-4319-b632-3f32d955bd0f")
-	)
-	(label "SEG_B_MAX7221_10"
-		(at 278.13 1101.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec2e91b8-d933-47d4-8747-83e1d59da161")
 	)
 	(label "DIG_2_MAX7221_7"
 		(at 199.39 798.83 0)
@@ -13101,16 +10785,6 @@
 			(justify left bottom)
 		)
 		(uuid "ee9e260a-1635-433c-b17d-163c42078cf3")
-	)
-	(label "SEG_C_MAX7221_9"
-		(at 242.57 1032.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eebd50f3-5320-4ade-a23b-d3c4baad17cc")
 	)
 	(label "DIG_3_MAX7221_9"
 		(at 73.66 1000.76 180)
@@ -13192,16 +10866,6 @@
 		)
 		(uuid "f09a1bec-6783-47ac-88ed-0fd28208b965")
 	)
-	(label "SEG_C_MAX7221_10"
-		(at 242.57 1122.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0a50a22-6d29-423a-b582-757dbdde9ec9")
-	)
 	(label "SEG_C_MAX7221_4"
 		(at 242.57 452.12 180)
 		(effects
@@ -13262,16 +10926,6 @@
 		)
 		(uuid "f1d5e074-14f5-4b41-b603-24219912864c")
 	)
-	(label "DIG_0_MAX7221_11"
-		(at 199.39 1214.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2652c32-1061-498b-aeb2-d1e68af4377d")
-	)
 	(label "SEG_F_MAX7221_5"
 		(at 199.39 585.47 0)
 		(effects
@@ -13281,16 +10935,6 @@
 			(justify left bottom)
 		)
 		(uuid "f2b908a9-36dc-4795-9b21-e4eb1d2ca7af")
-	)
-	(label "DIG_5_MAX7221_10"
-		(at 278.13 1120.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2d8feec-7342-4f9f-bb32-fa42ba5425b5")
 	)
 	(label "SEG_B_MAX7221_5"
 		(at 199.39 544.83 0)
@@ -13312,16 +10956,6 @@
 		)
 		(uuid "f316674d-36f0-4c15-8f1d-4d61ff1a7129")
 	)
-	(label "SEG_F_MAX7221_10"
-		(at 199.39 1093.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f317e5e0-639f-40bb-abe8-4f2613c34bcf")
-	)
 	(label "SEG_D_MAX7221_5"
 		(at 163.83 561.34 180)
 		(effects
@@ -13331,16 +10965,6 @@
 			(justify right bottom)
 		)
 		(uuid "f35473b6-4eb9-4941-94ae-26105460b0f1")
-	)
-	(label "SEG_D_MAX7221_10"
-		(at 163.83 1093.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f37d1322-6722-4649-9643-bc4c824eabd9")
 	)
 	(label "SEG_C_MAX7221_4"
 		(at 242.57 403.86 180)
@@ -13412,16 +11036,6 @@
 		)
 		(uuid "f5589142-2f03-430d-a1b7-866be8290049")
 	)
-	(label "SEG_A_MAX7221_11"
-		(at 199.39 1240.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f56a3880-014c-46d4-98ac-d0128bfcac1e")
-	)
 	(label "SEG_E_MAX7221_3"
 		(at 242.57 347.98 180)
 		(effects
@@ -13461,16 +11075,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6508496-2c26-46bf-94a9-335433239640")
-	)
-	(label "SEG_B_MAX7221_11"
-		(at 199.39 1267.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f65714f6-1c83-405b-8ecd-5d94274b4b7d")
 	)
 	(label "SEG_C_MAX7221_2"
 		(at 242.57 217.17 180)
@@ -13532,16 +11136,6 @@
 		)
 		(uuid "f81b1867-3fb9-4d9e-9b1c-e19029c2734e")
 	)
-	(label "DIG_2_MAX7221_11"
-		(at 163.83 1262.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f85929ce-4fcf-4835-bf95-5d8bc26d5fd4")
-	)
 	(label "SEG_A_MAX7221_2"
 		(at 199.39 168.91 0)
 		(effects
@@ -13562,16 +11156,6 @@
 		)
 		(uuid "f8b18698-b58c-450e-a56f-cc307825fdb3")
 	)
-	(label "SEG_E_MAX7221_9"
-		(at 242.57 1000.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8cec81d-81e1-4371-b691-168d8fbd8cdb")
-	)
 	(label "DIG_2_MAX7221_4"
 		(at 199.39 449.58 0)
 		(effects
@@ -13591,16 +11175,6 @@
 			(justify right bottom)
 		)
 		(uuid "f919b662-7cb1-4077-825e-03ca9b76b070")
-	)
-	(label "DIG_6_MAX7221_10"
-		(at 278.13 1144.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f946c654-17df-4e0a-aa7d-7af7fce85d02")
 	)
 	(label "SEG_B_MAX7221_9"
 		(at 199.39 1010.92 0)
@@ -13642,16 +11216,6 @@
 		)
 		(uuid "fb27566f-393a-4669-a4d6-6b0a93a12d81")
 	)
-	(label "SEG_A_MAX7221_10"
-		(at 199.39 1098.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb28fe8a-c9e6-4c34-9d35-40c8938bad2c")
-	)
 	(label "SEG_D_MAX7221_9"
 		(at 163.83 1003.3 180)
 		(effects
@@ -13691,36 +11255,6 @@
 			(justify left bottom)
 		)
 		(uuid "fcef41ba-dbfa-4613-891e-5e1af16c365f")
-	)
-	(label "SEG_D_MAX7221_11"
-		(at 163.83 1283.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fcf46703-c305-4e10-aead-262e7227d286")
-	)
-	(label "DIG_1_MAX7221_10"
-		(at 163.83 1120.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd00eac2-878b-4dab-bd34-7bc0cfecfed5")
-	)
-	(label "SEG_B_MAX7221_11"
-		(at 199.39 1291.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd385d17-cec9-41a5-8c19-6705557617a2")
 	)
 	(label "SEG_A_MAX7221_7"
 		(at 199.39 801.37 0)
@@ -13781,16 +11315,6 @@
 			(justify right bottom)
 		)
 		(uuid "ff0cba76-5b09-4da3-8b68-3d7109c981b9")
-	)
-	(label "DIG_7_MAX7221_10"
-		(at 242.57 1168.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff4606c1-4dc5-46f5-a6ac-a19b000cbf41")
 	)
 	(label "DIG_2_MAX7221_2"
 		(at 73.66 182.88 180)
@@ -13909,17 +11433,6 @@
 		)
 		(uuid "4308ea70-b574-499a-b0bb-63af98fab2f7")
 	)
-	(hierarchical_label "SCK_MAX7221_5V"
-		(shape input)
-		(at 73.66 1099.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "458c0415-20ad-490c-8618-f5feef7ae95d")
-	)
 	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
 		(at 73.66 637.54 180)
@@ -13988,17 +11501,6 @@
 	)
 	(hierarchical_label "SCK_MAX7221_5V"
 		(shape input)
-		(at 73.66 1217.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ddf10b0-313f-4c92-b799-a8ab7e6c4f60")
-	)
-	(hierarchical_label "SCK_MAX7221_5V"
-		(shape input)
 		(at 73.66 871.22 180)
 		(effects
 			(font
@@ -14007,28 +11509,6 @@
 			(justify right)
 		)
 		(uuid "9964730f-fb13-404a-8fda-04c482106318")
-	)
-	(hierarchical_label "CS_MAX7221_5V"
-		(shape input)
-		(at 73.66 1215.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af79695c-01db-44cd-8d2e-ab175ebb87fd")
-	)
-	(hierarchical_label "CS_MAX7221_5V"
-		(shape input)
-		(at 73.66 1097.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf639ed8-dbe8-4b05-b899-9912b5674d7e")
 	)
 	(hierarchical_label "CS_MAX7221_5V"
 		(shape input)
@@ -14808,85 +12288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 993.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07dffb3c-05db-4bca-8635-d545bee1b86c")
-		(property "Reference" "TP16"
-			(at 144.78 991.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 994.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 998.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 998.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 993.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f808ce0-218e-4d40-b3bf-2653184e4e91")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 886.46 0)
 		(unit 1)
@@ -15213,85 +12614,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "DS30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 1286.51 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d6837f7-0570-4a1d-bb47-0db401193909")
-		(property "Reference" "#PWR0104"
-			(at 111.76 1292.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 1291.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 1286.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 1286.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 1286.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4505d890-5550-47cd-a9f4-719a505fbe0f")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -15690,88 +13012,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 119.38 1210.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e3173db-ecca-4c33-87e2-121735b9e56a")
-		(property "Reference" "C24"
-			(at 118.1099 1206.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 120.6499 1206.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
-			(at 123.19 1209.3448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 1210.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 1210.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6207898c-742d-47c6-aeff-d25d9b3732c1")
-		)
-		(pin "1"
-			(uuid "8607d87b-6b7b-4ed4-9181-21300dbe2748")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -16182,172 +13422,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1209.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1508927c-5db6-48fe-9afb-0def2ce46b30")
-		(property "Reference" "DS85"
-			(at 260.35 1201.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 1203.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1303.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1403.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1209.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1603.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1703.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1803.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1903.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 2003.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "aee88b41-41b9-47ce-aa17-c7a23b0884a1")
-		)
-		(pin "6"
-			(uuid "2490b7b3-bd3b-4495-8d2f-9d9a5c841ecf")
-		)
-		(pin "4"
-			(uuid "c9cdc281-dfad-4dd9-bd64-6228134ae184")
-		)
-		(pin "9"
-			(uuid "eb50a382-487c-47f6-a419-4aa3681824c4")
-		)
-		(pin "10"
-			(uuid "51a04673-7b10-439f-86e7-65f00acdeb09")
-		)
-		(pin "7"
-			(uuid "3815e809-e8db-467f-bfd0-235477f2b3d5")
-		)
-		(pin "3"
-			(uuid "8a57c2b4-b2ce-49e4-ac24-90f46cba9073")
-		)
-		(pin "8"
-			(uuid "eae01d2b-b3e9-4eb2-a60e-4da45bb61b37")
-		)
-		(pin "1"
-			(uuid "da9f9a6c-07de-41bb-9e73-863c6d9b7c50")
-		)
-		(pin "5"
-			(uuid "0412406b-af9f-41c9-bd41-d3c54279796d")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS85")
 					(unit 1)
 				)
 			)
@@ -17666,251 +14740,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 135.89 180.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a5c05f7-a590-4738-aa16-2b53ce4099fd")
-		(property "Reference" "TP9"
-			(at 140.97 179.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 140.97 181.6099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 135.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 135.89 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a8bcb3e-ef3d-423e-a5ad-69ba7c22bc1f")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1233.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b453767-d636-4101-a161-4940f43648d8")
-		(property "Reference" "DS42"
-			(at 181.61 1225.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1228.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1328.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1428.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1233.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1628.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1728.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1828.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1928.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 2028.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "e01c3f55-b35a-44f0-9f18-ceea6b43d5f3")
-		)
-		(pin "6"
-			(uuid "14e4c463-b2f3-4726-8bee-f40b919bd8ba")
-		)
-		(pin "4"
-			(uuid "9193cc5f-f992-46a7-9014-19a9b3f593ee")
-		)
-		(pin "9"
-			(uuid "cefcb57e-742a-4166-804b-f694334b2060")
-		)
-		(pin "10"
-			(uuid "1118a5fe-b795-4814-a552-c51226b5a98b")
-		)
-		(pin "7"
-			(uuid "96375bc3-750a-4386-8fc9-8d52fe27618c")
-		)
-		(pin "3"
-			(uuid "ec34f4dd-e2a1-46e5-ad61-bd268d6eba58")
-		)
-		(pin "8"
-			(uuid "9d22b8c6-19c2-46e8-8f80-bb3e4a50e808")
-		)
-		(pin "1"
-			(uuid "efa66eaa-f520-4842-aad3-d6f1b1e658c3")
-		)
-		(pin "5"
-			(uuid "d45dff69-67f2-43f9-9397-b561a0035116")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 582.93 0)
 		(unit 1)
@@ -18303,85 +15132,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 1210.31 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2db6ca83-da9e-4a6a-8d8b-d916fe80ec64")
-		(property "Reference" "#PWR0108"
-			(at 133.35 1210.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 1210.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 1210.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 1210.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 1210.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b60a126-d80e-4d57-9ad1-4fc368040e39")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -18880,172 +15630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1209.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30189681-d35f-44cc-9021-8a4df5b7cca4")
-		(property "Reference" "DS41"
-			(at 181.61 1201.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1203.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1303.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1403.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1209.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1603.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1703.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1803.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1903.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 2003.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "22ed54cd-b428-45db-8d78-b03f1592ae1a")
-		)
-		(pin "6"
-			(uuid "10bdf41b-0ae3-4778-a35f-010980407716")
-		)
-		(pin "4"
-			(uuid "53981c4a-664c-4427-aa59-cd88e76fbfbf")
-		)
-		(pin "9"
-			(uuid "901fd684-9810-4ae1-a1d4-bdc0c89def5f")
-		)
-		(pin "10"
-			(uuid "9b0276d1-7412-4d92-81a2-7a24c6e49906")
-		)
-		(pin "7"
-			(uuid "947d9ab8-6995-41a6-a873-07d8bc082b2f")
-		)
-		(pin "3"
-			(uuid "46b2d8c4-662d-45aa-998f-361495577324")
-		)
-		(pin "8"
-			(uuid "bf159efa-011c-4c3b-b7cf-0c90d32c07ec")
-		)
-		(pin "1"
-			(uuid "33e03a62-75aa-4bb4-b491-0854073f8298")
-		)
-		(pin "5"
-			(uuid "a2c67d66-acbd-40eb-be6d-dfe26635a6fc")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 162.56 90)
 		(mirror x)
@@ -19119,338 +15703,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1163.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36a0e3e5-d886-429c-9f41-93b03d7220e1")
-		(property "Reference" "DS40"
-			(at 181.61 1155.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1158.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1258.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1358.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1163.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1558.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1658.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1758.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1858.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 1958.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "a14ac2ef-8863-4779-bcb0-e74dd42d5f56")
-		)
-		(pin "6"
-			(uuid "24dc68c8-043f-4cde-9944-56a723c71eac")
-		)
-		(pin "4"
-			(uuid "61446964-1181-4d99-a523-031f8e38838a")
-		)
-		(pin "9"
-			(uuid "509c7aff-2a54-47ea-b801-fe0e0bae0cef")
-		)
-		(pin "10"
-			(uuid "1368e282-74fa-415a-ba4d-bd8ef70a1cff")
-		)
-		(pin "7"
-			(uuid "f4bd28c8-9739-40b2-88e9-1e1a29e82eb4")
-		)
-		(pin "3"
-			(uuid "851c396d-3f63-4b8f-9149-9a786909ec5f")
-		)
-		(pin "8"
-			(uuid "31ffa617-32a0-488b-afa0-ff6c50e35e0c")
-		)
-		(pin "1"
-			(uuid "e6ef633b-e7b7-4fed-8dd6-13e2dba32329")
-		)
-		(pin "5"
-			(uuid "ae52698c-9cc4-4482-976d-ceb4f7b6988f")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1000.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "384c340a-6587-48a5-b07e-fa28cce08df2")
-		(property "Reference" "DS78"
-			(at 260.35 993.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 995.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1095.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1195.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1000.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1395.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1495.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1595.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1695.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1795.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "191666d0-937b-4168-a56a-110c493e1feb")
-		)
-		(pin "6"
-			(uuid "22b2efca-ab00-417a-bb70-f206a97efbe7")
-		)
-		(pin "4"
-			(uuid "98e9fbb7-a432-4313-a889-ada0c868750f")
-		)
-		(pin "9"
-			(uuid "62800230-66b9-4937-8213-33999f382720")
-		)
-		(pin "10"
-			(uuid "0b916470-7c19-4049-81e3-236ce2cac960")
-		)
-		(pin "7"
-			(uuid "47b9b887-ce4d-4b5b-8028-852510fa2d57")
-		)
-		(pin "3"
-			(uuid "814e72aa-eafa-46a9-bdda-32c0f8e5909f")
-		)
-		(pin "8"
-			(uuid "61b189a3-8156-4668-a5b1-014f7ad28edd")
-		)
-		(pin "1"
-			(uuid "01e73d35-e7bc-4f5a-8cda-c65f538d42e3")
-		)
-		(pin "5"
-			(uuid "3d30ab7b-5667-400c-8f99-775eeb04dc2f")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS78")
 					(unit 1)
 				)
 			)
@@ -19849,238 +16101,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Disp_Controler_MAX7221CWG_:MAX7221CWG_")
-		(at 91.44 1248.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "422de85d-3789-4166-894a-07f0f6608ee9")
-		(property "Reference" "U14"
-			(at 91.44 1202.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX7221CWG_"
-			(at 91.44 1205.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED Driver 64 Segment 330000uA Supply Current 24-Pin SOIC W Tube"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Maxim Integrated Products"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOIC-24 Maxim"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX7221CWG+/Maxim+Integrated/view-part/?ref=snap"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MAX7221CWG+"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX7221CWG+/Maxim+Integrated/view-part/?ref=eda"
-			(at 91.44 1248.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "17"
-			(uuid "a8a81605-581c-4efc-b47c-7707a8c2fee2")
-		)
-		(pin "21"
-			(uuid "28c144a9-3d98-4b59-bb47-d6040faf3c3b")
-		)
-		(pin "9"
-			(uuid "6f29febb-4b90-41e0-ae90-24a1fd393fd0")
-		)
-		(pin "19"
-			(uuid "ab3a691e-80b9-4a49-a83f-9eba8b52ea13")
-		)
-		(pin "5"
-			(uuid "110711f6-4a03-40f2-9703-9342b0b498a3")
-		)
-		(pin "13"
-			(uuid "f0c22291-60ab-4f45-8626-bd232111e489")
-		)
-		(pin "12"
-			(uuid "f9c24a8b-91fc-437f-b25d-30a1f110b01d")
-		)
-		(pin "14"
-			(uuid "12395e28-78cf-429d-8904-2bad27815265")
-		)
-		(pin "20"
-			(uuid "bda1d8ee-ba62-4b49-b8c7-b7eb6a1c5766")
-		)
-		(pin "24"
-			(uuid "42d28b63-5b7f-4490-b072-7fe72dcb19a3")
-		)
-		(pin "7"
-			(uuid "67d15146-9f64-45dd-9d16-d3a1e70c04df")
-		)
-		(pin "1"
-			(uuid "d3760a6b-7e1d-4f4b-8bb8-373467ec7f15")
-		)
-		(pin "6"
-			(uuid "e41478cd-d37f-499a-8ad8-8ce87def8603")
-		)
-		(pin "10"
-			(uuid "a611f036-1cbb-4ea5-b84f-c60467be5e0f")
-		)
-		(pin "11"
-			(uuid "d90dafc5-acb8-4bfe-b771-ece932a6c36c")
-		)
-		(pin "15"
-			(uuid "09a06d52-81fe-4b72-88b2-a97cca56e98d")
-		)
-		(pin "2"
-			(uuid "70f7a41d-8385-4b56-8bcd-b063a9c69ff8")
-		)
-		(pin "8"
-			(uuid "bacb8558-1542-4789-87d0-495149481bc6")
-		)
-		(pin "3"
-			(uuid "b41f29ce-5710-40de-8bf0-9ce6140da440")
-		)
-		(pin "4"
-			(uuid "301925b5-7da7-451f-8491-4de2941db86d")
-		)
-		(pin "16"
-			(uuid "2db874ff-5c92-451f-aa76-6b349499a3e9")
-		)
-		(pin "18"
-			(uuid "9343f478-53c9-4bb1-8227-25903053f6c6")
-		)
-		(pin "22"
-			(uuid "8fe33059-9415-40aa-a7a1-d52b93485083")
-		)
-		(pin "23"
-			(uuid "e8bec35c-10ee-4d25-b6a9-7a09e71fe833")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 163.83 703.58 0)
 		(unit 1)
@@ -20407,87 +16427,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "DS6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 1228.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "462c27fd-eb2e-4ff7-8d74-0fad758bc740")
-		(property "Reference" "R22"
-			(at 48.26 1226.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3v=24.5k, 1.8v=29.8k"
-			(at 48.26 1229.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
-			(at 49.022 1228.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 1228.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 1228.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37c7cb93-edb6-48be-b3ab-3959a96ef62f")
-		)
-		(pin "2"
-			(uuid "5afb6f52-4815-4373-898e-5d021e6c0b45")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -21883,172 +17822,6 @@
 	)
 	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1090.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "538965e1-8e66-4887-9499-7d5ad725e8e2")
-		(property "Reference" "DS37"
-			(at 181.61 1083.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1085.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1185.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1285.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1090.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1485.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1585.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1685.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1785.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 1885.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "b967e0bb-1083-4b43-8e33-68d07aebbac9")
-		)
-		(pin "6"
-			(uuid "86021027-c189-4dd5-8fa6-35c55a8cac9d")
-		)
-		(pin "4"
-			(uuid "01c74c68-3e20-4ecb-b58b-0daed1434e69")
-		)
-		(pin "9"
-			(uuid "9f0deb39-7023-45a0-8f3a-da175ba7dc65")
-		)
-		(pin "10"
-			(uuid "75144659-6edc-4f81-b347-cd5e2aac800a")
-		)
-		(pin "7"
-			(uuid "cf7d040e-79b5-4edd-af1e-0091aabdd461")
-		)
-		(pin "3"
-			(uuid "231a6e95-a5e0-4b92-8770-f54b3b08c59f")
-		)
-		(pin "8"
-			(uuid "a62449c2-e12d-4b5d-8c1a-f910a1c5abcf")
-		)
-		(pin "1"
-			(uuid "54c8293f-80f6-4ebf-92f4-60c5e0d1648a")
-		)
-		(pin "5"
-			(uuid "32314731-65f3-4c4f-aba2-a857007f994e")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 209.55 0)
 		(unit 1)
 		(body_style 1)
@@ -22838,85 +18611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 140.97 415.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "696da4d4-0d10-4f61-b8c9-fe4816beba50")
-		(property "Reference" "TP11"
-			(at 146.05 414.0199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 146.05 416.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 140.97 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 420.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 140.97 415.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7cccfc7-a42e-4940-b147-d08f447bc9f6")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 353.06 0)
 		(mirror y)
@@ -22990,84 +18684,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 50.8 1101.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a203930-f7c1-40e9-9afe-96aba8bc06c2")
-		(property "Reference" "#PWR0101"
-			(at 50.8 1104.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.8 1096.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 1101.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 1101.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 1101.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f220a92-7b03-4a22-89a9-75dacb13fa74")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -23313,84 +18929,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 50.8 1219.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "758bc40c-2143-4146-9ffb-42813fe7574f")
-		(property "Reference" "#PWR0102"
-			(at 50.8 1223.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.8 1214.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 1219.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 1219.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 1219.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3046bf27-9505-4176-aaf7-149514bf195b")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -23889,245 +19427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 119.38 1092.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83d0ba48-d444-403d-bd26-568f2fef3b6e")
-		(property "Reference" "C23"
-			(at 118.1099 1088.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 120.6499 1088.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
-			(at 123.19 1091.2348 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 1092.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 1092.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cd730c16-a8aa-43c5-9cd5-8504345f1915")
-		)
-		(pin "1"
-			(uuid "0953c4a2-6ae4-4e66-a53a-3fb78ddbc1e9")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 648.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84c2426f-290e-4e77-9bf4-8768003c54a8")
-		(property "Reference" "TP13"
-			(at 144.78 647.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 650.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 654.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 654.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 648.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7cac033-0635-4006-ba6e-986305c4ea4f")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 110.49 1205.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86828292-9a1d-4ed0-8309-fb826d5ce171")
-		(property "Reference" "#PWR0106"
-			(at 110.49 1209.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 110.49 1200.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 1205.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 1205.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 110.49 1205.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65f26cf9-9999-434f-8bb0-c8e8e9fa5345")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 934.72 0)
 		(unit 1)
@@ -24520,85 +19819,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 1108.71 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b488be1-e26f-4b2e-a1ca-8407f393a070")
-		(property "Reference" "TP17"
-			(at 144.78 1107.4399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 1109.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 1113.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 1113.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 1108.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60f8774e-c4d3-43be-9c6f-c650ed51c254")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -25426,338 +20646,6 @@
 	)
 	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1115.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "966c1c74-c018-42fc-8919-8ec3fb9512d0")
-		(property "Reference" "DS38"
-			(at 181.61 1107.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1109.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1209.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1309.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1115.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1509.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1609.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1709.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1809.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 1909.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "8f165115-ba93-4c68-bc2e-cc8b88bc11ed")
-		)
-		(pin "6"
-			(uuid "7a9aa861-a5e5-491b-baba-434d93eede4c")
-		)
-		(pin "4"
-			(uuid "26d003ea-68cf-45e9-9af3-da08b0e493a0")
-		)
-		(pin "9"
-			(uuid "648d4cf6-7d44-45cf-bfc8-d54cd39f9d9f")
-		)
-		(pin "10"
-			(uuid "8965ca16-7ece-4e96-a149-d58d767a0a20")
-		)
-		(pin "7"
-			(uuid "e5c03745-0328-4eed-9951-a10967c28238")
-		)
-		(pin "3"
-			(uuid "ae67ecee-ecb8-488e-a9e2-dd13b8f7baad")
-		)
-		(pin "8"
-			(uuid "6d9cb607-e991-4dbc-a5ab-ad6f58133aba")
-		)
-		(pin "1"
-			(uuid "7aa76455-df0e-4cb3-8554-50ccf070ba0e")
-		)
-		(pin "5"
-			(uuid "6273aaca-b480-47c1-8f14-f04aa32025cf")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1024.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9805df66-a834-42c3-a022-51e4badbb2ba")
-		(property "Reference" "DS79"
-			(at 260.35 1017.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 1019.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1119.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1219.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1024.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1419.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1519.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1619.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1719.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1819.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "052cfe64-f2fa-4435-8fa3-06706e44ec6f")
-		)
-		(pin "6"
-			(uuid "0107055b-4467-496b-8aa3-9de67c79476e")
-		)
-		(pin "4"
-			(uuid "47b9ed98-06cd-43a7-9144-7a8583b02c91")
-		)
-		(pin "9"
-			(uuid "34b9ae37-5882-41b4-8e2a-cd70c7b8702a")
-		)
-		(pin "10"
-			(uuid "d151de31-3be6-4a7a-a5b9-6bd3aafa5752")
-		)
-		(pin "7"
-			(uuid "58e97533-1a95-4ab8-8341-a1754b338248")
-		)
-		(pin "3"
-			(uuid "be2d5933-7de3-4c80-838b-91093af42be5")
-		)
-		(pin "8"
-			(uuid "a01a15ec-2ab1-45db-9228-cddcc263e89f")
-		)
-		(pin "1"
-			(uuid "41cb6512-4172-4c82-a8f7-db7eabf91b55")
-		)
-		(pin "5"
-			(uuid "f88de80f-dfc4-4161-9814-963492b55e7b")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 163.83 910.59 0)
 		(unit 1)
 		(body_style 1)
@@ -26165,85 +21053,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "DS21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 1168.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c084059-8153-4552-a39c-44d8e06839cd")
-		(property "Reference" "#PWR0103"
-			(at 111.76 1174.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 1173.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 1168.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 1168.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 1168.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40e3b049-b3bc-4ead-b879-3077e2f767a3")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -28378,172 +23187,6 @@
 	)
 	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1115.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b240c7c3-e7b6-4558-9955-49d5c712200e")
-		(property "Reference" "DS82"
-			(at 260.35 1107.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 1109.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1209.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1309.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1115.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1509.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1609.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1709.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1809.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1909.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "0e489fd6-41bb-43b8-9dd9-d737a31b95a7")
-		)
-		(pin "6"
-			(uuid "c3446eb2-0221-46fc-b1de-a3d79ebe22a0")
-		)
-		(pin "4"
-			(uuid "603f5284-f767-4141-89c1-79230e834ad6")
-		)
-		(pin "9"
-			(uuid "59fa8ed9-9d94-4927-b361-4b90ebbe4a3a")
-		)
-		(pin "10"
-			(uuid "750e0fa4-4f6d-4a2f-bd21-43f375214f2d")
-		)
-		(pin "7"
-			(uuid "48ebc25c-4942-4995-be9f-7077bed4fa93")
-		)
-		(pin "3"
-			(uuid "a9d81dcf-0d30-4598-a028-3be7088f3f94")
-		)
-		(pin "8"
-			(uuid "f8988b1e-9eca-4830-b51c-e213bf9740ae")
-		)
-		(pin "1"
-			(uuid "0a436d4d-4ae7-4717-9d5f-bbf65db1bae7")
-		)
-		(pin "5"
-			(uuid "c6335692-970a-49f0-871a-d09def7717e7")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 862.33 0)
 		(unit 1)
 		(body_style 1)
@@ -29356,172 +23999,6 @@
 	)
 	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1049.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba0cadfa-c30a-4a8f-b389-99c5b22db452")
-		(property "Reference" "DS80"
-			(at 260.35 1041.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 1043.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1143.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1243.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1049.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1443.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1543.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1643.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1743.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1843.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "6d8681b6-bbf3-4988-a8c5-abc503695ab9")
-		)
-		(pin "6"
-			(uuid "26e4761e-6eb1-4ff1-b4b7-2e0d9aa3b98b")
-		)
-		(pin "4"
-			(uuid "18ded7cd-191b-4202-ba14-1c8044421360")
-		)
-		(pin "9"
-			(uuid "600da82c-1798-478a-9d28-0869ae8e1540")
-		)
-		(pin "10"
-			(uuid "b2dbc5d8-3f7f-45d5-b146-e94e740ddef0")
-		)
-		(pin "7"
-			(uuid "454cbb97-80f0-429f-bc35-86b977dadd2c")
-		)
-		(pin "3"
-			(uuid "7e14bb97-d1e3-4270-a3c3-0103bf730f92")
-		)
-		(pin "8"
-			(uuid "d7a24072-753d-4541-9c91-a1693de3b7b2")
-		)
-		(pin "1"
-			(uuid "80c98689-372e-4ea8-903f-2a23a5e028ab")
-		)
-		(pin "5"
-			(uuid "97aca7ff-8f62-4db7-b428-a751fc960d8c")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 242.57 769.62 0)
 		(unit 1)
 		(body_style 1)
@@ -30186,84 +24663,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 1087.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bec722d6-7c44-4670-9653-2c07cffeb7be")
-		(property "Reference" "#PWR0105"
-			(at 109.22 1090.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 109.22 1082.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 1087.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 1087.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 1087.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c7c63a8-605c-4e40-a891-00bdd4f27796")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 50.8 755.65 0)
 		(unit 1)
 		(body_style 1)
@@ -30746,172 +25145,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "DS12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1139.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3e288b9-09e3-4b98-9f0c-49b002bfa074")
-		(property "Reference" "DS39"
-			(at 181.61 1131.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1134.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1234.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1334.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1139.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1534.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1634.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1734.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1834.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 1934.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "1703065d-31c3-4b66-9c0a-53e63302cb49")
-		)
-		(pin "6"
-			(uuid "09fd73d0-ea25-4a69-b332-f6d2551f4aff")
-		)
-		(pin "4"
-			(uuid "042581ef-0d31-4aa2-b2f4-b4c48cf28fa0")
-		)
-		(pin "9"
-			(uuid "99156a41-f7d2-4a65-9f86-d597d4e06017")
-		)
-		(pin "10"
-			(uuid "f412ebb4-6dc1-4963-8532-fef0be3f9aad")
-		)
-		(pin "7"
-			(uuid "078843e9-e9bf-4a90-96c8-eb3256066039")
-		)
-		(pin "3"
-			(uuid "d35ab670-58ba-4b05-b7f8-b393c4532cb8")
-		)
-		(pin "8"
-			(uuid "3f0194ef-b5a7-413c-b20a-e9a0f8d0af96")
-		)
-		(pin "1"
-			(uuid "6fde6291-c9fb-4426-af9e-7fd1019f056a")
-		)
-		(pin "5"
-			(uuid "c43b9f47-8b15-4ec6-a7e2-2211b17debc5")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS39")
 					(unit 1)
 				)
 			)
@@ -31556,85 +25789,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 1092.2 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb436e9d-036e-487e-ad4c-fd089bc283fd")
-		(property "Reference" "#PWR0107"
-			(at 133.35 1092.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 1092.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 1092.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 1092.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 1092.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce6a52d7-4851-45f1-8bff-c93886e545d3")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 111.76 1054.1 0)
 		(mirror y)
 		(unit 1)
@@ -31707,238 +25861,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Disp_Controler_MAX7221CWG_:MAX7221CWG_")
-		(at 91.44 1130.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbd4f212-1f28-4d37-a09b-05945b897cfa")
-		(property "Reference" "U13"
-			(at 91.44 1084.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX7221CWG_"
-			(at 91.44 1087.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:Disp_Controler_MAX7221CWG_"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED Driver 64 Segment 330000uA Supply Current 24-Pin SOIC W Tube"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Maxim Integrated Products"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOIC-24 Maxim"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX7221CWG+/Maxim+Integrated/view-part/?ref=snap"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MAX7221CWG+"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX7221CWG+/Maxim+Integrated/view-part/?ref=eda"
-			(at 91.44 1130.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "17"
-			(uuid "e6bc3343-ab7d-426b-b73e-5bba5707ffe0")
-		)
-		(pin "21"
-			(uuid "119931ff-4f06-42ea-8462-23ef5c58cf5f")
-		)
-		(pin "9"
-			(uuid "ad7417e9-ad85-4dfb-97b5-001adbd490d8")
-		)
-		(pin "19"
-			(uuid "72e5c7f4-1a47-4ac2-bdeb-d6317e228a0b")
-		)
-		(pin "5"
-			(uuid "fe6b3f42-40de-4fab-ad0f-38e40c73007c")
-		)
-		(pin "13"
-			(uuid "3078e6a8-51c5-46af-9d92-010b731c593b")
-		)
-		(pin "12"
-			(uuid "e21600b7-79c0-473f-a226-7b2388eed175")
-		)
-		(pin "14"
-			(uuid "e8e5c4bc-5784-4185-847d-41dcc429b695")
-		)
-		(pin "20"
-			(uuid "d60888af-922f-4c90-9d29-9a09a830014f")
-		)
-		(pin "24"
-			(uuid "bd2f1e27-3cc6-45c0-ac18-4029c1f82f35")
-		)
-		(pin "7"
-			(uuid "8f2c0013-7c47-48f0-bbe9-83b67c258a10")
-		)
-		(pin "1"
-			(uuid "4ae392d8-8abf-4fbb-ae3f-0fcde1574ca3")
-		)
-		(pin "6"
-			(uuid "9a51fe96-94a5-4076-9b04-fa90d53fba69")
-		)
-		(pin "10"
-			(uuid "08b63841-4ba4-4ac7-8202-78fb858e92a1")
-		)
-		(pin "11"
-			(uuid "6b71173a-1d79-42e0-8bec-83de8a2df7b7")
-		)
-		(pin "15"
-			(uuid "f51caab2-8fe5-4dbb-9763-f86950c96cde")
-		)
-		(pin "2"
-			(uuid "abf61798-f646-486c-ae22-418e895b55c5")
-		)
-		(pin "8"
-			(uuid "e4047304-5662-4afa-bdc8-d621cb055bd4")
-		)
-		(pin "3"
-			(uuid "becaa205-9329-4f8e-ba71-2f38071b622b")
-		)
-		(pin "4"
-			(uuid "6e4c0e55-f2f6-429f-a458-b4bb1d959f5b")
-		)
-		(pin "16"
-			(uuid "0c04ff01-b811-43f0-af41-aa2317b29d5f")
-		)
-		(pin "18"
-			(uuid "0a5f77f2-9d22-4ca1-ad40-ceac22183c0e")
-		)
-		(pin "22"
-			(uuid "901d162a-8cc0-4e4b-860d-e28720fdd4c5")
-		)
-		(pin "23"
-			(uuid "4de4e3d9-cb58-4465-99f9-e1932b9b5d44")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -32190,251 +26112,6 @@
 	)
 	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1257.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccb6e3ad-80c8-447e-9b1b-81e6f656fd61")
-		(property "Reference" "DS43"
-			(at 181.61 1249.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1252.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1352.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1452.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1257.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1652.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1752.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1852.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1952.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 2052.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "2fb1e397-1da8-4702-ae78-3a804679f8e8")
-		)
-		(pin "6"
-			(uuid "0462fe2c-96c8-44ca-ae3f-64b773aa631e")
-		)
-		(pin "4"
-			(uuid "ae6a50bc-bbe1-4ef6-a826-580d12cd80cc")
-		)
-		(pin "9"
-			(uuid "d2063047-f0f4-4c9d-a80e-753b51c0ee5a")
-		)
-		(pin "10"
-			(uuid "71a9052f-b6be-4b58-8e8b-aa49a85de0f1")
-		)
-		(pin "7"
-			(uuid "7978a9c1-86f5-46f1-b13f-f1cb8974a030")
-		)
-		(pin "3"
-			(uuid "4c792918-0f55-489d-bd06-a18c85e01c59")
-		)
-		(pin "8"
-			(uuid "7f17b50d-85de-4b8c-8d7a-27ab1fa22fcd")
-		)
-		(pin "1"
-			(uuid "7103a4fe-833a-4fb0-9f99-76933acb7dd8")
-		)
-		(pin "5"
-			(uuid "8cb68789-1ddf-4d19-b014-23146be705ff")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 763.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d091b514-c78c-4719-9c3f-db8f7e3b59eb")
-		(property "Reference" "TP14"
-			(at 144.78 761.9999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 764.5399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 768.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 768.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 763.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe8782e2-c1ab-4100-b96b-4fe92d4a5c78")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 163.83 1024.89 0)
 		(unit 1)
 		(body_style 1)
@@ -32594,251 +26271,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "DS35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 295.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2d43542-b322-45dc-9591-1cd5aa46feee")
-		(property "Reference" "TP10"
-			(at 144.78 294.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 297.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cefda949-24f7-411a-b784-7d3eba404e5a")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 163.83 1281.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3c3cefa-c624-44a4-b4d2-74ec0dbb52e4")
-		(property "Reference" "DS44"
-			(at 181.61 1273.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 181.61 1276.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 195.58 1376.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 195.58 1476.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 163.83 1281.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 195.58 1676.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 195.58 1776.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 195.58 1876.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 195.58 1976.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 195.58 2076.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "bcf25941-8471-464c-ac98-6fca2d5c3523")
-		)
-		(pin "6"
-			(uuid "756d25cb-56fc-4ea8-afe0-2068683b2de1")
-		)
-		(pin "4"
-			(uuid "aa8afe45-1d43-40da-8c29-724554bb5c19")
-		)
-		(pin "9"
-			(uuid "056230ff-d3c5-4f30-8e4a-742e47c1c2f3")
-		)
-		(pin "10"
-			(uuid "c66ff952-38b9-48af-ae65-f2a968c893ea")
-		)
-		(pin "7"
-			(uuid "b0a15c2c-b130-488f-afc5-5c029666c930")
-		)
-		(pin "3"
-			(uuid "f57166db-9f2b-4a3e-967e-37546dd9f2c6")
-		)
-		(pin "8"
-			(uuid "06e38ce7-c054-4a86-bf2a-a539069fdda3")
-		)
-		(pin "1"
-			(uuid "cf03f853-9290-4e9b-b80c-06c8ccc59c1e")
-		)
-		(pin "5"
-			(uuid "852247f9-9ec3-4e50-8f04-f4f869a1a5e9")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS44")
 					(unit 1)
 				)
 			)
@@ -33500,166 +26932,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 527.05 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbaef1aa-71e7-4887-9dc5-1e50bffae986")
-		(property "Reference" "TP12"
-			(at 144.78 525.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.78 528.3199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 532.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 532.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 527.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8881eefc-97e0-4125-bbd3-59ebef9769ff")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 1109.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dcfc682e-3ac7-4e61-a708-8a47bf3a194f")
-		(property "Reference" "R21"
-			(at 48.26 1108.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3v=24.5k, 1.8v=29.8k"
-			(at 48.26 1111.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:0805_RES_RESC2012X60N"
-			(at 49.022 1109.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 1109.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 1109.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e25f58b-1b7f-45e4-8bb5-c3f889731b50")
-		)
-		(pin "2"
-			(uuid "699ae1e6-be9c-4268-b8f7-fdf8d5bfb20b")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
 		(at 163.83 976.63 0)
 		(unit 1)
@@ -33820,172 +27092,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "DS33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1139.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddd370d2-0acc-4ea5-b0a0-c4a188e6a677")
-		(property "Reference" "DS83"
-			(at 260.35 1131.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 1134.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1234.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1334.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1139.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1534.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1634.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1734.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1834.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1934.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "5cdb4902-3d9c-4287-97e5-d9f34bdd6ca0")
-		)
-		(pin "6"
-			(uuid "5b0eca55-aee7-43e9-ae40-5e32ee79253b")
-		)
-		(pin "4"
-			(uuid "a76733b2-e8f9-48b3-84e1-2c5a0fbb0aa6")
-		)
-		(pin "9"
-			(uuid "ef1164c6-d7f5-4989-9063-95189da7cbc9")
-		)
-		(pin "10"
-			(uuid "78acbd9b-2c15-450b-a962-d51261fe2ffe")
-		)
-		(pin "7"
-			(uuid "187b7798-18fe-4c63-9c10-e88dac06c8b2")
-		)
-		(pin "3"
-			(uuid "ca3aaca6-72e0-495a-a37e-a0b16f187c03")
-		)
-		(pin "8"
-			(uuid "a15a69c1-b3a1-4991-b222-35b3bdea71df")
-		)
-		(pin "1"
-			(uuid "15b9812d-caed-4437-9623-7590dab44cb7")
-		)
-		(pin "5"
-			(uuid "63e6dc07-a689-43f5-ab5f-3f53860324e1")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS83")
 					(unit 1)
 				)
 			)
@@ -35806,172 +28912,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1090.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eed0d1b2-5afa-4319-abd8-d508d8d3f84f")
-		(property "Reference" "DS81"
-			(at 260.35 1083.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 1085.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1185.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1285.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1090.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1485.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1585.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1685.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1785.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1885.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "49f7986e-c2ba-40e6-8a2e-3ebdab854325")
-		)
-		(pin "6"
-			(uuid "84cad23c-16fd-40d6-beff-59486517b984")
-		)
-		(pin "4"
-			(uuid "05bd5361-411c-4eed-81e4-8080162da4ea")
-		)
-		(pin "9"
-			(uuid "bb782215-95a0-48d9-ae09-45e05d0cdaef")
-		)
-		(pin "10"
-			(uuid "64d7e14e-af93-40bd-a8f2-2ba627c5fef2")
-		)
-		(pin "7"
-			(uuid "7e32dacd-13bf-44cc-90e5-43c04951472f")
-		)
-		(pin "3"
-			(uuid "2c736934-1ec4-4f6b-b9da-980f3658673b")
-		)
-		(pin "8"
-			(uuid "8a452063-c5b4-483b-b22a-8a43609168e0")
-		)
-		(pin "1"
-			(uuid "1807803a-4245-4efa-aa28-052acfe25554")
-		)
-		(pin "5"
-			(uuid "3dcd7ad0-92b8-46cd-89d0-52061e54d922")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 132.08 746.76 90)
 		(mirror x)
@@ -36295,172 +29235,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 976.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc45b6f7-b2da-4bb4-8f46-4553501982fe")
-		(property "Reference" "DS77"
-			(at 260.35 969.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 971.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1071.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1171.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 976.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1371.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1471.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1571.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1671.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1771.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "5ae1b2ac-0481-4b6b-8db4-36aef9a9fd6b")
-		)
-		(pin "6"
-			(uuid "40b9cb1e-1e9f-4ddd-88bc-ba20084ef238")
-		)
-		(pin "4"
-			(uuid "7337e27b-635d-4deb-baf0-b462c1698482")
-		)
-		(pin "9"
-			(uuid "493a2de1-7726-4cf3-84ad-06e322b17dba")
-		)
-		(pin "10"
-			(uuid "18e411f6-4d01-4d58-8ae4-adc7581bc100")
-		)
-		(pin "7"
-			(uuid "81f9a401-51e0-497a-b5cd-120c921d481a")
-		)
-		(pin "3"
-			(uuid "8da46a4f-2900-486a-8fa4-959bf7423287")
-		)
-		(pin "8"
-			(uuid "595f0514-682a-41c3-b19b-d20bb51a4c6a")
-		)
-		(pin "1"
-			(uuid "4caae26d-bb3c-46f3-ade7-47b910cf3d50")
-		)
-		(pin "5"
-			(uuid "98759539-0204-4684-9ac4-2ed2b3caf6bf")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 113.03 858.52 0)
 		(unit 1)
@@ -36533,172 +29307,6 @@
 			(project "Hardware_design"
 				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SMD_DISPLAY_ACSC03-41EWA-F01:ACSC03-41EWA-F01")
-		(at 242.57 1163.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff021d8b-883a-46b2-b29a-3c07bea1e5b1")
-		(property "Reference" "DS84"
-			(at 260.35 1155.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACSC03-41EWA-F01"
-			(at 260.35 1158.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SMD_DISPLAY_ACSC03-41EWA-F01"
-			(at 274.32 1258.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/905/ACSC03-41EWA-F01%28Ver.1%29.pdf"
-			(at 274.32 1358.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Display Modules - LED Character and Numeric Red 7-Segment 1 Character Common Cathode 2V 20mA 0.394\" H x 0.287\" W x 0.148\" D (10.00mm x 7.30mm x 3.75mm) 10-SMD, No Lead"
-			(at 242.57 1163.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4"
-			(at 274.32 1558.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "604-ACSC03-41EWA-F01"
-			(at 274.32 1658.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/ACSC03-41EWA-F01?qs=1CGoW%2F3pMwrq9W8PAxRTBA%3D%3D"
-			(at 274.32 1758.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Kingbright"
-			(at 274.32 1858.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACSC03-41EWA-F01"
-			(at 274.32 1958.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "e72529aa-c7e6-4fee-aeb8-6989c2d8d10a")
-		)
-		(pin "6"
-			(uuid "d05efca2-51b0-42d7-92fc-5d0875d56c78")
-		)
-		(pin "4"
-			(uuid "1737e72b-dcde-4d52-92ee-81da712d0e7a")
-		)
-		(pin "9"
-			(uuid "f0774ff7-7370-4e14-a40d-3847117bb8b1")
-		)
-		(pin "10"
-			(uuid "a59e4069-fad1-4387-a46c-de30e2349f3f")
-		)
-		(pin "7"
-			(uuid "304e8428-7ecf-4f0b-81c9-93a10c81b0aa")
-		)
-		(pin "3"
-			(uuid "0ff123df-f20a-494a-9ff6-00e7bc1c583a")
-		)
-		(pin "8"
-			(uuid "d59c6459-9285-40b2-b995-90a33350037c")
-		)
-		(pin "1"
-			(uuid "67fbe07d-597e-41da-b7f4-6d9252f7f9a8")
-		)
-		(pin "5"
-			(uuid "d0ed6889-5000-4889-b7ea-0207c9cac940")
-		)
-		(instances
-			(project "Hardware_design"
-				(path "/3ab8a651-180e-470e-9365-384cc00d3c06/960f79b6-47d1-4d00-a572-240ab0150a50"
-					(reference "DS84")
 					(unit 1)
 				)
 			)
