@@ -1,0 +1,107 @@
+(footprint "Jtag_pins"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc47d060-6298-4408-ae1c-124ccc1d07ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Jtag_pins"
+		(at 0 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0a4bd810-00c8-489b-b6e7-d83ed0979282")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4aeb6f44-0f91-4ac5-81d4-9c6a1df67bc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19249b95-8993-42b8-905a-bd9501bf22ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35befa82-e8e2-45b7-ac19-e8939ad88752")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a63f828f-9f35-4708-bede-595982e080cf")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4ae8426e-e725-47a3-8225-3ae4385eb7d8")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 -0.01)
+		(size 1.338 1.338)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7a218ef4-212d-4386-ae16-969ffe17eb15")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 -0.01)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a067ecff-2a17-4733-ac27-da7b0da39ea1")
+	)
+	(embedded_fonts no)
+)
