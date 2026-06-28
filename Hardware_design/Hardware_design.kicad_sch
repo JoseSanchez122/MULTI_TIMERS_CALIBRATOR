@@ -9885,7 +9885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Jtag_pins"
+		(property "Footprint" "Footprints:4_pin_FTR-104-01-L-S"
 			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
