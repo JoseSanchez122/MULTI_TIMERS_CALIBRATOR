@@ -1,25 +1,119 @@
-
-(footprint DIOC200X125X110 (layer F.Cu) (tedit 6A1BA07E)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -0.3650375 -1.1271245 0) (layer F.SilkS)
-    (effects (font (size 0.200022834646 0.200022834646) (thickness 0.15)))
-  )
-  (fp_text value DIOC200X125X110 (at 0.9063275 1.1246535 0) (layer F.Fab)
-    (effects (font (size 0.200293700787 0.200293700787) (thickness 0.15)))
-  )
-  (pad - smd rect (at -1.05 0.0) (size 1.2 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad + smd rect (at 1.05 0.0) (size 1.2 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -1.0 0.625) (end 1.0 0.625) (layer F.Fab) (width 0.05))
-  (fp_line (start 1.0 0.625) (end 1.0 -0.625) (layer F.Fab) (width 0.05))
-  (fp_line (start 1.0 -0.625) (end -1.0 -0.625) (layer F.Fab) (width 0.05))
-  (fp_line (start -1.0 -0.625) (end -1.0 0.625) (layer F.Fab) (width 0.05))
-  (fp_poly
-    (pts
-      (xy -1.00125 -0.1)
-      (xy -0.8 -0.1)
-      (xy -0.8 0.100125)
-      (xy -1.00125 0.100125)
-    ) (layer F.Fab) (width 0.01)
-  )
+(footprint "GREEN_LED_LTST-C170KGKT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.365038 -1.127125 0)
+		(layer "F.SilkS")
+		(uuid "6fbfcea0-6263-468e-ac1a-23dd6c3d2dc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.155)
+			)
+		)
+	)
+	(property "Value" "DIOC200X125X110"
+		(at 0.906328 1.124654 0)
+		(layer "F.Fab")
+		(uuid "0603c629-1558-4640-8b6b-a812a4f83230")
+		(effects
+			(font
+				(size 0.200294 0.200294)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65b12d82-cf25-4d18-a383-c317aa45b7c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcfcf8cb-41fe-4837-9be4-1b5c1eef087e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d13401d4-c211-46d7-9dab-e0df5ec062a8")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8085cd2-4446-484e-9904-befbc284c776")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "035ee36f-1e2e-4c93-9082-3978273e7168")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c47cd04d-fd00-4867-925a-5ce0378b8c9b")
+	)
+	(fp_poly
+		(pts
+			(xy -1.00125 -0.1) (xy -0.8 -0.1) (xy -0.8 0.100125) (xy -1.00125 0.100125)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "df1a1621-1971-43c5-9959-88d0f8215b6b")
+	)
+	(pad "+" smd rect
+		(at 1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0d4f8d68-8461-4a4e-818f-0a05411ba01e")
+	)
+	(pad "-" smd rect
+		(at -1.05 0)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d006d821-e667-4c2f-a63e-efaef5e6b7bc")
+	)
+	(embedded_fonts no)
 )

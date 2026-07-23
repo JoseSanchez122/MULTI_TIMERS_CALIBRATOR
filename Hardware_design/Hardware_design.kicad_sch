@@ -9568,7 +9568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Footprints:0805_SMD_CERAMIC_CAP_T491B106K016AT"
+		(property "Footprint" "Footprints:CAP_0603_CAPC1608X90N"
 			(at 202.2348 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11743,7 +11743,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1 uF"
 			(at 144.272 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12853,7 +12853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1 uF"
 			(at 332.74 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13890,7 +13890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1 uF"
 			(at 374.65 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16348,7 +16348,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1 uF"
 			(at 226.568 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1,25 +1,200 @@
-
-(footprint DIO_MBR0530T3G (layer F.Cu) (tedit 6A2F0C7C)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.855 -1.915 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value DIO_MBR0530T3G (at 6.55 1.995 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad C smd rect (at -1.635 0.0) (size 0.91 1.22) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad A smd rect (at 1.635 0.0) (size 0.91 1.22) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -1.345 -0.8) (end -1.345 0.8) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.345 0.8) (end 1.345 0.8) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.345 0.8) (end 1.345 -0.8) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.345 -0.8) (end -1.345 -0.8) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.8 -0.8) (end 0.8 -0.8) (layer F.SilkS) (width 0.127))
-  (fp_line (start 0.8 0.8) (end -0.8 0.8) (layer F.SilkS) (width 0.127))
-  (fp_line (start -2.34 -1.05) (end 2.34 -1.05) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.34 -1.05) (end 2.34 1.05) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.34 1.05) (end -2.34 1.05) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.34 1.05) (end -2.34 -1.05) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -2.69 0.0) (end -2.59 0.0) (layer F.Fab) (width 0.2))
-  (fp_circle (center -2.69 0.0) (end -2.59 0.0) (layer F.SilkS) (width 0.2))
+(footprint "DIO_Schottky _MBR0530T3G"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.125 0.05 0)
+		(layer "F.SilkS")
+		(uuid "4f11c052-4836-4dbf-ad34-0da9efaef510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIO_MBR0530T3G"
+		(at 6.55 1.995 0)
+		(layer "F.Fab")
+		(uuid "368e010c-2250-4a8a-8018-f7c497a21691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e07e2e14-bd22-41ba-a454-45d540a4fbc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d316f0b-8071-4454-b7ec-ef83cf307468")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8 -0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a48c51e-8ea8-4105-bf90-b2b9e0e8a710")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42c4f991-4ec1-4beb-a452-d182d69399f1")
+	)
+	(fp_circle
+		(center -2.69 0)
+		(end -2.59 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a7e8b65f-99a6-418f-8458-bae0926752f6")
+	)
+	(fp_line
+		(start -2.34 -1.05)
+		(end 2.34 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0345dd62-d856-4019-b1ef-b6618cff6f42")
+	)
+	(fp_line
+		(start -2.34 1.05)
+		(end -2.34 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2299fe19-ffd1-4afa-94ae-b02f81d06f41")
+	)
+	(fp_line
+		(start 2.34 -1.05)
+		(end 2.34 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b198b8a-2cd2-4118-8184-85f560881943")
+	)
+	(fp_line
+		(start 2.34 1.05)
+		(end -2.34 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1105dda-f167-464d-bb83-05d79e5dfd02")
+	)
+	(fp_line
+		(start -1.345 -0.8)
+		(end -1.345 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ad30b1b-01f1-4275-bfa2-86661a330e8b")
+	)
+	(fp_line
+		(start -1.345 0.8)
+		(end 1.345 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ae2125e-4f51-421a-a1e7-aa2a0528946c")
+	)
+	(fp_line
+		(start 1.345 -0.8)
+		(end -1.345 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09292881-ac9c-4f8a-b98f-b944bebf0995")
+	)
+	(fp_line
+		(start 1.345 0.8)
+		(end 1.345 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12e8abcc-fba0-47c4-bb43-fad7b477e3c9")
+	)
+	(fp_circle
+		(center -2.69 0)
+		(end -2.59 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9134476d-1f9e-4d50-a595-1fb46b721a98")
+	)
+	(pad "A" smd rect
+		(at 1.635 0)
+		(size 0.91 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7c717f40-451c-44e3-a5d0-e40979b4ddff")
+	)
+	(pad "C" smd rect
+		(at -1.635 0)
+		(size 0.91 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "df05a255-bb07-427e-b119-0c1cff45a3a4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/3D/DIO_Schottky _MBR0530T3G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
