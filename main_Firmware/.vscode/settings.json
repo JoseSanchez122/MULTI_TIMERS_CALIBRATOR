@@ -17,6 +17,6 @@
     "--query-driver=**",
     "--compile-commands-dir=c:\\Users\\lupis\\OneDrive\\Escritorio\\MULTI_TIMERS_CALIBRATOR\\Frimware_tests\\SPI_Test\\build"
   ],
-  "idf.portWin": "COM4",
+  "idf.portWin": "COM7",
   "idf.flashType": "UART"
 }

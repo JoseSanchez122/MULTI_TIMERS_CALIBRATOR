@@ -10,84 +10,105 @@
 #include "freertos/task.h"
 #include "LS7366R.h"
 #include "esp_task_wdt.h"
+#include "driver/spi_master.h"
 
-#define MISO 13
-#define MOSI 11
-#define SCLK 12
-#define CS 10
+#define mosi_pin 6
+#define sclk_pin 5
+#define cs_pin 7
 
-#define LFLAG_PIN GPIO_NUM_5
+#define NOT_USED -1
 
-ls7366r_handle_t LS7366R_1;
-volatile BaseType_t  ISR_HAPPENED = false;
-
-static void IRAM_ATTR isr_handler(void *arg)
-{
-    ISR_HAPPENED = true;
-}
+spi_device_handle_t MAX7221_HANDLE;
 
 void app_main(void)
 {
-    ESP_ERROR_CHECK( esp_task_wdt_deinit() );
+    gpio_set_direction(1, GPIO_MODE_OUTPUT);
+    gpio_set_level(1, 1);
+    
+    spi_bus_config_t spi_bus_config = {
+        .mosi_io_num = mosi_pin,
+        .sclk_io_num = sclk_pin,
+        .quadwp_io_num = NOT_USED,   
+        .quadhd_io_num = NOT_USED,   
+        .data4_io_num = NOT_USED,      
+        .data5_io_num = NOT_USED,    
+        .data6_io_num = NOT_USED,    
+        .data7_io_num = NOT_USED,    
+        .max_transfer_sz = SOC_SPI_MAXIMUM_BUFFER_SIZE,
 
-    ls7366r_spi_conf conf = {
-        .miso_pin = MISO,
-        .mosi_pin = MOSI,
-        .sclk_pin = SCLK,
-        .cs_pin = CS,
-        .frequency = FREQ_10M
     };
 
+    spi_device_interface_config_t spi_device_interface_config = {
+        .command_bits = 0,
+        .address_bits = 0,
+        .dummy_bits = 0,
+        .mode = 0,
+        .duty_cycle_pos = 128, 
+        .clock_speed_hz = 10 * 1000000,
+        .input_delay_ns = 0,
+        .spics_io_num = cs_pin,
+        .flags = 0,
+        .queue_size = 8,
+        
+    };
 
-    init_ls7366r_spi_com(&conf, &LS7366R_1);
+    esp_err_t ret = spi_bus_initialize(SPI3_HOST, &spi_bus_config, SPI_DMA_DISABLED);
+    vTaskDelay(pdMS_TO_TICKS(10));
+
+    if (ret != ESP_OK) { 
+        printf("Error al inicializar el bus SPI: %s\n", esp_err_to_name(ret)); 
+        return; 
+    }
+    printf("Bus SPI inicializado correctamente en SPI3_HOST\n");
+
+    ret = spi_bus_add_device(SPI3_HOST, &spi_device_interface_config, &MAX7221_HANDLE);
+    vTaskDelay(pdMS_TO_TICKS(10));
+
+    if (ret != ESP_OK) { 
+        printf("Error al agregar el dispositivo SPI: %s\n", esp_err_to_name(ret)); 
+        return; 
+    }
+    printf("Dispositivo MAX7221 agregado correctamente. Handle: %p\n", (void *)MAX7221_HANDLE);
+    printf("Pines configurados -> MOSI: %d, SCLK: %d, CS: %d\n", mosi_pin, sclk_pin, cs_pin);
+    
     vTaskDelay(pdMS_TO_TICKS(100));
 
-    LS7366R_WRITE_COMAND_AND_DATA(      // writing to MDR0 REG, non-quadrature mode, free runing mode, tansfer_CNTR_to_OTR
-        (WRITE_TO | MDR0), 
-        INDEX_LOAD_OTR, 
-        Bits_8, 
-        LS7366R_1);
-        
-    vTaskDelay(pdMS_TO_TICKS(10));
-    
-    LS7366R_WRITE_COMAND_AND_DATA(
-        WRITE_TO | MDR1, 
-        FLAG_ON_IDX | SET_OVERFLOW_FLAG, 
-        Bits_8, 
-        LS7366R_1); 
+    // --- CORRECCIÓN 1: Usar arrays de 2 bytes (no uint16_t) ---
+    uint8_t despertar[2] = {0x0C, 0x01};   // Shutdown: Normal Operation (Despierta el chip)
+    uint8_t test[2] = {0x0F, 0x01};        // Display Test: Activar (Enciende todos los LEDs)
+    uint8_t apagar[2] = {0x0C, 0x00};      // Shutdown: Apagar
 
-    vTaskDelay(pdMS_TO_TICKS(10));
-
-    LS7366R_WRITE_COMAND(CLEAR | CNTR, LS7366R_1);  
-    vTaskDelay(pdMS_TO_TICKS(10));
-
-    gpio_config_t io_conf = {
-        .pin_bit_mask = (1ULL << LFLAG_PIN),
-        .mode = GPIO_MODE_INPUT,
-        .pull_up_en = GPIO_PULLUP_DISABLE,
-        .pull_down_en = GPIO_PULLDOWN_DISABLE,
-        .intr_type = GPIO_INTR_NEGEDGE,  
+    // --- CORRECCIÓN 2: Enviar primero el comando para DESPERTAR, no para apagar ---
+    spi_transaction_t transaction_despertar = {
+        .length = 16,         
+        .tx_buffer = despertar,  
+        .rxlength = 0,
     };
-    gpio_config(&io_conf);
-    
-    // Instalar el servicio de interrupciones
-    gpio_install_isr_service(ESP_INTR_FLAG_IRAM);
-    
-    // Asignar el handler al pin
-    gpio_isr_handler_add(LFLAG_PIN, isr_handler, NULL);
 
-    uint32_t pulsos_acumulados = 0;
-    
+    spi_transaction_t transaction_test = {
+        .length = 16,         
+        .tx_buffer = test,  
+        .rxlength = 0,
+    };
+
+    spi_transaction_t transaction_apagar = {
+        .length = 16,         
+        .tx_buffer = apagar,  
+        .rxlength = 0,
+    };
+
+    // Enviar secuencia inicial
+    spi_device_transmit(MAX7221_HANDLE, &transaction_despertar);
+    vTaskDelay(pdMS_TO_TICKS(10));
+    spi_device_transmit(MAX7221_HANDLE, &transaction_test);
+   
     while (1) {
 
-        if (ISR_HAPPENED) {
-            ISR_HAPPENED = false;
-            pulsos_acumulados = LS7366R_READ(READ_FROM | OTR, Bits_32, LS7366R_1);
-            printf("Pulsos acumulados: %lu\n", pulsos_acumulados);
-            LS7366R_WRITE_COMAND(CLEAR | STR, LS7366R_1); 
-        }
-          
-        //vTaskDelay(pdMS_TO_TICKS(500));
+        
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        
+
     }
 
 }
+

@@ -14,6 +14,6 @@
     "--query-driver=**",
     "--compile-commands-dir=c:\\Users\\joses\\OneDrive\\Desktop\\calibrador_timers\\firmware\\sample_project\\build"
   ],
-  "idf.portWin": "COM4",
+  "idf.portWin": "COM3",
   "idf.flashType": "UART"
 }
