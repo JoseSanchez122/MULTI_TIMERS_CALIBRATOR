@@ -1,2 +1,6 @@
-idf_component_register(SRCS "max7219_7221.c" "LS7366R.c" "main.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRCS 
+    "main.c" 
+    "../SRC/LS7366R.c" 
+    "../SRC/MAX7221.c"
+    INCLUDE_DIRS "." "../Headers" "../SRC"
+)

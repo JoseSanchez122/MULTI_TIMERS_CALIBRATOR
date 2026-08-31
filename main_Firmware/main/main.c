@@ -48,7 +48,7 @@ void app_main(void)
         .input_delay_ns = 0,
         .spics_io_num = cs_pin,
         .flags = 0,
-        .queue_size = 8,
+        .queue_size = 9,
         
     };
 
