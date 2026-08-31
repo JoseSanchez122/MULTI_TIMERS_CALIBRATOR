@@ -77,6 +77,7 @@ void app_main(void)
     uint8_t despertar[2] = {0x0C, 0x01};   // Shutdown: Normal Operation (Despierta el chip)
     uint8_t test[2] = {0x0F, 0x01};        // Display Test: Activar (Enciende todos los LEDs)
     uint8_t apagar[2] = {0x0C, 0x00};      // Shutdown: Apagar
+    uint8_t desactivar_test[2] = {0x0F, 0x00};
 
     // --- CORRECCIÓN 2: Enviar primero el comando para DESPERTAR, no para apagar ---
     spi_transaction_t transaction_despertar = {
@@ -97,15 +98,35 @@ void app_main(void)
         .rxlength = 0,
     };
 
-    // Enviar secuencia inicial
-    spi_device_transmit(MAX7221_HANDLE, &transaction_despertar);
-    vTaskDelay(pdMS_TO_TICKS(10));
-    spi_device_transmit(MAX7221_HANDLE, &transaction_test);
+    spi_transaction_t trans_desactivar_test = {
+        .length = 16, 
+        .tx_buffer = desactivar_test, 
+        .rxlength = 0
+    };
+   
    
     while (1) {
 
+        spi_device_acquire_bus(MAX7221_HANDLE, portMAX_DELAY);
+
+        for (int i = 0; i < 2; i++) {
+            spi_device_transmit(MAX7221_HANDLE, &trans_desactivar_test);
+            spi_device_transmit(MAX7221_HANDLE, &transaction_apagar);
+            vTaskDelay(pdMS_TO_TICKS(5000));
+        }
         
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        spi_device_release_bus(MAX7221_HANDLE);
+        
+        spi_device_acquire_bus(MAX7221_HANDLE, portMAX_DELAY);
+
+        for (int i = 0; i < 2; i++) {
+            spi_device_transmit(MAX7221_HANDLE, &transaction_despertar);
+            spi_device_transmit(MAX7221_HANDLE, &transaction_test);
+            vTaskDelay(pdMS_TO_TICKS(5000));
+        }
+        spi_device_release_bus(MAX7221_HANDLE);
+
+        
         
 
     }
